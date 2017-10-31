@@ -6,9 +6,9 @@
 }
 
 
-HrmA = \chordmode{d1:m d:m b a:7}
-HrmB = \chordmode{d1:m e b d:m }
-HrmC = \chordmode{d1:m b c d:m }
+HrmA = \chordmode{d1:m d:m bes a:7}
+HrmB = \chordmode{d1:m e bes d:m }
+HrmC = \chordmode{d1:m bes c d:m }
 
 
 HClSoloA = {\HrmA \HrmA \HrmA \HrmA }
@@ -52,7 +52,7 @@ HrmMain = {
 	\new Staff{\transpose bes c'{
 		\clef treble 
 		\time 4/4
-		\key c \major
+		\key d \minor
 		\set Staff.instrumentName = "Clarinet"
 		\ClSoloA
 
