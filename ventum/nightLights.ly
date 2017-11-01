@@ -208,3 +208,16 @@ HMain = {
     \PIIaBand
   }
 >>
+
+<<
+	\new Staff{
+		\clef treble
+		\time 4/4
+		\set Staff.instrumentName = "Clarinet"
+		\key d \major
+		\mark "Coda"
+		\relative c''{
+			b4. g'8 fis4 d | a4. fis8 a2 | g4. d'8 cis4 a | fis4. d8 fis2 \bar "||"
+		}
+	}
+>>
