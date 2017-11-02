@@ -5,7 +5,7 @@
 	composer = "гр. Ventum"
 }
 
-HrmA = \chordmode {b1:m g/d a b:m}
+HrmA = \chordmode {b1:m %{g/d%} d/g a b:m}
 HrmB = \chordmode {b2:m bes:m5+ | a:m as:m5+ | g:m ges:m5+ | c b:m |}
 
 HrmI = { \HrmA \HrmA }
