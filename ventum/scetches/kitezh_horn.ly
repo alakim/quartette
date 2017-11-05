@@ -1,5 +1,6 @@
 \version "2.18.2"
 
+longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staff.BarLine.bar-extent = #'(-3 . 3) #})
 
 \header{
 	title="Китеж. Горн."
@@ -17,9 +18,11 @@ Horn = {
 	\key cis \minor
 	\relative c''{
 		gis16 fis gis8 ~gis4. fis8-. e-. fis-. | dis1 |
-		e16 dis e8~e4. dis8-. cis-. b-. | dis2 b |
+		e16 dis e8~e4. dis8-. cis-. b-. | dis2 b \longBar |
+
 		% fis4. cis16 cis cis2~ | cis1 |
 		% e4. b16 b b2~ | b1 |
+
 		e4. cis16 cis cis4 b4 | dis1 |
 		e4. b16 b b4 dis | cis1 \bar "||"
 	}
