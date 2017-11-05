@@ -4,6 +4,8 @@
 	title="Strange music"
 }
 
+longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staff.BarLine.bar-extent = #'(-3 . 3) #})
+
 global = {
 	\time 4/4
 	\key a \minor
@@ -11,13 +13,16 @@ global = {
 
 PI = {
 	\tag #'Harmony {\chordmode{a1:m | d2:m e:7 |}}
-	\tag #'Voice {\relative c'{e1 | f2 e}}
-	\tag #'Bass {a1 | d4 f e b, |}
+	\tag #'Voice {\relative c'{e1 \longBar | f2 e}}
+	\tag #'Bass {a1 | d4 f e b, 
+		\once \override Staff.BarLine.bar-extent = #'(-3 . 3)
+		|
+	}
 }
 
 PII = {
 	\tag #'Harmony {\chordmode{a2:m d:m | g e:7 |}}
-	\tag #'Voice {\relative c'{e2 f | d2 b}}
+	\tag #'Voice {\relative c'{e2 f \longBar | d2 b}}
 	\tag #'Bass {a4 g d f | g4 b, e b, |}
 }
 
