@@ -1,5 +1,7 @@
 \version "2.18.2"
 
+outKey = bes % c'
+
 longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staff.BarLine.bar-extent = #'(-3 . 3) #})
 
 \header{
@@ -8,7 +10,7 @@ longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staf
 
 Hrm = \chordmode{
 	cis1:m | gis:m |
-	cis2:m bes | e1:maj
+	cis2:m b | e1:maj
 	a2 fis:m | b1:7 |
 	e2 b | cis1:m |
 }
@@ -28,14 +30,14 @@ Horn = {
 	}
 }
 
-
 <<
-	\new ChordNames{
+	\new ChordNames{\transpose \outKey bes{
 		\Hrm
-	}
-	\new Staff{
+	}}
+	\new Staff{\transpose \outKey bes{
+
 		\set Staff.instrumentName="Flugelhorn"
 		\clef treble
 		\Horn
-	}
+	}}
 >>

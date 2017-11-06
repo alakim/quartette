@@ -41,8 +41,8 @@
 02:41 Vln theme A
 03:10 Gtr clean solo B 
 03:41 -//- with Vln
-04:11 trash riffs intro
-04:25 trash riffs tutti
+04:11 trash riffs intro 8m
+04:25 trash riffs tutti 32m
 05:23 Gtr clean solo B (Coda) (now played on Clarinet)
 
 %}
@@ -84,58 +84,62 @@ Intro = {
 }
 
 PI = {
-	\tag #'Harmony { % R1*8
-	  s1 s1 s1 s1
-	  s1 s1 s1 s1
+	\tag #'Harmony { R1*8
+		% s1 s1 s1 s1
+		% s1 s1 s1 s1
 	}
 	\tag #'Clarinet {
-	  \mark \markup{\circle {1}} 
-	  % R1*8
-	  r1 r1 r1 r1 \longBar |
-	  r1 r1 r1 r1
-	  \bar "||"
-	  
+		\mark \markup{\circle {1}} 
+		R1*8
+		% r1 r1 r1 r1 \longBar |
+		% r1 r1 r1 r1
+		\bar "||"
 	}
 	\tag #'Band {
-	  % R1*8^"Riffs"
-	  s1^"Riffs" s1 s1 s1 \longBar
-	  s1 s1 s1 s1
-	  \bar "||"
+		R1*8^"Riffs"
+		% s1^"Riffs" s1 s1 s1 \longBar
+		% s1 s1 s1 s1
+		\bar "||"
 	}
 }
 
 PIa = {
-	\tag #'Harmony { % R1*8
-	  s1 s1 s1 s1 \longBar
-	  s1 s1 s1 s1
+	\tag #'Harmony { R1*8
+		% s1 s1 s1 s1 \longBar
+		% s1 s1 s1 s1
 	}
 	\tag #'Clarinet {
-	  \mark \markup{\circle {"1a"}} 
-	  r1 r1 r1 r1 \longBar |
-	  r1 r1 r1 r1
-	  \bar "||"
+		\mark \markup{\circle {"1a"}} 
+		R1*8
+		% r1 r1 r1 r1 \longBar |
+		% r1 r1 r1 r1
+		\bar "||"
 	}
 	\tag #'Band {
-	  % R1*8^"Riffs"
-	  s1^"Riffs" s1 s1 s1 \longBar
-	  s1 s1 s1 s1
-	  \bar "||"
+		R1*8^"Riffs"
+		% s1^"Riffs" s1 s1 s1 \longBar
+		% s1 s1 s1 s1
+		\bar "||"
 	}
 }
 
 PII = {
-	\tag #'Harmony {\Ha \Ha }
+	\tag #'Harmony {
+		R1*8
+		% \Ha \Ha 
+	}
 	\tag #'Clarinet {
-	  \mark \markup{\circle {2}} 
-	  r1 r1 r1 r1 \longBar |
-	  r1 r1 r1 r1
-	  \bar "||"
-	  
+		\mark \markup{\circle {2}} 
+		R1*8
+		% r1 r1 r1 r1 \longBar |
+		% r1 r1 r1 r1
+		\bar "||"
 	}
 	\tag #'Band {
-	  s1^"Violin solo" s1 s1 s1 \longBar
-	  s1 s1 s1 s1
-	  \bar "||"
+		R1*8^"Violin solo"
+		% s1^"Violin solo" s1 s1 s1 \longBar
+		% s1 s1 s1 s1
+		\bar "||"
 	}
 }
 
@@ -145,7 +149,7 @@ PIII = {
 	  \mark \markup{\circle {3}} 
 	  \relative c'{
 		% e2.^"Clarinet solo" f8. e16 | b1 | c1 | r1 \bar "."
-		e16 d8 e16~e2 f4 | b,1 | g8 e f g a2 | r1 | \longBar |
+		e16^"Clarinet solo" d8 e16~e2 f4 | b,1 | g8 e f g a2 | r1 | \longBar |
 		% e4 c a c | f8 d b gis  f gis b d | e4 c a c | r1 |
 	  }
 	  \relative c'{e2. f4 | b,1 | c8. a16 a g8 a16~a2 | r1 \longBar | }
@@ -201,40 +205,73 @@ PIIa = {
 	}
 }
 
+PIV = {
+	\tag #'Harmony { R1*8 }
+	\tag #'Clarinet { R1*8 }
+	\tag #'Band { R1*8^"Riffs bridge" }
+}
+
+PV = {
+	\tag #'Harmony { R1*32 }
+	\tag #'Clarinet { R1*32 \bar "||" }
+	\tag #'Band { R1*32^"Riffs" }
+}
+
+Coda = {
+	\tag #'Harmony { R1*4 }
+	\tag #'Clarinet {
+		\mark "Coda"
+		\relative c''{
+			a4. f'8 e4 c | g4. e8 g2 | f4. c'8 b4 g | e4. c8 e2 \bar "|."
+		}
+	}
+	\tag #'Band { R1*4 }
+}
+
 Music = {
-	\Intro \break
-	\PI \break
-	\PII \break
-	\PIII \break
-	\PIa \break
+	\Intro 
+	\PI 
+	\PII 
+	\break
+	\PIII 
+	\PIa 
+	\break
 	\PIIa
+	\PIV
+	\PV
+	\Coda
 }
 
 <<
-  \compressFullBarRests
-  \new ChordNames{\transpose bes c'{
-  	\keepWithTag #'Harmony \Music
-  }}
-  \new Staff{\transpose bes c'{
-    \clef treble 
-    \time 4/4
-    \key a \minor
-    \set Staff.instrumentName = "Clarinet B"
-  	\keepWithTag #'Clarinet \Music
-  }}
-  \new ChordNames{
-  	\keepWithTag #'Harmony \Music
-  }
-  \new Staff{
-    \clef treble 
-    \time 4/4
-    \key a \minor
-    \set Staff.instrumentName = "Band"
-  	\keepWithTag #'Band \Music
-
-  }
+	\compressFullBarRests
+	\new ChordNames{\transpose bes c'{
+		\keepWithTag #'Harmony \Music
+	}}
+	\new Staff{\transpose bes c'{
+		\clef treble 
+		\time 4/4
+		\key a \minor
+		\set Staff.instrumentName = "Clarinet B"
+		\keepWithTag #'Clarinet \Music
+	}}
+	%{
+	\new ChordNames{
+		\keepWithTag #'Harmony \Music
+	}
+	%}
+	\new Staff \with{
+		\override StaffSymbol.staff-space = #.6
+		\override NoteHead.font-size = #-4
+	}{
+		\clef treble 
+		\time 4/4
+		\key a \minor
+		\set Staff.instrumentName = "Band"
+		\keepWithTag #'Band \Music
+	}
 >>
 
+%{
 <<
 	\new Staff{
 		\clef treble
@@ -247,3 +284,4 @@ Music = {
 		}
 	}
 >>
+%}
