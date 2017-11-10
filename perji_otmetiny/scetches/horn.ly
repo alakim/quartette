@@ -28,8 +28,25 @@ Horn = {
 	}
 }
 
+HornII = {
+	\tag #'Harmony {\chordmode{
+		s1 a:m d:m g
+	}}
+	\tag #'Voice {
+		\time 4/4
+		\key a \minor
+		\relative c'{
+			r2. r8 e | 
+			c'2. e,4 | f2. d4 | a'4. g d4 |
+			\bar "|."
+		}
+	}
+}
+
 Music = {
 	\Horn
+	\break
+	% \HornII
 }
 
 <<
