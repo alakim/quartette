@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "Китеж"
+	title = "Старый маяк (Китеж)"
 	composer = "гр. Ventum"
 }
 
@@ -16,6 +16,7 @@ PI = {
 		\HrmA \HrmA 
 	}
 	\tag #'Voice {
+		\mark \markup{\circle 1}
 		%{
 			\relative c'{
 				e8 e dis16 cis gis8  e'8 e dis16 cis gis8 |  
@@ -32,11 +33,13 @@ PII = {
 		\HrmB \HrmB
 	}
 	\tag #'Voice {
-		\relative c'{\grace gis16 e'4. cis8 gis'4. dis8 | }
+		\mark \markup{\circle 2}
+		\relative c'{\grace gis16 e'4. cis8 gis'4. es8 | }
 		\relative c'{fis4 d cis8 ais fis ais | c4. e8 gis8 fis e b | a8 e' d fis e8 cis gis'4 }
-		% s1 s1 s1 s1 
 		\longBar
-		s1 s1 s1 s1 \bar "||"
+		\relative c''{gis4. fis8 gis4. es8 | d8 fis a b des4. bes8 | c4. e8 ~ e8 d b gis | }
+		\relative c''{ fis8 e d e gis2 \fermata |  }
+		\bar "||"
 	}
 }
 
