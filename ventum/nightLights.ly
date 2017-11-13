@@ -38,7 +38,7 @@
 01:14 (2) Vln theme A 16m
 01:37 (3) place for Clarinet solo/Vln replays x3
 02:24 (1a) Riffs with gtr flageolets 8m
-02:41 Vln theme A
+02:41 Vln theme A (now Clarinet solo)
 03:10 Gtr clean solo B 
 03:41 -//- with Vln
 04:11 trash riffs intro 8m
@@ -92,31 +92,40 @@ PI = {
 		\mark \markup{\circle {1}} 
 		R1*8
 		% r1 r1 r1 r1 \longBar |
-		% r1 r1 r1 r1
+		% r1 r1 r1 r1 \longBar 
 		\bar "||"
 	}
 	\tag #'Band {
 		R1*8^"Riffs"
 		% s1^"Riffs" s1 s1 s1 \longBar
-		% s1 s1 s1 s1
+		% s1 s1 s1 s1 \longBar 
 		\bar "||"
 	}
 }
 
 PIa = {
-	\tag #'Harmony { R1*8
-		% s1 s1 s1 s1 \longBar
-		% s1 s1 s1 s1
+	\tag #'Harmony { % R1*8
+		s1 s1 s1 s1 \longBar
+		s1 s1 s1 s1
 	}
 	\tag #'Clarinet {
 		\mark \markup{\circle {"1a"}} 
-		R1*8
-		% r1 r1 r1 r1 \longBar |
-		% r1 r1 r1 r1
+		% R1*8
+		r1 r1 r1 r1 \longBar |
+		r1 r1  % r1 r1
+		\improvisationOn
+		b'4 b' b' b' | b'4 b' b' b' \longBar
+		\improvisationOff
 		\bar "||"
 	}
 	\tag #'Band {
-		R1*8^"Riffs"
+		% R1*8^"Riffs"
+		\improvisationOn
+		b'4^"Gtr" b' b' b' | b'4 b' b' b'
+		b'4^"Vln" b' b' b' | b'4 b' b' b' \longBar
+		b'4^"Gtr" b' b' b' | b'4 b' b' b' 
+		r1 | r1 \longBar
+		\improvisationOff
 		% s1^"Riffs" s1 s1 s1 \longBar
 		% s1 s1 s1 s1
 		\bar "||"
@@ -157,51 +166,55 @@ PIII = {
 		e8 g a16 g8 e16~e4. f8 | b,8 c4 e16 f b,2  | 
 		% s4. f16 g a g f8 e f16 g | e2 r 
 		c8 b16 c d8 c b a4 b8~ | b2 r
+		\longBar
 		\bar "||"
 	  }
 	}
 	\tag #'Band { 
 	  s1 | s1 | s1 | \improvisationOn  b'1^"(Violin)" \improvisationOff \longBar |
 	  s1 | s1 | s1 | \improvisationOn  b'1^"(Violin)" \improvisationOff \longBar |
-	  s1 | s1 | s1 | \improvisationOn  b'1^"(Violin)" \improvisationOff \bar "||"
+	  s1 | s1 | s1 | \improvisationOn  b'1^"(Violin)" \improvisationOff \longBar \bar "||"
 	}
 }
 
 PIIa = {
-	\tag #'Harmony {\Ha \Ha \Ha \Ha}
+	\tag #'Harmony {\Ha \Ha }   %\Ha \Ha}
 	\tag #'Clarinet {
 	  \mark \markup{\circle{"2a"}}
-	   r1 r1 r1 r1 \longBar |
-	   r1 r1 r1 r1 \longBar |
-	   r1 r1 r1 r1 \longBar |
+	   % r1 r1 r1 r1 \longBar |
+	   % r1 r1 r1 r1 \longBar |
+	   % r1 r1 r1 r1 \longBar |
 	   \improvisationOn
-	   b'4 b'4 b'4 b'4 |
-	   b'4 b'4 b'4 b'4 |
-	   b'4 b'4 b'4 b'4 |
-	   b'4 b'4 b'4 b'4 |
+	   b'4^"Clarinet solo" b'4 b'4 b'4 | b'4 b'4 b'4 b'4 |
+	   b'4 b'4 b'4 b'4 | b'4 b'4 b'4 b'4 \longBar
+	   b'4 b'4 b'4 b'4 | b'4 b'4 b'4 b'4 |
+	   b'4 b'4 b'4 b'4 | b'4 b'4 b'4 b'4 \longBar
 	   \improvisationOff
 	   \bar "||"
 	}
 	\tag #'Band {
 	  \mark \markup{\circle{"2a"}}
-	   \improvisationOn
-	   b'4^Guitar b'4 b'4 b'4 | 
-	   b'4 b'4 b'4 b'4 | 
-	   b'4 b'4 b'4 b'4 | 
-	   b'4 b'4 b'4 b'4  \longBar 
+		% \improvisationOn
+		% b'4^Guitar b'4 b'4 b'4 | 
+		% b'4 b'4 b'4 b'4 | 
+		% b'4 b'4 b'4 b'4 | 
+		% b'4 b'4 b'4 b'4  \longBar 
+
+		% b'4^Violin b'4 b'4 b'4 | 
+		% b'4 b'4 b'4 b'4 | 
+		% b'4 b'4 b'4 b'4 | 
+		% b'4 b'4 b'4 b'4  \longBar 
+
+		% b'4^Guitar b'4 b'4 b'4 | 
+		% b'4 b'4 b'4 b'4 | 
+		% b'4 b'4 b'4 b'4 | 
+		% b'4 b'4 b'4 b'4  \longBar | 
+		% \improvisationOff
+		
+		s1 s1 s1 s1 \longBar
+		s1 s1 s1 s1 
 	   
-	   b'4^Violin b'4 b'4 b'4 | 
-	   b'4 b'4 b'4 b'4 | 
-	   b'4 b'4 b'4 b'4 | 
-	   b'4 b'4 b'4 b'4  \longBar 
-	   
-	   b'4^Guitar b'4 b'4 b'4 | 
-	   b'4 b'4 b'4 b'4 | 
-	   b'4 b'4 b'4 b'4 | 
-	   b'4 b'4 b'4 b'4  \longBar | 
-	   
-	   \improvisationOff
-	   s1 s1 s1 s1 \bar "||"
+	   \bar "||"
 	}
 }
 

@@ -6,6 +6,7 @@ longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staf
 
 \header{
 	title="Теплым солнцем"
+	composer="гр. Перьи Отметины"
 }
 
 Horn = {
