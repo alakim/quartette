@@ -11,7 +11,7 @@ HrmA = \chordmode {b1:m %{g/d%} d/g a b:m}
 HrmB = \chordmode {b2:m bes:m5+ | a:m as:m5+ | g:m ges:m5+ | c b:m |}
 
 
-PI = {
+PIx = {
 	\tag #'Harmony {
 		\HrmA \HrmA 
 	}
@@ -28,13 +28,34 @@ PI = {
 	}
 }
 
+PI = {
+	\tag #'Harmony {
+		\HrmA 
+	}
+	\tag #'Voice {
+		\mark "Intro"
+		\repeat volta 3{
+			\relative c''{r1 | r2 gis2^"Horn" | gis8 fis~fis2. | r1 |}
+		}
+	}
+}
+
 PII = {
+	\tag #'Harmony { R1*4 }
+	\tag #'Voice {
+		\mark \markup{\circle 2}
+		R1*4^"Gtr"
+		\bar "||"
+	}
+}
+
+PIII = {
 	\tag #'Harmony {
 		\HrmB \HrmB
 	}
 	\tag #'Voice {
-		\mark \markup{\circle 2}
-		\relative c'{\grace gis16 e'4. cis8 gis'4. es8 | }
+		\mark \markup{\circle 3}
+		\relative c'{\grace gis16 e'4.^"Clarinet" cis8 gis'4. es8 | }
 		\relative c'{fis4 d cis8 ais fis ais | c4. e8 gis8 fis e b | a8 e' d fis e8 cis gis'4 }
 		\longBar
 		\relative c''{gis4. fis8 gis4. es8 | d8 fis a b des4. bes8 | c4. e8 ~ e8 d b gis | }
@@ -43,10 +64,81 @@ PII = {
 	}
 }
 
+PIV = {
+	\tag #'Harmony { R1*4 }
+	\tag #'Voice {
+		\mark \markup{\circle 4}
+		R1*4^"Gtr"
+		\bar "||"
+	}
+}
+
+PV = {
+	\tag #'Harmony { R1*8 }
+	\tag #'Voice {
+		\mark \markup{\circle 5}
+		R1*8^"Vln"
+		\bar "||"
+	}
+}
+
+PVI = {
+	\tag #'Harmony { R1*4 }
+	\tag #'Voice {
+		\mark \markup{\circle 6}
+		R1*4^"Drums"
+		\bar "||"
+	}
+}
+
+PVII = {
+	\tag #'Harmony {
+		\HrmB
+	}
+	\tag #'Voice {
+		\mark \markup{\circle 7}
+		\repeat volta 2{
+			\relative c''{gis1^"Horn/Gtr" | b2 bes | e,1 | fis2 gis | }
+		}
+	}
+}
+
+PVIII = {
+	\tag #'Harmony { R1*8 }
+	\tag #'Voice {
+		\mark \markup{\circle 8}
+		R1*8^"Vln"
+		\bar "||"
+	}
+}
+
+PIX = {
+	\tag #'Harmony {
+		\HrmA
+	}
+	\tag #'Voice {
+		\mark \markup{\circle 9}
+		\repeat volta 2{
+			\relative c''{gis1^"Horn/Bass" ~| gis1 | gis8 fis8~ fis2. | e2 fis8 e  fis e | }
+		}
+	}
+}
+
+
 Music = {
 	\PI
-	\break
 	\PII
+	\break
+	\PIII
+	\break
+	\PIV
+	\PV
+	\PVI
+	\break
+	\PVII
+	\break
+	\PVIII
+	\PIX
 }
 
 <<
@@ -57,7 +149,8 @@ Music = {
 		\clef treble 
 		\time 4/4
 		\key cis \minor
-		\set Staff.instrumentName = "Clarinet"
+		\set Staff.instrumentName = "Clarinet/Flugelhorn"
+		\compressFullBarRests
 		\keepWithTag #'Voice \Music
 	}
 >>
