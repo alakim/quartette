@@ -83,7 +83,7 @@ Music = {
 	}}
 	\new Staff{ %\transpose bes c'{
 		\clef treble 
-		\time 4/4
+		\time 2/2
 		\key e \minor
 		\set Staff.instrumentName = "Clarinet"
 		\compressFullBarRests

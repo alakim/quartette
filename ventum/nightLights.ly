@@ -53,7 +53,7 @@ He = \chordmode {s1 s1 s1 s1 }
 
 Hi = \chordmode {a1:m | g }
 Ha = \chordmode {
-   c1:9 | d1:m | g:9 | e:m |
+   c1:9 | d1 | g:9 | e:m |
 }
 
 Hb = \chordmode {
@@ -219,6 +219,12 @@ PIIa = {
 }
 
 PIV = {
+	\tag #'Harmony { R1*16 }
+	\tag #'Clarinet { R1*16 }
+	\tag #'Band { R1*16^"Gtr?" }
+}
+
+PIVa = {
 	\tag #'Harmony { R1*8 }
 	\tag #'Clarinet { R1*8 }
 	\tag #'Band { R1*8^"Riffs bridge" }
@@ -251,6 +257,7 @@ Music = {
 	\break
 	\PIIa
 	\PIV
+	\PIVa
 	\PV
 	\Coda
 }
