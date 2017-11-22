@@ -58,7 +58,8 @@ PIII = {
 		\relative c'{\grace gis16 e'4.^"Clarinet" cis8 gis'4. es8 | }
 		\relative c'{fis4 d cis8 ais fis ais | c4. e8 gis8 fis e b | a8 e' d fis e8 cis gis'4 }
 		\longBar
-		\relative c''{gis4. fis8 gis4. es8 | d8 fis a b des4. bes8 | c4. e8 ~ e8 d b gis | }
+		% \relative c''{gis4. fis8 gis4. es8 | d8 fis a b des4. bes8 | c4. e8 ~ e8 d b gis | }
+		\relative c''{gis4. fis8 gis4. es8 | fis8 a4 b8 e8 cis g16 bes g8 | c4. e8 ~ e4 d8 b  | }
 		\relative c''{ fis8 e d e gis2 \fermata |  }
 		\bar "||"
 	}
