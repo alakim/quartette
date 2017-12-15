@@ -9,13 +9,14 @@ longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staf
 	composer="гр. Перьи Отметины"
 }
 
-Horn = {
+HornI = {
 	\tag #'Harmony {\chordmode{
 	}}
 
 	\tag #'Voice {
 		\time 4/4
 		\key d \major
+		\mark \markup{\circle 1}
 		\relative c''{
 			b16 a b4 d4. b8 d |
 			cis16 b a4 g2 r8 |
@@ -26,9 +27,23 @@ Horn = {
 	}
 }
 
+HornII = {
+	\tag #'Harmony {\chordmode{
+	}}
+
+	\tag #'Voice {
+		\mark \markup{\circle 2}
+		\relative c''{
+			r2 r8 fis8 fis fis~| fis8 e e e4 d8 d d ~ |
+			d8 b b b g a b g | fis4 d' cis4. b16 a | b2 r2 \bar "||"
+		}
+	}
+}
+
 Music = {
-	\Horn
+	\HornI
 	\break
+	\HornII
 }
 
 <<
