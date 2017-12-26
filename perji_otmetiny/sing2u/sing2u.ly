@@ -40,10 +40,48 @@ HornII = {
 	}
 }
 
+ClarinetI = {
+	\tag #'Flute {
+		\key d \major
+		\repeat volta 2{
+			<fis' a'>4^"петь тебе..." q <a' e''> q | <g' b'>4 q <g' d''> q |
+		}
+	}
+	\tag #'Clarinet {
+		\key d \major
+		\repeat volta 2{
+			\relative c'{fis4 fis a a | g4 g g g |}
+		}
+	}
+}
+ClarinetII = {
+	\tag #'Flute {
+		\key d \major
+		\relative c''{ r4^"не сгладится" fis8 g a g fis b, | e2 g | r4 fis8 g a g fis b, | e8 r a4 g4. fis8| }
+		\relative c''{fis4^"бродить от Ладоги" d2. | g8 a g fis e4. d8 | e8 fis4. a8 b a4 | d8(b) a(g) fis(e) d4~ |}
+		\relative c''{d2 fis  | b2 d8 b a g | a4 d, e2~ | e2 r |}
+		\relative c''{r1 | r1 | r4 fis8 g a g fis a |}
+		\relative c'''{g16 a g4. b2 | d8 b a g a4. cis8 | d1 \bar "|."}
+	}
+	\tag #'Clarinet {
+		\key d \major
+		\relative c''{r1 | r8 d8 d d b cis d e | fis 2. r4 | r e b4. a8 |}
+		\relative c''{d1 | b2. g4 | a1 | g |}
+		\relative c''{a1 | b16 a g8 a b d16 d e8 d b | a4 d a2 | g2 r |}
+		\relative c'{r4 fis8 g a g fis b, | e2 g | r4 fis8 g a g fis b, |}
+		\relative c'{e16 fis e4. g2 | d8 e fis g fis4. e8 | d1 |}
+	}
+}
+
 Music = {
 	\HornI
 	\break
 	\HornII
+}
+
+MusicII = {
+	\ClarinetI
+	\ClarinetII
 }
 
 <<
@@ -55,5 +93,19 @@ Music = {
 		\set Staff.instrumentName="Trumpet"
 		\clef treble
 		\keepWithTag #'Voice \Music
+	}}
+>>
+<<
+
+	\new Staff{\transpose bes \outKey{
+		\set Staff.instrumentName="Flute"
+		\clef treble
+		\keepWithTag #'Flute \MusicII
+	}}
+
+	\new Staff{\transpose bes \outKey{
+		\set Staff.instrumentName="Clarinet"
+		\clef treble
+		\keepWithTag #'Clarinet \MusicII
 	}}
 >>
