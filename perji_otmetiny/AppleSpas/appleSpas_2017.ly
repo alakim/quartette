@@ -22,11 +22,11 @@ PIntro = {
 
 PI = {
 	\tag #'Clarinet {
-		\relative c''{ a8.^"Clarinet" gis fis e fis8 gis | b8. gis a gis fis8 gis | e1 | r1 | r1 |  }
-		\relative c''{r4 gis16 a gis e4. r8. | }
-		\relative c''{fis8. e b2 r8 | gis8 b4. fis8 b4. | a1 | fis8. e a,4. r4 | r1 | }
-		\relative c''{r4^"мхах тайги" gis16 a gis e4 r16 gis8 e | b'2. a8 gis | e2. a8 e | fis2. r8 b | cis1 |}
-		\relative c'''{ a8. e cis b a8 cis | e2 dis8 e dis b | cis1 |cis2^"сияньях" e | a1^"света" | b,8^"сверкает" cis dis e fis gis a b | cis1^"Спас" |}
+		\relative c''{ a8.^"Clarinet" gis fis e fis8 gis | b8. gis a gis fis8 gis | e1^"рубец" | r1 | r1 |  }
+		\relative c''{r4^"отданья" gis16 a gis e4. r8. | }
+		\relative c''{fis8.^"лета" e b2 r8 | gis8 b4. fis8 b4. | a1^"глас" | fis8. e a,4. r4 | r1^"в камнях" | }
+		\relative c''{r4 gis16 a gis e4 r16 gis8 e | b'2.^"узор" a8 gis | e2.^"там" a8 e | fis2.^"гора Фавор" r8 b | cis1^"здесь" |}
+		\relative c'''{ a8. e cis b a8 cis | e2^"преображенским" dis8 e dis b | cis1^"хрусталем" |cis2^"сияньях" e | a1^"света" | b,8^"сверкает" cis dis e fis gis a b | cis1^"Спас" |}
 		\relative c''{ e2 a,  \bar "||"}
 	}
 }
