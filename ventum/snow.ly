@@ -11,6 +11,7 @@ HrmA = \chordmode{d1:m d:m bes a:7}
 HrmB = \chordmode{d1:m e bes d:m }
 HrmC = \chordmode{d1:m bes c d:m }
 
+%{
 PI = {
 	\tag #'Harmony { \HrmA \HrmA \HrmA \HrmA}
 	\tag #'Clarinet {
@@ -21,6 +22,20 @@ PI = {
 		\relative c''{r2. \tuplet 3/2{b8 d e} | b1 | s1 s1} \longBar
 		s1 s1 s1 s1 \longBar
 		s1 s1 s1 s1 \bar "||"
+	}
+}
+%}
+
+PI = {
+	\tag #'Harmony { \HrmA \HrmA \HrmA \HrmA}
+	\tag #'Clarinet {
+		\mark "Solo A"
+		% t=0:37
+		\relative c'{r2. r8 b8 | g'2. fis8 e |fis2 e | r8 b8 cis dis e fis g a |} \longBar
+		% t=0:45
+		\relative c''{g4 a2.~ | a2. \tuplet 3/2{ b8 d e} | b2 a | g'1 |}  \longBar
+		\relative c''{fis4 e a8 g fis e | fis4 e a8 g4. | b2. a8 g | a8 g fis e g fis e d| } \longBar
+		\relative c''{e1 | e2. r8 } \relative c'{e8 | fis8 e dis e g4 a | b2 e4 d } \bar "||"
 	}
 }
 
@@ -54,10 +69,12 @@ PVII = {
 	\tag #'Clarinet { 
 		\break
 		\mark "Rubato"
-		s1 s1 s1 \relative c'{fis4. dis8 e16 cis bes g c a fis a |} \longBar
+		g'1^"clarinet only" b'1 s1 \relative c'{fis4. dis8 e16 cis bes g c a fis a |} \longBar
+		e''1^"with rhythm section..." s1 s1 s1 \longBar
 		s1 s1 s1 s1 \longBar
 		s1 s1 s1 s1 \longBar
-		s1 s1 s1 s1 \bar "||"
+		r1 ^"rhythm section only"
+		r1 r1 r1 \bar "||"
 	}
 }
 
