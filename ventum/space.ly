@@ -43,3 +43,12 @@ Music = {
 		
 	}}
 >>
+
+
+\markup{\column{
+	\line{"Форма"}
+	\line{"Guitar| break theme"}
+	\line{"Clarinet | break theme"}
+	\line{"Violin | break theme"}
+	\line{"Violin/Flugelhorn| break theme"}
+}}
