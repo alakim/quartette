@@ -5,6 +5,8 @@
   composer = "гр. Ventum"
 }
 
+outKey = c' 
+
 longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staff.BarLine.bar-extent = #'(-3 . 3) #})
 
 HrmIntro = \chordmode{e1:m e1 e e }
@@ -34,10 +36,10 @@ Music = {
 }
 
 <<
-	\new ChordNames{\transpose bes bes{
+	\new ChordNames{\transpose bes \outKey{
 		\keepWithTag #'Harmony \Music
 	}}
-	\new Staff{ \transpose bes bes{
+	\new Staff{ \transpose bes \outKey{
 		\clef treble 
 		\time 4/4
 		\key e \minor
