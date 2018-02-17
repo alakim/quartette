@@ -5,6 +5,8 @@
   composer = "гр. Ventum"
 }
 
+outKey = bes %c'
+
 %{
   2017-10-11 ZOOM0006.MP3
 00:08 Intro 4m
@@ -179,21 +181,15 @@ PIII = {
 
 PIIa = {
 	\tag #'Harmony {\Ha \Ha }   %\Ha \Ha}
-	\tag #'Clarinet {
-	  \mark \markup{\circle{"2a"}}
-	   % r1 r1 r1 r1 \longBar |
-	   % r1 r1 r1 r1 \longBar |
-	   % r1 r1 r1 r1 \longBar |
-	   \improvisationOn
-	   b'4^"Clarinet solo" b'4 b'4 b'4 | b'4 b'4 b'4 b'4 |
-	   b'4 b'4 b'4 b'4 | b'4 b'4 b'4 b'4 \longBar
-	   b'4 b'4 b'4 b'4 | b'4 b'4 b'4 b'4 |
-	   b'4 b'4 b'4 b'4 | b'4 b'4 b'4 b'4 \longBar
-	   \improvisationOff
-	   \bar "||"
+		\tag #'Clarinet { 
+		\mark \markup{\circle{"2a"}}
+
+		\relative c'{e2.^"Clarinet solo" g4 | fis2. e8 fis | a4. d,8~ d4. e16 a | b4 c d e \longBar  }
+		\relative c''{b8 d4 g,16 a e2 | fis2 a | b8 d16 b \tuplet 3/2 {a8 g e} d8 a'4. | b1 \longBar }
+		\bar "||"
 	}
 	\tag #'Band {
-	  \mark \markup{\circle{"2a"}}
+	  % \mark \markup{\circle{"2a"}}
 		% \improvisationOn
 		% b'4^Guitar b'4 b'4 b'4 | 
 		% b'4 b'4 b'4 b'4 | 
@@ -264,10 +260,10 @@ Music = {
 
 <<
 	\compressFullBarRests
-	\new ChordNames{\transpose bes c'{
+	\new ChordNames{\transpose \outKey c'{
 		\keepWithTag #'Harmony \Music
 	}}
-	\new Staff{\transpose bes c'{
+	\new Staff{\transpose \outKey c'{
 		\clef treble 
 		\time 4/4
 		\key a \minor
