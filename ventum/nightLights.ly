@@ -64,24 +64,24 @@ Hb = \chordmode {
 
 Intro = {
 	\tag #'Harmony {\chordmode { 
-	  % R1*8 
-	  \Hi \Hi \Hi \Hi 
+		R1*8 
+		% \Hi \Hi \Hi \Hi 
 	}}
 	\tag #'Clarinet {
-	  \mark Intro
-	  % R1*8 
-	  r1 r1 r1 r1 \longBar 
-	  r1 r1 r1 r1
-	  \bar "||"
+		\mark Intro
+		R1*4 \longBar 
+		R1*4 
+		% r1 r1 r1 r1 \longBar 
+		% r1 r1 r1 r1
+		\bar "||"
 	}
 	\tag #'Band {
-	  % R1*8
-	  \relative c''{a8^"Guitar" a c b a a c16 d c8 | }
-	  % s1 
-	  s1^simile s1 s1 \longBar |
-	  \relative c''{a1^Violin | b16 c b8~b2. |}
-	  % s1 s1 
-	  s1 s1 
+		R1*4^Guitar \longBar 
+		R1*4^Violin
+		% \relative c''{a8^"Guitar" a c b a a c16 d c8 | }
+		% s1^simile s1 s1 \longBar |
+		% \relative c''{a1^Violin | b16 c b8~b2. |}
+		% s1 s1 
 	}
 }
 
@@ -107,8 +107,9 @@ PI = {
 
 PIa = {
 	\tag #'Harmony { % R1*8
-		s1 s1 s1 s1 \longBar
-		s1 s1 s1 s1
+		\Hb \Hb
+		% s1 s1 s1 s1 \longBar
+		% s1 s1 s1 s1
 	}
 	\tag #'Clarinet {
 		\mark \markup{\circle {"1a"}} 
@@ -184,32 +185,17 @@ PIIa = {
 		\tag #'Clarinet { 
 		\mark \markup{\circle{"2a"}}
 
+		%{
 		\relative c'{e2.^"Clarinet solo" g4 | fis2. e8 fis | a4. d,8~ d4. e16 a | b4 c d e \longBar  }
 		\relative c''{b8 d4 g,16 a e2 | fis2 a | b8 d16 b \tuplet 3/2 {a8 g e} d8 a'4. | b1 \longBar }
-		\bar "||"
+		%}
+
+		\relative c'{e16 d e8~ e8 g4. f8 g | a16 g a8~ a2 fis8 a | b2 d | e8 d b d e16 d b a b8 d \longBar }
+		\relative c''{e4. d8 g4. e8 | a2~a8 e8 d fis | g2  a | g16 fis e fis e8 d c a c d \bar "||" }
 	}
 	\tag #'Band {
-	  % \mark \markup{\circle{"2a"}}
-		% \improvisationOn
-		% b'4^Guitar b'4 b'4 b'4 | 
-		% b'4 b'4 b'4 b'4 | 
-		% b'4 b'4 b'4 b'4 | 
-		% b'4 b'4 b'4 b'4  \longBar 
-
-		% b'4^Violin b'4 b'4 b'4 | 
-		% b'4 b'4 b'4 b'4 | 
-		% b'4 b'4 b'4 b'4 | 
-		% b'4 b'4 b'4 b'4  \longBar 
-
-		% b'4^Guitar b'4 b'4 b'4 | 
-		% b'4 b'4 b'4 b'4 | 
-		% b'4 b'4 b'4 b'4 | 
-		% b'4 b'4 b'4 b'4  \longBar | 
-		% \improvisationOff
-		
 		s1 s1 s1 s1 \longBar
 		s1 s1 s1 s1 
-	   
 	   \bar "||"
 	}
 }
