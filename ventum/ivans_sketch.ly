@@ -5,7 +5,7 @@
 	composer = "гр. Ventum"
 }
 
-outKey = c % bes, 
+outKey = bes, 
 
 longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staff.BarLine.bar-extent = #'(-3 . 3) #})
 
