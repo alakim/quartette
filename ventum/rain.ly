@@ -25,7 +25,9 @@ PA = {
 
 PB = {
 	\tag #'Harmony {\HrmB}
-	\tag #'Clarinet { \mark \markup{\circle "2"} R1*4  \bar "||"}
+	\tag #'Clarinet { \mark \markup{\circle "2"}
+		\relative c''{g2 \tuplet 3/2 {g8 fis e} \tuplet 3/2 {g8 fis g} | a4. b8 g2 | a4. g16 b c4. a8 | b2 a \bar "||" }
+	}
 }
 
 
