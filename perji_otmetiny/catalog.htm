@@ -1,0 +1,607 @@
+﻿<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>Наш репертуар</title>
+	<script type="text/javascript">
+		var Catalog = [
+			{id:"frost", name:"Мерзлота/ Кому повем", tags:"our;winter;autumn;fast", lng:"6:10", src:"ML;rusTrad", cast:"voc;gtr;bass;fl;clB;vln", key:"G moll"},
+			{id:"olon", name:"Олонецкая", tags:"our;nord", lng:"2:52", src:"PO", cast:"voc;gtr;bass;fl;clB;vln", key:"C dur"},
+			{id:"they", name:"Про них", tags:"our;autumn", lng:"2:59", src:"PO", cast:"voc;gtr;bass;fl;clB;vln", key:"E moll"},
+			{id:"appls", name:"Яблоневый Спас", tags:"our;autumn;nord", lng:"4:10", src:"PO", cast:"voc;gtr;bass;fl;clB;vln", key:"E dur"},
+			{id:"onego", name:"Прионежье", tags:"our;nord", lng:"4:00", src:"PO", cast:"voc;gtr;bass;fl;clB;vln", key:"C dur"},
+			{id:"wait", name:"Жди добра", tags:"our", lng:"3:00", src:"PO", key:"G dur", cast:"voc;gtr;bass;fl;recS;vln"},
+			{id:"sing", name:"Петь тебе", tags:"our", lng:"3:30", src:"PO", cast:"voc;gtr;bass;fl;clB"},
+			{id:"hill", name:"Пасха на холме", tags:"our;Easter;spring", lng:"3:13", src:"ML", cast:"voc;gtr;bass;fl;clB", key:"C dur"},
+			{id:"ascension", name:"Христос и Иоанн Богослов (стих на Вознесение)", tags:"spirit;wandering", lng:"5:33", src:"rusTrad", cast:"voc;gsl;bass;fl;clEs;vln"},
+			{id:"nikm", name:"Никола Можайский", tags:"spirit;wandering", src:"rusTrad", lng:"2:55", cast:"voc;gsl;bass;fl;clEs;vln"},
+			{id:"bologoe", name:"Бологое", tags:"our;nord", lng:/*"2:30"-на диске*/"3:28"/*с запевом*/, src:"PO", cast:"voc;gtr;bass;fl;clB;voices;vln", key:"D moll"},
+			{id:"ladoga", name:"Ладога", tags:"our;nord", lng:"2:30", src:"PO", cast:"voc;gtr;bass;clB;voices", key:"Bes dur"},
+			{id:"locom", name:"Паровозики", tags:"our;winter;family", lng:"3:23", src:"PO", cast:"voc;gtr;bass;fl;clB", key:"D moll"},
+			{id:"easy", name:"Легко глядеть", tags:"our;winter", lng:"3:18", src:"PO", cast:"voc;gtr;bass;fl;clB", key:"E moll"},
+			{id:"grass", name:"Травушка", tags:"our;Easter;spring;wandering", lng:"3:19", src:"PO", cast:"voc;gtr;bass;voices;horn;clB;vln"},
+			{id:"endless", name:"Бесконеченная", tags:"our;spring", lng:"5:10", src:"PO", key:"C dur", cast:"voc;gtr;bass;fl;clEs"},
+			{id:"7spans", name:"Семь пядей сердца", tags:"our;autumn;winter;family", lng:"2:40", src:"PO", cast:"voc;gtr;bass;fl;clB;vln", key:"B moll"},
+			{id:"shawl", name:"Плат новгородский", tags:"our;nord", lng:"3:27", src:"PO", cast:"voc;gtr;bass;fl;clB", key:"E dur"},
+			{id:"wmdream", name:"Сон о белых горах", tags:"our;winter;nord;spirit", lng:"3:36", src:"PO", cast:"voc;gtr;bass;fl;clB", key:"D dur"},
+			{id:"wander", name:"Волочебная", tags:"Easter;spring;wandering", lng:"5:20", src:"rusTrad", cast:"voc;gsl;bass;fl;clB"},
+			{id:"wselug", name:"Вселуг", tags:"our;nord", lng:"3:18", src:"PO", cast:"voc;gtr;bass;fl;clB;vln", key:"D moll"},
+			{id:"oka", name:"Ока", tags:"our", lng:"3:00", src:"PO", cast:"voc;gtr;bass;voices;fl;clB;vln"},
+			{id:"softlight", name:"Тихий свет", tags:"our;spring", lng:"5:42", src:"ML", cast:"voc;gtr;bass;fl;clB;ocarina", key:"A dur"},
+			{id:"warmth", name:"Теплынь", tags:"our;spring;Easter", lng:"5:24", src:"ML", cast:"voc;gsl;bass;fl;clB;vln", key:"G dur"},
+			{id:"bwfairy", name:"Фея Берёзовых Колодцев", tags:"our;spring", src:"ML", lng:"5:05", key:"C dur", cast:"voc;gtr;bass;fl;clB;vln"},
+			{id:"nocoast", name:"Берега не видно!", tags:"our;joke", lng:"3:05", src:"celtic;ML", cast:"voc;gtr;bass;voices", key:"D moll"},
+			{id:"evening", name:"Вечер", tags:"our", lng:"3:21", src:"PMD", cast:"voc;gtr;bass;fl;clB", key:"E moll"},
+			{id:"ryazan", name:"Рязанщина", tags:"our;spirit", lng:"4:13", src:"ML", cast:"voc;gtr;bass;fl;clB", key:"F moll"},
+			{id:"tea", name:"На кухне", tags:"our;winter", lng:"3:17", src:"ML", cast:"voc;gtr;bass;clB", key:"D dur"},
+			{id:"sun", name:"Солнце", tags:"our;spirit", src:"ML", lng:"3:47", cast:"voc;gtr;bass;fl;clEs", key:"E moll"},
+			{id:"bourree", name:"Bourree", tags:"medieval;instrumental", cast:"gtr;bass;fl;clB", key:"D moll", src:"BachJS;JTull"},
+			{id:"guinever", name:"Гиневер", tags:"medieval;instrumental", lng:"1:55", cast:"gtr;bass;fl;clB", key:"G moll", src:"Aqua"},
+			{id:"eplunk", name:"Eleonor Plunkett", tags:"celtic;instrumental", lng:"2:43", cast:"gtr;bass;fl;clB;vln", key:"G dur", src:"celtic"},
+			{id:"sinful", name:"Грешный человече/ Unforgiven", tags:"spirit;fast", lng:"7:21", cast:"voc;gtr;bass;fl;clB;vln", src:"rusTrad;Metallica;PO", key:"A moll"},
+			{id:"walk", name:"Ходила-гуляла", tags:"Christmas;wandering", lng:"2:30", key:"A dur, 5/4", cast:"voc;gtr;bass;voices;horn;shaker", src:"rusTrad;VaTaGa"},
+			{id:"fall", name:"Осень", tags:"autumn", lng:"4:10", key:"D dur", cast:"voc;gtr;bass;fl;clB;vln", src:"Ado"},
+			{id:"gaudete", name:"Gaudete", tags:"medieval;Christmas;spirit;english", cast:"voc;gtr;voices;bass;fl;clB", key:"A moll", src:"englTrad"},
+			{id:"suffering", name:"Talk About Suffering", cast:"voc;gtr;bass;fl;clB;vln", tags:"medieval;spirit;english", lng:"2:45", src:"englTrad", key:"D moll"},
+			{id:"paupers", name:"А мы нищая-то братия...", tags:"wandering", lng:"4:25", cast:"voc;gsl;bass;fl;clEs;voices;vln", key:"G dur", src:"rusTrad"},
+			{id:"kolyada", name:"Коляда", tags:"wandering;Christmas", lng:"3:15", cast:"voc;gtr;bass;voices;clB", src:"rusTrad"},
+			{id:"mysorrow", name:"Кому повем печаль мою", tags:"spirit;wandering", lng:"3:49", cast:"voc;gsl;bass;fl;clB;vln", key:"E moll", src:"rusTrad"},
+			{id:"jerusalem", name:"Во Иерусалиме рано зазвонили", tags:"spirit;Christmas;wandering", lng:"3:38", key:"E moll", cast:"voc;gtr;bass;voices;fl;clEs", src:"rusTrad"},
+			{id:"gentlemen", name:"God Rest Ye Merry Gentlemen", tags:"spirit;Christmas;english", lng:"3:12", key:"E moll", cast:"voc;gtr;bass;fl;clB", src:"englTrad"},
+			{id:"jordan", name:"К водам иорданским", key:"E moll", tags:"spirit;wandering", lng:"5:33", cast:"voc;gtr;bass;fl;clEs", src:"rusTrad"},
+			{id:"paradise", name:"Раю мой, раю", tags:"spirit;wandering", cast:"voc;gsl;bass;fl;clEs;vln", key:"E moll", src:"rusTrad"},
+			{id:"fromeast", name:"С Востока на Запад", tags:"spirit;fast", lng:"3:50", cast:"voc;gtr;bass;fl;clB;vln", key:"A moll", src:"rusTrad"},
+			{id:"field", name:"Через поле", tags:"spirit;wandering", lng:"4:20", cast:"voc;gsl;bass;fl;clEs;vln", key:"G dur", src:"rusTrad"},
+			{id:"fathers", name:"У святых отцов", tags:"spirit;wandering;fast", lng:"6:26", cast:"voc;gsl;bass;fl;clB;vln", key:"E moll", src:"rusTrad"},
+			{id:"dontWaits", name:"Не ждут", tags:"our", cast:"voc;gtr;bass;fl;clEs", key:"A dur", src:"ML"},
+			{id:"Volga", name:"Волга", tags:"our", cast:"voc;gtr;bass;fl;clB", key:"A dur", src:"ML"}
+		];
+		var Sources = {
+			ML:"М.Лазарев",
+			PO:"Перьи Отметины",
+			PMD:"ПАШАМИШАДЭША (Олень1998)",
+			rusTrad:"народная",
+			BachJS:"Bach J.S.",
+			JTull:"гр. Jethro Tull",
+			Aqua:"гр. Аквариум",
+			celtic:"Celtic traditional",
+			Metallica:"гр. Metallica",
+			VaTaGa:"гр.Ва-Та-Га",
+			Ado:"гр. АДО",
+			englTrad:"english traditional"
+		};
+		var Instruments = {
+			voc:"вокал",
+			gtr:"гитара",
+			gsl:"гусли",
+			bass:"бас",
+			fl:"флейта",
+			clB:"кларнет&nbsp;B",
+			clEs:"кларнет&nbsp;Es",
+			recS:"блокфлейта&nbsp;сопрано",
+			voices:"голоса",
+			ocarina:"окарина",
+			vln:"скрипка",
+			horn:"рожок",
+			shaker:"шейкер"
+		};
+		
+		var Tags = {
+			our:"наше",
+			winter:"зима",
+			autumn:"осень",
+			fast:"пост",
+			nord:"север",
+			medieval:"средние века",
+			spirit:"духовное",
+			Easter:"Пасха",
+			Christmas:"Рождество Христово",
+			family:"семья",
+			joke:"шуточная",
+			celtic:"Ирландия",
+			spring:"весна",
+			wandering:"калики",
+			instrumental:"инструментал",
+			english:"английский&nbsp;текст",
+			selected:"отмеченные"
+		};
+	</script>
+	
+	<style type="text/css">
+		body{
+			font-family: Verdana,Arial,Sans-serif;
+			font-size:14px;
+		}
+		td, th{
+			font-size:14px;
+		}
+		.sign{
+			font-family:Times new roman, Serif;
+			font-size:20px;
+		}
+		.odd{
+			background-color:#fff;
+		}
+		.even{
+			background-color:#ddd;
+		}
+		.action{
+			color:#00a;
+			cursor:pointer;
+			cursor:hand;
+			text-decoration:underline;
+		}
+		.activeAnd{
+			color:#0a0;
+		}
+		.activeOr{
+			color:#00a;
+		}
+		.activeNot{
+			color:#a00;
+		}
+		.inactive{
+			color:#aaa;
+		}
+		#tagsPanel{
+			margin:8px;
+			padding:5px;
+			border:1px solid #ccc;
+		}
+	</style>
+	
+	<script type="text/javascript">
+	var Html = {
+		version: "2.3.215",
+		xhtmlMode: true	
+	};
+
+	(function(){
+		function extend(o,s){for(var k in s){o[k] = s[k];}}
+		
+		function each(coll, F){
+			if(!coll) return;
+			if(coll.length)
+				for(var i=0; i<coll.length;i++) F(coll[i], i);
+			else
+				for(var k in coll) F(coll[k], k);
+		}
+		
+		function defineTags(tags, selfClosing, notEmpty){
+			each(tags, function(t){
+				Html[t] = new Function("content", "return Html.tag(\""+t+"\", arguments,"+(selfClosing?"true":"false")+","+(notEmpty?"true":"false")+");");
+			});
+		}
+		
+		function defineSelfClosingTags(tags){defineTags(tags, true, false);}
+		function defineNotEmptyTags(tags){defineTags(tags, false, true)}
+		
+		extend(Html, {
+			tag: function(name, content, selfClosing, notEmpty){
+				var h = [];
+				var a = [];
+				each(content, function(el){
+					if(typeof(el)!="object")
+						h.push(el);
+					else{
+						each(el, function(val, nm){
+							a.push(" "+nm+"=\""+val+"\"");
+						});
+					}
+				});
+				
+				h = h.join("");
+				if(h.match(/^\s+$/i))
+					h = "";
+				if(notEmpty && h.length==0)
+					h = "&nbsp;";
+				
+				if(selfClosing && h.length==0)
+					return "<"+name+a.join("")+(Html.xhtmlMode? "/>":">");
+				else
+					return "<"+name+a.join("")+">"+h+"</"+name+">";
+			},
+			
+			apply: function(coll, F){
+				var h = [];
+				each(coll, function(el, i){
+					h.push(F(el, i));
+				});
+				return h.join("");
+			},
+			
+			times: function(count, F){
+				var h = [];
+				for(var i=0; i<count; i++)
+					h.push(F(i+1));
+				return h.join("");
+			},
+			
+			tagCollection: function(){
+				var res = [];
+				each(arguments, function(tag){
+					res.push(tag);
+				});
+				return res.join("");
+			},
+			
+			json: function(o){
+				if(o==null) return 'null';
+				if(typeof(o)=="string") return "'"+o.replace(/\"/g, "\\\"")+"'";
+				if(typeof(o)=="boolean") return o.toString();
+				if(typeof(o)=="number") return o.toString();
+				if(typeof(o)=="function") return "";
+				if(o.constructor==Array){
+					var res = [];
+					for(var i=0; i<o.length; i++) res.push(Html.json(o[i]));
+					return "["+res.join(",")+"]";
+				}
+				if(typeof(o)=="object"){
+					var res = [];
+					for(var k in o) res.push(k+":"+Html.json(o[k]));
+					return "{"+res.join(",")+"}";
+				}
+				return "";
+			},
+			
+			format: function(str, v1, v2){
+				for(var i=0; i<arguments.length; i++){
+					str = str.replace(new RegExp("{\s*"+i+"\s*}", "ig"), arguments[i+1])
+				}
+				return str;
+			},
+			
+			callFunction: function(name, a1, a2){
+				var args = [];
+				for(var i=1; i<arguments.length; i++){
+					var arg = arguments[i];
+					arg = typeof(arg)=="string" && arg.match(/^@/)? arg.slice(1, arg.length)
+						:Html.json(arg);
+					args.push(arg);
+				}
+				return [name, "(", args.join(","), ")"].join("");
+			}
+		});
+		
+		defineTags(["div", "a", "p", "span", "ul", "ol", "li", "table", "tbody", "thead", "tr", "input", "label", "textarea", "pre", "select", "option", "h1", "h2", "h3", "h4", "h5", "h6", "button"]);
+		defineSelfClosingTags(["img", "hr", "br", "iframe"]);
+		defineNotEmptyTags(["th", "td"]);
+	})();
+	</script>
+	
+	<script type="text/javascript">
+		var CatalogView = (function(){
+			function $(id){return document.getElementById(id);}
+			
+			var errors = [];
+			var activeTags = {};
+			var noTags = true;
+			var noOrTags = true;
+			var noAndTags = true;
+			var songTimes = [];
+			var states = {undefined:0, or:1, and:2, not:3};
+			var required = {};
+			var selectedSongs = {};
+			
+			function hasTag(itm, tag){
+				if(!itm.tags) return false;
+				var tags = itm.tags.split(";");
+				for(var i=0; i<tags.length; i++){
+					if(tags[i]==tag) return true;
+				}
+				return false;
+			}
+			
+			function checkTags(itm){
+				if(noTags)return true;
+				if(!itm.tags){
+					return noAndTags && noOrTags;
+				}
+				var tags = itm.tags.split(";");
+				
+				// previous selection (OR and NOT conditions)
+				var foundOr = false;
+				for(var i=0; i<tags.length; i++){
+					var state = activeTags[tags[i]];
+					if(state==states.or) foundOr = true;
+					if(state==states.not) return false;
+				}
+				var prevSelection = noOrTags || foundOr || (activeTags["selected"] && selectedSongs[itm.id])
+					
+				if(!prevSelection) return false;
+				
+				for(var tg in activeTags){ // check AND condigions and selections
+					if(tg=="selected"){
+						if(selectedSongs[itm.id]) return activeTags[tg]!=states.not;
+						else return activeTags[tg]!=states.and;
+					}
+					else if(activeTags[tg]==states.and){
+						if(!hasTag(itm, tg)) return false;
+					}
+				}
+				return true;
+			}
+			
+			function selectInstruments(itm){
+				if(!itm.cast) return;
+				var cast = itm.cast.split(";");
+				for(var i=0; i<cast.length; i++){
+					required[cast[i]] = true;
+				}
+			}
+			
+			var templates = {
+				main: function(){with(Html){
+					var count = 0;
+					songTimes = [];
+					var cat = Catalog.sort(function(x, y){return x.name<y.name?-1:x.name==y.name?0:1});
+					required = {};
+					return div(
+						div({id:"errorList", style:"display:none; background-color:#ffc; margin:5px; padding:5px; border:1px solid #c44;"}),
+						templates.tagsPanel(),
+						table({style:"border:1px solid #ccc;", border:0, cellpadding:3, cellspacing:0},
+							tr(
+								th({colspan:2}, "№"),
+								th("Название"),
+								th("Тематика"),
+								th("Время"),
+								th("Состав"),
+								th("Тональность"),
+								th("Источник")
+							),
+							apply(cat, function(itm, i){with(Html){
+								if(!checkTags(itm)) return null;
+								
+								selectInstruments(itm);
+								songTimes.push(itm.lng);
+								var cbAttrs = {type:"checkbox", id:"cb"+itm.id, onclick:callFunction("CatalogView.toggleSelection", itm.id)};
+								if(selectedSongs[itm.id])
+									cbAttrs.checked = true;
+								return tr({"class":count%2?"odd":"even"},
+									td(++count),
+									td(input(cbAttrs)),
+									td(itm.name),
+									td(templates.tags(itm)),
+									td(itm.lng),
+									td(templates.cast(itm)),
+									td(itm.key),
+									td(templates.source(itm))
+								);
+							}})
+						),
+						div(
+							span({"class":"action", onclick:callFunction("CatalogView.resetSelection")}, "снять все отметки")
+						),
+						div(
+							templates.totalTime()
+						),
+						templates.requiredInstruments()
+					);
+				}},
+				totalTime: function(){with(Html){
+					var exactly = true;
+					var total = 0;
+					for(var i=0; i<songTimes.length; i++){
+						var t = songTimes[i];
+						if(t==null) exactly = false;
+						else{
+							t = t.split(":");
+							t[0] = parseInt(t[0], 10);
+							t[1] = parseInt(t[1], 10);
+							var sec = t[0]*60+t[1];
+							total+=sec;
+						}
+					}
+					var totalM = Math.floor(total/60);
+					var totalS = total-totalM*60;
+					return div(
+						span({style:"font-weight:bold;"}, "Общее время: "),
+						totalM, ":", totalS<10?"0":"", totalS, " ",
+						exactly?"":span({style:"color:#f00;"}, "*(учтены только известные длительности)")
+					);
+				}},
+				tagsPanel: function(){with(Html){
+					return div({id:"tagsPanel"},
+						apply(Tags, function(tag, id){
+							var state = activeTags[id] || states.undefined;
+							var cssClass = "action "+(!state?"inactive"
+												:state==states.or?"activeOr"
+												:state==states.and?"activeAnd"
+												:state==states.not?"activeNot"
+												:"inactive");
+							var sign = state==states.and?"!":state==states.or?"+":state==states.not?"-":"";
+							return span(
+								span({"class":cssClass, onclick:callFunction("CatalogView.toggleTag", id)}, 
+									span({"class":"sign"}, sign), 
+									"&nbsp;", tag
+								),
+								" | "
+							);
+						}), " ",
+						span({"class":"action", style:"font-weight:bold;", onclick:callFunction("CatalogView.resetTags")}, "[сбросить все]")
+					);
+				}},
+				cast: function(itm){with(Html){
+					if(!itm.cast) return "";
+					var instr = itm.cast.split(";");
+					return span(
+						apply(instr, function(id, i){
+							var instrDef = Instruments[id];
+							if(!instrDef) errors.push("Undefined instrument: '"+id+"'");
+							return span(
+								i?", ":"",
+								instrDef
+							);
+						})
+					);
+				}},
+				tags: function(itm){with(Html){
+					if(!itm.tags) return "";
+					var tags = itm.tags.split(";");
+					return span(
+						apply(tags, function(id, i){
+							var tag = Tags[id];
+							if(!tag) errors.push("Undefined tag: '"+id+"'");
+							return span(
+								i?", ":"",
+								tag
+							);
+						})
+					);
+				}},
+				source: function(itm){with(Html){
+					if(!itm.src) return "";
+					var srcss = itm.src.split(";");
+					return span(
+						apply(srcss, function(id, i){
+							var src = Sources[id];
+							if(!src) errors.push("Undefined source: '"+id+"'");
+							return span(
+								i?"/ ":"",
+								src
+							);
+						})
+					);
+				}},
+				requiredInstruments: function(){with(Html){
+					var count = 0;
+					return div(
+						p(span({style:"font-weight:bold;"}, "Необходимые инструменты: "),
+							apply(Instruments, function(v, id){
+								if(!required[id])return null;
+								return span(
+									!count++?"":", ",
+									Instruments[id], " "
+								);
+							})
+						)
+					);
+				}}
+			};
+			
+			function showErrorList(){with(Html){
+				if(!errors.length){
+					$("errorList").style.display = "none";
+					return;
+				}
+				$("errorList").style.display = "block";
+				$("errorList").innerHTML = div(
+					span({style:"color:#f00; font-weight:bold;"}, "Errors found"),
+					apply(errors, function(err, i){
+						return div(err);
+					})
+				);
+			}}
+			
+			function update(){
+				$("out").innerHTML = templates.main();
+				showErrorList();
+			}
+			
+			function setCommonConditions(){
+				for(var tg in activeTags){
+					if(activeTags[tg]==states.or) noOrTags = false;
+					if(activeTags[tg]==states.and) noAndTags = false;
+					if(activeTags[tg]!=states.undefined) noTags = false;
+				}
+			}
+			
+			function chechIDs(){
+				var ids = {};
+				for(var i=0; i<Catalog.length; i++){
+					var itm = Catalog[i];
+					if(!itm.id){
+						alert("Item '"+itm.name+"' has no ID");
+						continue;
+					}
+					if(ids[itm.id]) alert("Duplicate ID '"+itm.id+"'");
+					if(itm.id.match(/^s_/)) alert("Некорректный формат идентификатора '"+itm.id+"'. Идентификатор не может начинаться с 's_'");
+					ids[itm.id] = true;
+				}
+				
+				for(var tg in Tags){
+					if(tg.match(/^s_/)) alert("Некорректный идентификатор тега '"+tg+"'. Идентификатор не может начинаться с 's_'.");
+				}
+			}
+			
+			function buildQuery(){
+				var query = [];
+				for(var tg in activeTags){
+					if(activeTags[tg]!=states.undefined)
+						query.push(tg+"_"+activeTags[tg]);
+				}
+				for(var sng in selectedSongs){
+					query.push("s_"+sng);
+				}
+				document.location.hash = query.join(";");
+			}
+			
+			function loadConditions(){
+				var hash = document.location.hash.replace("#","");
+				if(!hash.length) return;
+				hash = hash.split(";");
+				for(var i=0; i<hash.length; i++){
+					var mtSel = hash[i].match(/^s_(.+)$/);
+					if(mtSel){
+						selectedSongs[mtSel[1]] = true;
+					}
+					else{
+						var mt = hash[i].match(/^(.+)_(\d+)$/i);
+						var tg = {name:mt[1], val:parseInt(mt[2])};
+						activeTags[tg.name] = tg.val;
+					}
+				}
+				setCommonConditions();
+			}
+			
+			var __ = {
+				init: function(){
+					chechIDs();
+					loadConditions();
+					update();
+				},
+				toggleTag: function(id){
+					var state = activeTags[id] || states.undefined;
+					state++;
+					if(state>states.not) state = states.undefined;
+					activeTags[id] = state;
+					noTags = true;
+					noOrTags = true;
+					noAndTags = true;
+					setCommonConditions();
+					var query = [];
+					for(var tg in activeTags){
+						if(activeTags[tg]!=states.undefined)
+							query.push(tg+"_"+activeTags[tg]);
+					}
+					buildQuery();
+					update();
+				},
+				resetTags: function(){
+					activeTags = {};
+					noTags = true;
+					noOrTags = true;
+					noAndTags = true;
+					buildQuery();
+					update();
+				},
+				toggleSelection: function(id){
+					var selected = selectedSongs[id]?true:false;
+					selectedSongs[id] = !selected;
+					buildQuery();
+					update();
+				},
+				resetSelection:function(){
+					selectedSongs = {};
+					buildQuery();
+					update();
+				}
+			};
+			return __;
+		})();
+	</script>
+	
+</head>
+<body onload="CatalogView.init()">
+	<div id="out"></div>
+</body>
+</html>
