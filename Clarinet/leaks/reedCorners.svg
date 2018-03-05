@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="reedCorners.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="340.76024"
+     inkscape:cy="549.77639"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="977"
+     inkscape:window-x="-4"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3760"
+       width="167.5"
+       height="90.391609"
+       x="255.6964"
+       y="458.51294"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\leaks\reedCorners.png"
+       inkscape:export-xdpi="220.29849"
+       inkscape:export-ydpi="220.29849" />
+    <path
+       style="fill:#666666;fill-opacity:1;stroke:none"
+       d="m 287,489.50504 c 33.3809,-20.93134 71.35172,-20.96356 105.92893,0 L 400,752.36218 l -120,0 z"
+       id="rect2985"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path2988"
+       d="m 291.37227,490.50209 c 31.35758,-18.79612 66.34353,-19.4291 97.19024,0 l 6.48775,253.50201 -110.10052,0 z"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       d="m 395.34565,484.5345 -7.65672,7.27688 9.8888,-3.87593 -0.65879,-1.00499 12.78557,-8.0847 -0.88953,-1.40674 -12.81054,8.10049 -0.6588,-1.005 z"
+       id="path3762"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\leaks\reedCorners.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3769"
+       d="m 284.93323,484.00417 7.65672,7.27688 -9.8888,-3.87593 0.65879,-1.00499 -12.78557,-8.0847 0.88953,-1.40674 12.81054,8.10049 0.6588,-1.005 z"
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\leaks\reedCorners.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       style="fill:#f7edc4;fill-opacity:1;stroke:none"
+       d="m 392.15547,501.18051 6.78388,242.82359 -117.8787,0 6.72542,-243.17561 c 12.11314,-35.65454 91.33652,-36.26653 104.3694,0.35202 z"
+       id="path2990"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT SoundProcessor (module*)>
+<!ATTLIST SoundProcessor 
+	name CDATA #REQUIRED
+>
+<!ELEMENT module (effect | group | param)*>
+<!ATTLIST module
+	name CDATA #REQUIRED
+	description CDATA #IMPLIED
+>
+<!ELEMENT group (effect | param)*>
+<!ELEMENT effect (param*)>
+<!ATTLIST effect
+	sign CDATA #REQUIRED
+	name CDATA #REQUIRED
+	description CDATA #IMPLIED
+>
+<!ELEMENT param (value)*>
+<!ATTLIST param
+	knob (1 | 2 | 3) "1"
+	name CDATA #REQUIRED
+>
+<!ELEMENT value (#PCDATA)>
+<!ATTLIST value
+	sign CDATA #IMPLIED
+>

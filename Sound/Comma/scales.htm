@@ -1,0 +1,157 @@
+﻿<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>Сравнение вариантов строя</style>
+	<script type="text/javascript" src="lib/html.js"></script>
+	<script type="text/javascript" src="lib/raphael-min.js"></script>
+	<script type="text/javascript">
+		function $(id){return document.getElementById(id);}
+		function real(v){return Math.round(v*100)/100};
+		var temperamentRate = Math.exp(Math.log(2)/12);
+		var fA = 440;
+		var tones = "c;des;d;es;e;f;ges;g;as;a;bes;b;c".split(";");
+		
+		var equal = [];
+		var f;
+		var offset = 4;
+		for(var i=0; i<tones.length; i++){
+			f = i==0?fA :f * temperamentRate;
+			if(i<offset) equal[tones.length-offset+i] = f;
+			else equal[i-offset+1] = f/2;
+		}
+		equal[0] = equal[equal.length-1]/2;
+		
+		function Scale(rates, f0){
+			rates = rates.split("|");
+			var res = [];
+			for(var i=0; i<rates.length; i++){
+				var r = rates[i];
+				if(!r.length) continue;
+				var f = f0*eval(r);
+				var dF = f-equal[i];
+				var halfToneF = dF>0?equal[i+1]-equal[i]
+					:dF<0?equal[i]-equal[i-1]
+					:0;
+				var centF = halfToneF/100;
+				res[i] = {
+					k: r,
+					f: f,
+					dF: dF,
+					dT: centF?Math.round(dF/centF):0
+				};
+			}
+			return res;
+		}
+		
+		var maj = Scale("1||9/8||5/4|4/3||3/2||5/3||15/8|2", equal[0]);
+		var min = Scale("1||9/8|6/5||4/3||3/2|8/5||9/5||2", equal[0]);
+		var pythagorean = Scale("1||9/8||81/64|4/3||3/2||27/16||243/128|2", equal[0]);
+		
+		function toneF(scale, i){with(Html){
+			if(!scale[i]) return tagCollection(td(),td(),td(),td());
+			var T = scale[i];
+			return tagCollection(
+				td(T.k),
+				td(real(T.f)),
+				td(real(T.dF)),
+				td(T.dT)
+			);
+		}}
+		
+		function colHeaders(){with(Html){
+			return tagCollection(
+				th("k"),
+				th("f, Гц"),
+				th("&Delta;f, Гц"),
+				th("&Delta;T, cent")
+			);
+		}}
+		
+		function drawTable(){with(Html){
+			$("out").innerHTML = div(
+				table({border:1, cellpadding:3, cellspacing:0},
+					tr(
+						th(),
+						th("Темперированный"),
+						th({colspan:4}, "Чистый мажор"),
+						th({colspan:4}, "Чистый минор"),
+						th({colspan:4}, "Пифагоров строй")
+					),
+					tr(
+						th(),
+						th("f, Гц"),
+						
+						colHeaders(),
+						colHeaders(),
+						colHeaders()
+					),
+					apply(tones, function(t,i){
+						return tr(
+							td(t),
+							td(real(equal[i])),
+							toneF(maj, i),
+							toneF(min, i),
+							toneF(pythagorean, i)
+						);
+					})
+				)
+			);
+		}}
+		
+		function drawDiagram(){
+			var width = 1200;
+			var height = 100;
+			var R = Raphael("diagram", width, height);
+			R.rect(0, 0, width, height);
+			var l = 50;
+			var w = width-l-10;
+			
+			for(var i=1; i<equal.length; i++){
+				var f0 = equal[i-1];
+				var f1 = equal[i];
+				var nStep = 10;
+				var dF = (f1-f0)/nStep;
+				var k = (equal[equal.length-1]-equal[0])/w;
+				for(var j=0; j<nStep; j++){
+					var x = l+(j*dF+(f0-equal[0]))/k;
+					R.path("M"+x+",2L"+x+","+height).attr({stroke:"#ccc"});
+				}
+			}
+			
+			function scale(t, fmin, fmax, N, tones){
+				R.rect(l, t, w, 2);
+				var k = (fmax-fmin)/w;
+				for(var i=0; i<N; i++){
+					var f = tones(i);
+					if(!f) continue;
+					R.rect(l+ (f - fmin)/k, t+2, 1, 4);
+				}
+			}
+			
+			R.text(20, 10, "Темп.");
+			scale(10, equal[0], equal[equal.length-1], equal.length, function(i){return equal[i];});
+			R.text(22, 30, "Ч.Мажор");
+			scale(30, equal[0], equal[equal.length-1], equal.length, function(i){return maj[i]?maj[i].f:0;});
+			R.text(22, 50, "Ч.Минор");
+			scale(50, equal[0], equal[equal.length-1], equal.length, function(i){return min[i]?min[i].f:0;});
+			R.text(24, 70, "Пифагор");
+			scale(70, equal[0], equal[equal.length-1], equal.length, function(i){return pythagorean[i]?pythagorean[i].f:0;});
+		}
+		
+		function init(){
+			drawTable();
+			drawDiagram();
+		}
+	</script>
+  </head>
+	<body onload="init()">
+		<h1>Сравнение вариантов строя</h1>
+		<div id="out"></div>
+		<div id="diagram" style="width:1200px; height:100px; margin:10px;"></div>
+
+
+		<p style="font-style:italic;">По книге В.Порвенкова "Акустика и настройка музыкальных инструментов" М.:Музыка, 1990.</p>
+
+	</body>
+</html>

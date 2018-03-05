@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="freq.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3762"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="511.82796"
+     inkscape:cy="613.91256"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="742"
+     inkscape:window-x="-3"
+     inkscape:window-y="35"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <g
+       id="g3031"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/Reeds/freq1.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75">
+      <rect
+         y="312.36218"
+         x="11"
+         height="359"
+         width="594"
+         id="rect3029"
+         style="fill:#ffffff;stroke:none" />
+      <g
+         transform="translate(-70,-252)"
+         id="g4286">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+           d="m 94.285714,878.07647 0,-297.14286"
+           id="path2985"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4199"
+           d="m 93.714284,878.50504 567.142886,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text4205"
+           y="903.36218"
+           x="600"
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana Italic"
+           xml:space="preserve"><tspan
+             y="903.36218"
+             x="600"
+             id="tspan4207"
+             sodipodi:role="line">Частота</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana Italic"
+           x="110"
+           y="589.36218"
+           id="text4201"
+           sodipodi:linespacing="125%"><tspan
+             y="589.36218"
+             x="110"
+             sodipodi:role="line"
+             id="tspan4209">Амплитуда</tspan></text>
+        <path
+           style="fill:none;stroke:#0c00ac;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="M 98.994951,853.29663 C 188.92644,841.27131 220.93986,826.0146 260.26521,783.77796 c 39.32535,-42.23664 66.1353,-81.07221 96.6823,-82.14786 30.54703,-1.07565 43.92709,36.34374 86.36805,80.73365 42.44094,44.38991 68.34542,67.17413 173.28157,72.00853"
+           id="path4236"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="czszc" />
+        <path
+           sodipodi:nodetypes="czszc"
+           inkscape:connector-curvature="0"
+           id="path4238"
+           d="m 213.54624,865.68599 c 202.87115,-3.76402 193.39763,-39.30036 197.99454,-100.40916 4.59692,-61.1088 6.12054,-110.30866 9.79285,-111.72287 3.67232,-1.41422 4.75795,47.78304 8.16071,111.72287 3.40276,63.93983 16.80862,91.66981 139.01951,96.16652"
+           style="fill:none;stroke:#06a804;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text4240"
+           y="679.59979"
+           x="464.6539"
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana Italic"
+           xml:space="preserve"><tspan
+             y="679.59979"
+             x="464.6539"
+             sodipodi:role="line"
+             id="tspan4244">Ствол</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana Italic"
+           x="156.66905"
+           y="788.0592"
+           id="text4246"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4250"
+             x="156.66905"
+             y="788.0592">Трость</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 511.63161,683.39458 -50.20459,0 -34.62742,18.98098"
+           id="path4260"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccc" />
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="path4262"
+           d="m 153.79572,792.854 50.20459,0 28.28427,14.84925"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 413.83425,750.42758 0.53033,137.46656"
+           id="path4264"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana Italic"
+           x="403"
+           y="903.36218"
+           id="text4266"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4270"
+             x="403"
+             y="903.36218">f0</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+           x="194"
+           y="632.36218"
+           id="text4272"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4276"
+             x="194"
+             y="632.36218">Взаимодействие трости и ствола</tspan></text>
+        <path
+           sodipodi:nodetypes="czszc"
+           inkscape:connector-curvature="0"
+           id="path4278"
+           d="m 134.99495,853.29663 c 89.93149,-12.02532 121.94491,-27.28203 161.27026,-69.51867 39.32535,-42.23664 66.1353,-81.07221 96.6823,-82.14786 30.54703,-1.07565 43.92709,36.34374 86.36805,80.73365 42.44094,44.38991 68.34542,67.17413 173.28157,72.00853"
+           style="fill:none;stroke:#0c00ac;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 1.5;stroke-dashoffset:0" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path4280"
+           d="m 416.64493,708.84091 0.53033,179.05324"
+           style="fill:none;stroke:#d40000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.99999998, 0.99999998;stroke-dashoffset:0" />
+        <path
+           style="fill:none;stroke:#0c00ac;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 1.5;stroke-dashoffset:0"
+           d="m 95.764503,851.88242 c 60.233007,-2.12583 85.175357,-25.86782 124.500707,-68.10446 39.32535,-42.23664 66.1353,-81.07221 96.6823,-82.14786 30.54703,-1.07565 43.92709,36.34374 86.36805,80.73365 42.44094,44.38991 68.34542,67.17413 173.28157,72.00853"
+           id="path4282"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="czszc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 0.99999999;stroke-dashoffset:0"
+           d="m 409.58425,788.56722 0.53033,99.32695"
+           id="path4284"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+    <g
+       id="g3060"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/Reeds/freq2.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75">
+      <rect
+         y="678.36218"
+         x="13"
+         height="359"
+         width="525"
+         id="rect3058"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <g
+         transform="translate(0,8)"
+         id="g4434">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4313"
+           d="m 26.285714,992.07647 0,-297.14286"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+           d="m 25.71428,992.50504 477.14286,0"
+           id="path4315"
+           inkscape:connector-curvature="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana Italic"
+           x="471"
+           y="1017.3622"
+           id="text4317"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4319"
+             x="471"
+             y="1017.3622">Частота</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4321"
+           y="703.36218"
+           x="42"
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana Italic"
+           xml:space="preserve"><tspan
+             y="703.36218"
+             x="42"
+             id="tspan4323"
+             sodipodi:role="line">Амплитуда</tspan></text>
+        <path
+           sodipodi:nodetypes="czszc"
+           inkscape:connector-curvature="0"
+           id="path4325"
+           d="m 30.994951,985.29663 c 70.533549,-2.02532 74.878229,-21.28203 92.412889,-69.51867 17.53466,-48.23664 37.89758,-81.07221 55.40196,-82.14786 17.5044,-1.07565 34.1716,29.34374 49.49159,80.73365 15.31999,51.38991 13.16406,77.17413 99.29574,72.00853"
+           style="fill:none;stroke:#0c00ac;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           style="fill:none;stroke:#06a804;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 145.54624,987.68599 c 202.87115,-3.76402 193.39763,-21.30036 197.99454,-82.40916 4.59692,-61.1088 6.12054,-128.30866 9.79285,-129.72287 3.67232,-1.41422 4.75795,65.78304 8.16071,129.72287 3.40276,63.93983 16.80862,73.66981 139.01951,78.16652"
+           id="path4327"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="czszc" />
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana Italic"
+           x="385.6539"
+           y="806.59979"
+           id="text4329"
+           sodipodi:linespacing="125%"><tspan
+             y="806.59979"
+             x="385.6539"
+             id="tspan4331"
+             sodipodi:role="line">Ствол</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4333"
+           y="886.0592"
+           x="48.669052"
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana Italic"
+           xml:space="preserve"><tspan
+             y="886.0592"
+             x="48.669052"
+             id="tspan4335"
+             sodipodi:role="line">Трость</tspan></text>
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="path4337"
+           d="m 432.63161,811.39458 -50.20459,0 -22.62742,22.98098"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 47.79572,891.854 50.20459,0 28.28427,14.84925"
+           id="path4339"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccc" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text4347"
+           y="743.36218"
+           x="94"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan4384"
+             x="94"
+             y="743.36218">Когда трость не хочет играть</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana Bold"
+           x="270"
+           y="972.36218"
+           id="text4422"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4426"
+             x="270"
+             y="972.36218">?</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4428"
+           y="1004.3622"
+           x="260"
+           style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana Italic"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan4432"
+             x="260"
+             y="1004.3622">маловато будет...</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

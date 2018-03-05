@@ -1,0 +1,68 @@
+﻿<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>Guitar strings tension comparison</title>
+	<style type="text/css">
+		body{
+			font-family: Verdana, Arial, Sans-serif;
+		}
+		div.chart{
+			background-color:#8af;
+			font-size:12px;
+			height:18px;
+			padding-left:5px;
+			border-bottom:1px solid #05f;
+		}
+	</style>
+	<script type="text/javascript">
+		var tension = [
+			{name:"Savarez Normale tension", strings:{e: 8.48, b:6.14, g:5.96, d:7.68, a:7.16, E:6.51}},
+			{name:"Savarez High tension", strings:{e: 8.96, b:6.44, g:6.19, d:8.27, a:7.62, E:7.27}},
+			{name:"LaBella 413P tension", strings:{e:7.60, b:6.00, g:5.80, d:6.40, a:6.50, E:5.60}},
+			{name:"D'Addario Normal tension", strings:{e:6.94, b:5.26, g:5.49, d:5.62, a:6.3, E:6.3}},
+			{name:"D'Addario Hard tension", strings:{e:7.17, b:5.44, g:5.62, d:5.94, a:6.99, E:7.35}},
+			{name:"D'Addario Extra-Hard tension", strings:{e:7.44, b:5.67, g:5.85, d:6.21, a:7.39, E:7.35}}
+		];
+		
+		var magRate = 50;
+		
+		var templates = {
+			color: function(nm){
+				if(nm.match(/savares/i)) return "8af";
+				if(nm.match(/labella/i)) return "a8f";
+				if(nm.match(/addario/i)) return "f8a";
+				return "8af";
+			},
+			sum: function(strings){
+				var s = 0;
+				for(var k in strings)
+					s+=strings[k];
+				return Math.round(s*100)/100;
+			},
+			string: function(str){
+				var html = [];
+				for(var i=0; i<tension.length; i++){var itm = tension[i];
+					var tens = str=="Sum"?templates.sum(itm.strings):itm.strings[str];
+					var rate = str=="Sum"?10:magRate;
+					html.push("<div class='chart' style=\"width:"+tens*rate+"px;background-color:#"+templates.color(itm.name)+"\">"+itm.name+": "+tens+"</div>");
+				}
+				return html.join("");
+			}
+		};
+		
+		function drawChart(){
+			var html = [];
+			var strings = "e,b,g,d,a,E,Sum".split(",");
+			for(var i=0; i<strings.length; i++){var str = strings[i];
+				html.push("<div>"+str+"</div>");
+				html.push(templates.string(str));
+			}
+			document.getElementById("out").innerHTML = html.join("");
+		}
+	</script>
+</head>
+<body onload="drawChart()">
+	<h1>Guitar strings tension comparison</h1>
+	<div id="out"></div>
+</body>
+</html>

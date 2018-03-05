@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <style>Примеры последовательности чистых интервалов</style>
+	<script type="text/javascript" src="lib/html.js"></script>
+	<script type="text/javascript">
+		function Sample(tones, frequences, rates, divID){with(Html){
+			function $(id){return document.getElementById(id);}
+			function real(v){return Math.round(v*100)/100};
+			var temperamentRate = Math.exp(Math.log(2)/12);
+			var dF; // разница частот
+			var fHalf; // ближайший полутон
+			var fCent; // разница частот, соответствующая одному центу
+
+			$(divID).innerHTML = div(
+				table(
+					tr(th("tone"), th("rate"), th("frequence")),
+					apply(tones, function(t, idx){
+						var f = frequences[idx];
+						if(!f){
+							f = frequences[idx-1]*eval(rates[idx]);
+							frequences[idx] = f;
+						}
+						return tr(
+							td(t),
+							td(rates[idx]),
+							td(real(frequences[idx]))
+						);
+					})
+				),
+				div(
+					"Разница частот: ",
+					real(dF = frequences[frequences.length-1]-frequences[0]), " Гц"
+				),
+				div(
+					"Ближайший полутон: ", real(fHalf = dF>0?frequences[0] * temperamentRate : frequences[0] / temperamentRate), " Гц"
+				),
+				div(
+					"Один цент: ", real(fCent = Math.abs(fHalf - frequences[0])/100), " Гц"
+				),
+				div(
+					"Отклонение в центах: ", real(dF/fCent)
+				)
+			);
+		}}
+		
+		function init(){
+			Sample(
+				["a1", "d1", "g1", "c1", "f1", "a1"],
+				[440],
+				["1", "4/6", "4/3", "4/6", "4/3", "5/4"],
+				"out1"
+			);
+			Sample(
+				["a1", "e2", "b1", "fis2", "cis2", "e2", "a1"],
+				[440],
+				["1", "3/2", "3/4", "3/2", "3/4", "6/5", "4/6"],
+				"out2"
+			);
+			
+		}
+	</script>
+  </head>
+	<body onload="init()">
+		<h1>Примеры последовательности чистых интервалов</h1>
+		<h2>Пример 1</h2>
+		<div id="out1"></div>
+
+		<h2>Пример 2</h2>
+		<div id="out2"></div>
+
+
+		<p style="font-style:italic;">По книге В.Порвенкова "Акустика и настройка музыкальных инструментов" М.:Музыка, 1990.</p>
+
+	</body>
+</html>

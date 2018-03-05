@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="fingering.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="6.1230318e-14 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="394.26025"
+     inkscape:cy="779.77883"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="735"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect2938"
+       width="551.54333"
+       height="417.19299"
+       x="108.08633"
+       y="48.27055"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="174.72665"
+       y="79.758598"
+       id="text2386"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan2388"
+         x="174.72665"
+         y="79.758598">Аппликатура инструментов с квинтовым строем</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="80.812202"
+       y="192.72237"
+       id="text3346"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3348"
+         x="80.812202"
+         y="192.72237" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Odnoglas;-inkscape-font-specification:Odnoglas"
+       x="57.07362"
+       y="262.42288"
+       id="text3354"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3356"
+         x="57.07362"
+         y="262.42288" /></text>
+    <path
+       transform="matrix(0.6842105,0,0,0.6842105,187.36714,235.6319)"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="147.71933"
+       sodipodi:cx="92.5"
+       id="path3487"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925000000020;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="path3481"
+       sodipodi:cx="92.5"
+       sodipodi:cy="147.71933"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       transform="matrix(0.6842105,0,0,0.6842105,187.36714,258.48904)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3489"
+       y="339.50504"
+       x="272.85715"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="339.50504"
+         x="272.85715"
+         id="tspan3491"
+         sodipodi:role="line">основной тон аккорда</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3520"
+       y="362.36218"
+       x="272.85715"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="362.36218"
+         x="272.85715"
+         id="tspan3522"
+         sodipodi:role="line">квинтовый тон аккорда</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3524"
+       y="392.36218"
+       x="272.85715"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="392.36218"
+         x="272.85715"
+         id="tspan3526"
+         sodipodi:role="line">терция минорного аккорда</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3528"
+       y="420.21933"
+       x="273.57144"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="420.21933"
+         x="273.57144"
+         id="tspan3530"
+         sodipodi:role="line">терция мажорного аккорда</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="273.57144"
+       y="448.07648"
+       id="text3483"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3485"
+         x="273.57144"
+         y="448.07648">септима малого септаккорда</tspan></text>
+    <g
+       id="g3493"
+       transform="translate(142.84377,225.52865)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="151.81119"
+         x="97.479721"
+         height="21.553679"
+         width="22.223356"
+         id="rect3495"
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+      <path
+         id="path3497"
+         d="M 103.0801,166.4584 L 103.0801,158.16152 L 104.33791,158.16152 L 104.33791,159.32559 C 104.59832,158.91934 104.94468,158.59252 105.37697,158.34512 C 105.80926,158.09773 106.30145,157.97403 106.85354,157.97402 C 107.46811,157.97403 107.97202,158.10164 108.36525,158.35684 C 108.75848,158.61205 109.03582,158.96882 109.19729,159.42715 C 109.85353,158.45841 110.70769,157.97403 111.75979,157.97402 C 112.58269,157.97403 113.2155,158.2019 113.65822,158.65762 C 114.10092,159.11335 114.32227,159.81518 114.32229,160.76309 L 114.32229,166.4584 L 112.92385,166.4584 L 112.92385,161.23184 C 112.92384,160.66934 112.87827,160.26439 112.78713,160.01699 C 112.69597,159.7696 112.53061,159.57038 112.29104,159.41934 C 112.05144,159.2683 111.77019,159.19278 111.44729,159.19277 C 110.86394,159.19278 110.37957,159.38679 109.99416,159.7748 C 109.60873,160.16283 109.41603,160.78392 109.41604,161.63809 L 109.41604,166.4584 L 108.00979,166.4584 L 108.00979,161.06777 C 108.00978,160.44278 107.8952,159.97403 107.66604,159.66152 C 107.43686,159.34903 107.06186,159.19278 106.54104,159.19277 C 106.1452,159.19278 105.77931,159.29695 105.44338,159.50527 C 105.10744,159.71361 104.86395,160.0183 104.71291,160.41934 C 104.56186,160.82038 104.48635,161.39851 104.48635,162.15371 L 104.48635,166.4584 L 103.0801,166.4584 z"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial" />
+    </g>
+    <g
+       id="g3501"
+       transform="translate(67.578691,147.95719)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         id="rect3503"
+         width="18.687822"
+         height="18.687824"
+         x="174.25131"
+         y="287.17163" />
+      <path
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         d="M 180.56498,292.87588 L 180.56498,291.52432 L 187.97904,291.52432 L 187.97904,292.61807 C 187.24986,293.39412 186.52721,294.42537 185.81107,295.71182 C 185.09492,296.99829 184.54153,298.3212 184.15091,299.68057 C 183.86966,300.63891 183.68997,301.68839 183.61185,302.82901 L 182.16654,302.82901 C 182.18216,301.92797 182.35924,300.83943 182.69779,299.56338 C 183.03633,298.28735 183.522,297.05688 184.15482,295.87198 C 184.78763,294.68709 185.4608,293.68839 186.17435,292.87588 L 180.56498,292.87588 z"
+         id="path3505" />
+    </g>
+    <g
+       id="g3515"
+       transform="translate(-32.857143,-33.571429)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g3507"
+         transform="translate(177.84377,263.38579)">
+        <rect
+           y="176.09691"
+           x="96.051155"
+           height="22.267963"
+           width="22.223356"
+           id="rect3509"
+           style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+        <path
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+           d="M 101.07004,192.00808 L 101.07004,180.55496 L 103.35129,180.55496 L 106.06223,188.66433 C 106.31222,189.41955 106.49452,189.98465 106.60911,190.35965 C 106.73931,189.94298 106.94243,189.331 107.21848,188.52371 L 109.96067,180.55496 L 111.99973,180.55496 L 111.99973,192.00808 L 110.53879,192.00808 L 110.53879,182.42215 L 107.21067,192.00808 L 105.84348,192.00808 L 102.53098,182.25808 L 102.53098,192.00808 L 101.07004,192.00808 z"
+           id="path3513" />
+      </g>
+    </g>
+    <rect
+       y="124.14969"
+       x="127.39519"
+       height="134.22368"
+       width="72.142845"
+       id="rect2494"
+       style="opacity:0.39512197;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.79999971;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="124.14969"
+       x="236.68091"
+       height="134.22368"
+       width="72.142845"
+       id="rect2534"
+       style="opacity:0.39512197;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.79999971;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.39512197;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.79999971;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="rect2612"
+       width="72.142845"
+       height="134.22368"
+       x="350.04312"
+       y="124.14969"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="124.14969"
+       x="463.18021"
+       height="134.22368"
+       width="72.142845"
+       id="rect2572"
+       style="opacity:0.39512197;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.79999971;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.39512197;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.79999971;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="rect2456"
+       width="72.142845"
+       height="134.22368"
+       x="570.25641"
+       y="124.14969"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2496"
+       d="M 133.10947,124.86398 L 133.10947,256.43973"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2536"
+       d="M 242.39518,124.86398 L 242.39518,256.43973"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 355.7574,124.86398 L 355.7574,256.43973"
+       id="path2614"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2574"
+       d="M 468.89448,124.86398 L 468.89448,256.43973"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 575.97065,124.86398 L 575.97065,256.43973"
+       id="path2488"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 153.34757,124.86398 L 153.34757,256.43973"
+       id="path2498"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 262.63328,124.86398 L 262.63328,256.43973"
+       id="path2538"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2616"
+       d="M 375.9955,124.86398 L 375.9955,256.43973"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 489.13258,124.86398 L 489.13258,256.43973"
+       id="path2576"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2458"
+       d="M 596.20875,124.86398 L 596.20875,256.43973"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 173.58567,124.86398 L 173.58567,256.43973"
+       id="path2500"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 282.87138,124.86398 L 282.87138,256.43973"
+       id="path2540"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2618"
+       d="M 396.2336,124.86398 L 396.2336,256.43973"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 509.37068,124.86398 L 509.37068,256.43973"
+       id="path2578"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2460"
+       d="M 616.44685,124.86398 L 616.44685,256.43973"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2502"
+       d="M 193.82376,124.86398 L 193.82376,256.43973"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2542"
+       d="M 303.10947,124.86398 L 303.10947,256.43973"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 416.47169,124.86398 L 416.47169,256.43973"
+       id="path2620"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2580"
+       d="M 529.60877,124.86398 L 529.60877,256.43973"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 636.68494,124.86398 L 636.68494,256.43973"
+       id="path2462"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 126.6809,157.00685 L 198.82376,157.00685"
+       id="path2504"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 235.96661,157.00685 L 308.10947,157.00685"
+       id="path2544"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2622"
+       d="M 349.32883,157.00685 L 421.47169,157.00685"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 462.46591,157.00685 L 534.60877,157.00685"
+       id="path2582"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2464"
+       d="M 569.54208,157.00685 L 641.68494,157.00685"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2506"
+       d="M 126.6809,186.43542 L 198.82376,186.43542"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2546"
+       d="M 235.96661,186.43542 L 308.10947,186.43542"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 349.32883,186.43542 L 421.47169,186.43542"
+       id="path2624"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2584"
+       d="M 462.46591,186.43542 L 534.60877,186.43542"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 569.54208,186.43542 L 641.68494,186.43542"
+       id="path2492"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 126.6809,249.29256 L 198.82376,249.29256"
+       id="path2508"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 235.96661,249.29256 L 308.10947,249.29256"
+       id="path2548"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2626"
+       d="M 349.32883,249.29256 L 421.47169,249.29256"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 462.46591,249.29256 L 534.60877,249.29256"
+       id="path2586"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2466"
+       d="M 569.54208,249.29256 L 641.68494,249.29256"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 126.6809,215.864 L 198.82376,215.864"
+       id="path2510"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 235.96661,215.864 L 308.10947,215.864"
+       id="path2550"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2628"
+       d="M 349.32883,215.864 L 421.47169,215.864"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 462.46591,215.864 L 534.60877,215.864"
+       id="path2588"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path2468"
+       d="M 569.54208,215.864 L 641.68494,215.864"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="path2512"
+       sodipodi:cx="92.5"
+       sodipodi:cy="147.71933"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       transform="matrix(0.6842105,0,0,0.6842105,70.177139,39.254096)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="path2552"
+       sodipodi:cx="92.5"
+       sodipodi:cy="147.71933"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       transform="matrix(0.6842105,0,0,0.6842105,200.17714,39.254096)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.6842105,0,0,0.6842105,332.82507,39.254096)"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="147.71933"
+       sodipodi:cx="92.5"
+       id="path2630"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="path2590"
+       sodipodi:cx="92.5"
+       sodipodi:cy="147.71933"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       transform="matrix(0.6842105,0,0,0.6842105,445.96215,102.38863)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.6842105,0,0,0.6842105,573.74645,39.254096)"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="147.71933"
+       sodipodi:cx="92.5"
+       id="path2490"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.6842105,0,0,0.6842105,130.17714,131.39695)"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="147.71933"
+       sodipodi:cx="92.5"
+       id="path2514"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="path2632"
+       sodipodi:cx="92.5"
+       sodipodi:cy="147.71933"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       transform="matrix(0.6842105,0,0,0.6842105,292.73841,99.968383)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="path2470"
+       sodipodi:cx="92.5"
+       sodipodi:cy="147.71933"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       transform="matrix(0.6842105,0,0,0.6842105,534.16486,99.968383)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="path2516"
+       sodipodi:cx="92.5"
+       sodipodi:cy="147.71933"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       transform="matrix(0.6842105,0,0,0.6842105,89.148509,40.682673)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.6842105,0,0,0.6842105,219.14851,40.682673)"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="147.71933"
+       sodipodi:cx="92.5"
+       id="path2554"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="path2634"
+       sodipodi:cx="92.5"
+       sodipodi:cy="147.71933"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       transform="matrix(0.6842105,0,0,0.6842105,351.79644,40.682673)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.6842105,0,0,0.6842105,464.93352,103.81721)"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="147.71933"
+       sodipodi:cx="92.5"
+       id="path2594"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="path2556"
+       sodipodi:cx="92.5"
+       sodipodi:cy="147.71933"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       transform="matrix(0.6842105,0,0,0.6842105,179.14851,99.254102)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.6842105,0,0,0.6842105,311.79644,99.254102)"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="147.71933"
+       sodipodi:cx="92.5"
+       id="path2636"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.6842105,0,0,0.6842105,553.22289,99.254102)"
+       d="M 99.285714,147.71933 A 6.7857141,6.7857141 0 1 1 85.714286,147.71933 A 6.7857141,6.7857141 0 1 1 99.285714,147.71933 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="147.71933"
+       sodipodi:cx="92.5"
+       id="path2472"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.63076925;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="translate(65.538429,13.63706)"
+       id="g2518"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         id="rect2520"
+         width="22.223356"
+         height="47.98225"
+         x="97.479721"
+         y="151.81119" />
+      <path
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         d="M 103.0801,166.4584 L 103.0801,158.16152 L 104.33791,158.16152 L 104.33791,159.32559 C 104.59832,158.91934 104.94468,158.59252 105.37697,158.34512 C 105.80926,158.09773 106.30145,157.97403 106.85354,157.97402 C 107.46811,157.97403 107.97202,158.10164 108.36525,158.35684 C 108.75848,158.61205 109.03582,158.96882 109.19729,159.42715 C 109.85353,158.45841 110.70769,157.97403 111.75979,157.97402 C 112.58269,157.97403 113.2155,158.2019 113.65822,158.65762 C 114.10092,159.11335 114.32227,159.81518 114.32229,160.76309 L 114.32229,166.4584 L 112.92385,166.4584 L 112.92385,161.23184 C 112.92384,160.66934 112.87827,160.26439 112.78713,160.01699 C 112.69597,159.7696 112.53061,159.57038 112.29104,159.41934 C 112.05144,159.2683 111.77019,159.19278 111.44729,159.19277 C 110.86394,159.19278 110.37957,159.38679 109.99416,159.7748 C 109.60873,160.16283 109.41603,160.78392 109.41604,161.63809 L 109.41604,166.4584 L 108.00979,166.4584 L 108.00979,161.06777 C 108.00978,160.44278 107.8952,159.97403 107.66604,159.66152 C 107.43686,159.34903 107.06186,159.19278 106.54104,159.19277 C 106.1452,159.19278 105.77931,159.29695 105.44338,159.50527 C 105.10744,159.71361 104.86395,160.0183 104.71291,160.41934 C 104.56186,160.82038 104.48635,161.39851 104.48635,162.15371 L 104.48635,166.4584 L 103.0801,166.4584 z"
+         id="path2522" />
+      <path
+         id="path2524"
+         d="M 103.2129,192.72237 L 103.2129,181.26925 L 105.49415,181.26925 L 108.20509,189.37862 C 108.45508,190.13384 108.63738,190.69894 108.75197,191.07394 C 108.88217,190.65727 109.08529,190.04529 109.36134,189.238 L 112.10353,181.26925 L 114.14259,181.26925 L 114.14259,192.72237 L 112.68165,192.72237 L 112.68165,183.13644 L 109.35353,192.72237 L 107.98634,192.72237 L 104.67384,182.97237 L 104.67384,192.72237 L 103.2129,192.72237 z"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial" />
+    </g>
+    <g
+       transform="translate(195.53843,13.63706)"
+       id="g2558"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         id="rect2560"
+         width="22.223356"
+         height="47.98225"
+         x="97.479721"
+         y="151.81119" />
+      <path
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         d="M 103.0801,166.4584 L 103.0801,158.16152 L 104.33791,158.16152 L 104.33791,159.32559 C 104.59832,158.91934 104.94468,158.59252 105.37697,158.34512 C 105.80926,158.09773 106.30145,157.97403 106.85354,157.97402 C 107.46811,157.97403 107.97202,158.10164 108.36525,158.35684 C 108.75848,158.61205 109.03582,158.96882 109.19729,159.42715 C 109.85353,158.45841 110.70769,157.97403 111.75979,157.97402 C 112.58269,157.97403 113.2155,158.2019 113.65822,158.65762 C 114.10092,159.11335 114.32227,159.81518 114.32229,160.76309 L 114.32229,166.4584 L 112.92385,166.4584 L 112.92385,161.23184 C 112.92384,160.66934 112.87827,160.26439 112.78713,160.01699 C 112.69597,159.7696 112.53061,159.57038 112.29104,159.41934 C 112.05144,159.2683 111.77019,159.19278 111.44729,159.19277 C 110.86394,159.19278 110.37957,159.38679 109.99416,159.7748 C 109.60873,160.16283 109.41603,160.78392 109.41604,161.63809 L 109.41604,166.4584 L 108.00979,166.4584 L 108.00979,161.06777 C 108.00978,160.44278 107.8952,159.97403 107.66604,159.66152 C 107.43686,159.34903 107.06186,159.19278 106.54104,159.19277 C 106.1452,159.19278 105.77931,159.29695 105.44338,159.50527 C 105.10744,159.71361 104.86395,160.0183 104.71291,160.41934 C 104.56186,160.82038 104.48635,161.39851 104.48635,162.15371 L 104.48635,166.4584 L 103.0801,166.4584 z"
+         id="path2562" />
+      <path
+         id="path2564"
+         d="M 103.2129,192.72237 L 103.2129,181.26925 L 105.49415,181.26925 L 108.20509,189.37862 C 108.45508,190.13384 108.63738,190.69894 108.75197,191.07394 C 108.88217,190.65727 109.08529,190.04529 109.36134,189.238 L 112.10353,181.26925 L 114.14259,181.26925 L 114.14259,192.72237 L 112.68165,192.72237 L 112.68165,183.13644 L 109.35353,192.72237 L 107.98634,192.72237 L 104.67384,182.97237 L 104.67384,192.72237 L 103.2129,192.72237 z"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial" />
+    </g>
+    <g
+       id="g2638"
+       transform="translate(288.28533,76.771594)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="151.81119"
+         x="97.479721"
+         height="47.98225"
+         width="22.223356"
+         id="rect2640"
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+      <path
+         id="path2642"
+         d="M 103.0801,166.4584 L 103.0801,158.16152 L 104.33791,158.16152 L 104.33791,159.32559 C 104.59832,158.91934 104.94468,158.59252 105.37697,158.34512 C 105.80926,158.09773 106.30145,157.97403 106.85354,157.97402 C 107.46811,157.97403 107.97202,158.10164 108.36525,158.35684 C 108.75848,158.61205 109.03582,158.96882 109.19729,159.42715 C 109.85353,158.45841 110.70769,157.97403 111.75979,157.97402 C 112.58269,157.97403 113.2155,158.2019 113.65822,158.65762 C 114.10092,159.11335 114.32227,159.81518 114.32229,160.76309 L 114.32229,166.4584 L 112.92385,166.4584 L 112.92385,161.23184 C 112.92384,160.66934 112.87827,160.26439 112.78713,160.01699 C 112.69597,159.7696 112.53061,159.57038 112.29104,159.41934 C 112.05144,159.2683 111.77019,159.19278 111.44729,159.19277 C 110.86394,159.19278 110.37957,159.38679 109.99416,159.7748 C 109.60873,160.16283 109.41603,160.78392 109.41604,161.63809 L 109.41604,166.4584 L 108.00979,166.4584 L 108.00979,161.06777 C 108.00978,160.44278 107.8952,159.97403 107.66604,159.66152 C 107.43686,159.34903 107.06186,159.19278 106.54104,159.19277 C 106.1452,159.19278 105.77931,159.29695 105.44338,159.50527 C 105.10744,159.71361 104.86395,160.0183 104.71291,160.41934 C 104.56186,160.82038 104.48635,161.39851 104.48635,162.15371 L 104.48635,166.4584 L 103.0801,166.4584 z"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial" />
+      <path
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         d="M 103.2129,192.72237 L 103.2129,181.26925 L 105.49415,181.26925 L 108.20509,189.37862 C 108.45508,190.13384 108.63738,190.69894 108.75197,191.07394 C 108.88217,190.65727 109.08529,190.04529 109.36134,189.238 L 112.10353,181.26925 L 114.14259,181.26925 L 114.14259,192.72237 L 112.68165,192.72237 L 112.68165,183.13644 L 109.35353,192.72237 L 107.98634,192.72237 L 104.67384,182.97237 L 104.67384,192.72237 L 103.2129,192.72237 z"
+         id="path2644" />
+    </g>
+    <g
+       transform="translate(377.68383,-20.203051)"
+       id="g2604"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         id="rect2606"
+         width="22.223356"
+         height="47.98225"
+         x="97.479721"
+         y="151.81119" />
+      <path
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         d="M 103.0801,166.4584 L 103.0801,158.16152 L 104.33791,158.16152 L 104.33791,159.32559 C 104.59832,158.91934 104.94468,158.59252 105.37697,158.34512 C 105.80926,158.09773 106.30145,157.97403 106.85354,157.97402 C 107.46811,157.97403 107.97202,158.10164 108.36525,158.35684 C 108.75848,158.61205 109.03582,158.96882 109.19729,159.42715 C 109.85353,158.45841 110.70769,157.97403 111.75979,157.97402 C 112.58269,157.97403 113.2155,158.2019 113.65822,158.65762 C 114.10092,159.11335 114.32227,159.81518 114.32229,160.76309 L 114.32229,166.4584 L 112.92385,166.4584 L 112.92385,161.23184 C 112.92384,160.66934 112.87827,160.26439 112.78713,160.01699 C 112.69597,159.7696 112.53061,159.57038 112.29104,159.41934 C 112.05144,159.2683 111.77019,159.19278 111.44729,159.19277 C 110.86394,159.19278 110.37957,159.38679 109.99416,159.7748 C 109.60873,160.16283 109.41603,160.78392 109.41604,161.63809 L 109.41604,166.4584 L 108.00979,166.4584 L 108.00979,161.06777 C 108.00978,160.44278 107.8952,159.97403 107.66604,159.66152 C 107.43686,159.34903 107.06186,159.19278 106.54104,159.19277 C 106.1452,159.19278 105.77931,159.29695 105.44338,159.50527 C 105.10744,159.71361 104.86395,160.0183 104.71291,160.41934 C 104.56186,160.82038 104.48635,161.39851 104.48635,162.15371 L 104.48635,166.4584 L 103.0801,166.4584 z"
+         id="path2608" />
+      <path
+         id="path2610"
+         d="M 103.2129,192.72237 L 103.2129,181.26925 L 105.49415,181.26925 L 108.20509,189.37862 C 108.45508,190.13384 108.63738,190.69894 108.75197,191.07394 C 108.88217,190.65727 109.08529,190.04529 109.36134,189.238 L 112.10353,181.26925 L 114.14259,181.26925 L 114.14259,192.72237 L 112.68165,192.72237 L 112.68165,183.13644 L 109.35353,192.72237 L 107.98634,192.72237 L 104.67384,182.97237 L 104.67384,192.72237 L 103.2129,192.72237 z"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial" />
+    </g>
+    <g
+       id="g2474"
+       transform="translate(465.06203,-19.192898)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="151.81119"
+         x="97.479721"
+         height="47.98225"
+         width="22.223356"
+         id="rect2476"
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+      <path
+         id="path2478"
+         d="M 103.0801,166.4584 L 103.0801,158.16152 L 104.33791,158.16152 L 104.33791,159.32559 C 104.59832,158.91934 104.94468,158.59252 105.37697,158.34512 C 105.80926,158.09773 106.30145,157.97403 106.85354,157.97402 C 107.46811,157.97403 107.97202,158.10164 108.36525,158.35684 C 108.75848,158.61205 109.03582,158.96882 109.19729,159.42715 C 109.85353,158.45841 110.70769,157.97403 111.75979,157.97402 C 112.58269,157.97403 113.2155,158.2019 113.65822,158.65762 C 114.10092,159.11335 114.32227,159.81518 114.32229,160.76309 L 114.32229,166.4584 L 112.92385,166.4584 L 112.92385,161.23184 C 112.92384,160.66934 112.87827,160.26439 112.78713,160.01699 C 112.69597,159.7696 112.53061,159.57038 112.29104,159.41934 C 112.05144,159.2683 111.77019,159.19278 111.44729,159.19277 C 110.86394,159.19278 110.37957,159.38679 109.99416,159.7748 C 109.60873,160.16283 109.41603,160.78392 109.41604,161.63809 L 109.41604,166.4584 L 108.00979,166.4584 L 108.00979,161.06777 C 108.00978,160.44278 107.8952,159.97403 107.66604,159.66152 C 107.43686,159.34903 107.06186,159.19278 106.54104,159.19277 C 106.1452,159.19278 105.77931,159.29695 105.44338,159.50527 C 105.10744,159.71361 104.86395,160.0183 104.71291,160.41934 C 104.56186,160.82038 104.48635,161.39851 104.48635,162.15371 L 104.48635,166.4584 L 103.0801,166.4584 z"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial" />
+      <path
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         d="M 103.2129,192.72237 L 103.2129,181.26925 L 105.49415,181.26925 L 108.20509,189.37862 C 108.45508,190.13384 108.63738,190.69894 108.75197,191.07394 C 108.88217,190.65727 109.08529,190.04529 109.36134,189.238 L 112.10353,181.26925 L 114.14259,181.26925 L 114.14259,192.72237 L 112.68165,192.72237 L 112.68165,183.13644 L 109.35353,192.72237 L 107.98634,192.72237 L 104.67384,182.97237 L 104.67384,192.72237 L 103.2129,192.72237 z"
+         id="path2480" />
+    </g>
+    <g
+       id="g2526"
+       transform="translate(9.1765382,-124.13491)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         id="rect2528"
+         width="18.687822"
+         height="18.687824"
+         x="174.25131"
+         y="287.17163" />
+      <path
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         d="M 180.56498,292.87588 L 180.56498,291.52432 L 187.97904,291.52432 L 187.97904,292.61807 C 187.24986,293.39412 186.52721,294.42537 185.81107,295.71182 C 185.09492,296.99829 184.54153,298.3212 184.15091,299.68057 C 183.86966,300.63891 183.68997,301.68839 183.61185,302.82901 L 182.16654,302.82901 C 182.18216,301.92797 182.35924,300.83943 182.69779,299.56338 C 183.03633,298.28735 183.522,297.05688 184.15482,295.87198 C 184.78763,294.68709 185.4608,293.68839 186.17435,292.87588 L 180.56498,292.87588 z"
+         id="path2530" />
+    </g>
+    <g
+       id="g2566"
+       transform="translate(98.462249,-62.706336)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         id="rect2568"
+         width="18.687822"
+         height="18.687824"
+         x="174.25131"
+         y="287.17163" />
+      <path
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         d="M 180.56498,292.87588 L 180.56498,291.52432 L 187.97904,291.52432 L 187.97904,292.61807 C 187.24986,293.39412 186.52721,294.42537 185.81107,295.71182 C 185.09492,296.99829 184.54153,298.3212 184.15091,299.68057 C 183.86966,300.63891 183.68997,301.68839 183.61185,302.82901 L 182.16654,302.82901 C 182.18216,301.92797 182.35924,300.83943 182.69779,299.56338 C 183.03633,298.28735 183.522,297.05688 184.15482,295.87198 C 184.78763,294.68709 185.4608,293.68839 186.17435,292.87588 L 180.56498,292.87588 z"
+         id="path2570" />
+    </g>
+    <g
+       transform="translate(172.01626,-155.64038)"
+       id="g2646"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="287.17163"
+         x="174.25131"
+         height="18.687824"
+         width="18.687822"
+         id="rect2648"
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+      <path
+         id="path2650"
+         d="M 180.56498,292.87588 L 180.56498,291.52432 L 187.97904,291.52432 L 187.97904,292.61807 C 187.24986,293.39412 186.52721,294.42537 185.81107,295.71182 C 185.09492,296.99829 184.54153,298.3212 184.15091,299.68057 C 183.86966,300.63891 183.68997,301.68839 183.61185,302.82901 L 182.16654,302.82901 C 182.18216,301.92797 182.35924,300.83943 182.69779,299.56338 C 183.03633,298.28735 183.522,297.05688 184.15482,295.87198 C 184.78763,294.68709 185.4608,293.68839 186.17435,292.87588 L 180.56498,292.87588 z"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial" />
+    </g>
+    <g
+       id="g2598"
+       transform="translate(285.15334,-92.505843)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         id="rect2600"
+         width="18.687822"
+         height="18.687824"
+         x="174.25131"
+         y="287.17163" />
+      <path
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         d="M 180.56498,292.87588 L 180.56498,291.52432 L 187.97904,291.52432 L 187.97904,292.61807 C 187.24986,293.39412 186.52721,294.42537 185.81107,295.71182 C 185.09492,296.99829 184.54153,298.3212 184.15091,299.68057 C 183.86966,300.63891 183.68997,301.68839 183.61185,302.82901 L 182.16654,302.82901 C 182.18216,301.92797 182.35924,300.83943 182.69779,299.56338 C 183.03633,298.28735 183.522,297.05688 184.15482,295.87198 C 184.78763,294.68709 185.4608,293.68839 186.17435,292.87588 L 180.56498,292.87588 z"
+         id="path2602" />
+    </g>
+    <g
+       id="g2658"
+       transform="translate(412.93764,-155.64038)"
+       inkscape:export-filename="/home/alakim/Projects/_SvnRepositories/Unfuddle/bourree/trunk/Sound/FifthTune/g2482.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         id="rect2660"
+         width="18.687822"
+         height="18.687824"
+         x="174.25131"
+         y="287.17163" />
+      <path
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         d="M 180.56498,292.87588 L 180.56498,291.52432 L 187.97904,291.52432 L 187.97904,292.61807 C 187.24986,293.39412 186.52721,294.42537 185.81107,295.71182 C 185.09492,296.99829 184.54153,298.3212 184.15091,299.68057 C 183.86966,300.63891 183.68997,301.68839 183.61185,302.82901 L 182.16654,302.82901 C 182.18216,301.92797 182.35924,300.83943 182.69779,299.56338 C 183.03633,298.28735 183.522,297.05688 184.15482,295.87198 C 184.78763,294.68709 185.4608,293.68839 186.17435,292.87588 L 180.56498,292.87588 z"
+         id="path2662" />
+    </g>
+    <g
+       transform="translate(325.05437,-154.63023)"
+       id="g2482"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="287.17163"
+         x="174.25131"
+         height="18.687824"
+         width="18.687822"
+         id="rect2484"
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+      <path
+         id="path2486"
+         d="M 180.56498,292.87588 L 180.56498,291.52432 L 187.97904,291.52432 L 187.97904,292.61807 C 187.24986,293.39412 186.52721,294.42537 185.81107,295.71182 C 185.09492,296.99829 184.54153,298.3212 184.15091,299.68057 C 183.86966,300.63891 183.68997,301.68839 183.61185,302.82901 L 182.16654,302.82901 C 182.18216,301.92797 182.35924,300.83943 182.69779,299.56338 C 183.03633,298.28735 183.522,297.05688 184.15482,295.87198 C 184.78763,294.68709 185.4608,293.68839 186.17435,292.87588 L 180.56498,292.87588 z"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SoundProcessor SYSTEM "xdefs/soundprocessor.dtd">
+<?xml-stylesheet type="text/xsl" href="xdefs/soundprocessor.xslt"?>
+<SoundProcessor name="Zoom G2">
+	<module name="Comp" description="Compressor">
+		<param knob="1" name="Sense"/>
+		<param knob="2" name="Attack">
+			<value sign="FS">Fast</value>
+			<value sign="SL">Slow</value>
+		</param>
+		<param knob="3" name="Level"/>
+	</module>
+	<module name="WAH/EFX" description="Wah/Effects">
+		<group>
+			<effect sign="AW" name="Auto Wah"/>
+			<effect sign="Ar" name="Auto Resonance"/>
+			<param knob="1" name="Position">
+				<value sign="bF">Before Drive</value>
+				<value sign="AF">After Drive</value>
+			</param>
+			<param knob="2" name="Sense"/>
+			<param knob="3" name="Resonance"/>
+		</group>
+		<effect sign="bS" name="Booster">
+			<param knob="1" name="Range"/>
+			<param knob="2" name="Tone"/>
+			<param knob="3" name="Level"/>
+		</effect>
+		<effect sign="tr" name="Tremolo">
+			<param knob="1" name="Depth"/>
+			<param knob="2" name="Rate"/>
+			<param knob="3" name="Wave"/>
+		</effect>
+		<effect sign="PH" name="Phaser">
+			<param knob="1" name="Position">
+				<value sign="bF">Before Drive</value>
+				<value sign="AF">After Drive</value>
+			</param>
+			<param knob="2" name="Rate"/>
+			<param knob="3" name="Color"/>
+		</effect>
+		<effect sign="rG" name="Ring Modulator">
+			<param knob="1" name="Position">
+				<value sign="bF">Before Drive</value>
+				<value sign="AF">After Drive</value>
+			</param>
+			<param knob="2" name="Frequency"/>
+			<param knob="3" name="Mix"/>
+		</effect>
+		<effect sign="SL" name="Slow Attack">
+			<param knob="1" name="Position">
+				<value sign="bF">Before Drive</value>
+				<value sign="AF">After Drive</value>
+			</param>
+			<param knob="2" name="Time"/>
+			<param knob="3" name="Curve"/>
+		</effect>
+		<effect sign="PV" name="Pedal VX" description="Simulates a vintage pedal wah sound">
+			<param knob="1" name="Position">
+				<value sign="bF">Before Drive</value>
+				<value sign="AF">After Drive</value>
+			</param>
+			<param knob="2" name="Frequency"/>
+			<param knob="3" name="Level"/>
+		</effect>
+		<effect sign="Pb" name="Pedal Baby" description="Simulates a vintage pedal wah sound">
+			<param knob="1" name="Position">
+				<value sign="bF">Before Drive</value>
+				<value sign="AF">After Drive</value>
+			</param>
+			<param knob="2" name="Frequency"/>
+			<param knob="3" name="Level"/>
+		</effect>
+	</module>
+	<module name="ZNR" description="ZOOM Noise Reduction">
+		<group>
+			<effect sign="nr" name="ZNR (ZOOM Noise Reduction)"/>
+			<effect sign="Gt" name="Gate"/>
+			<effect sign="dG" name="Dirty Gate"/>
+			<param knob="1" name="Threshold"/>
+		</group>
+	</module>
+	<module name="Drive">
+		<group>
+			<effect sign="FC" name="FD Clean" description="Fender"/>
+			<effect sign="JC" name="JC Clean" description="Roland"/>
+			<effect sign="bL" name="US Blues"/>
+			<effect sign="Md" name="MS Drive" description="Marshall"/>
+			<effect sign="PV" name="PV Drive" description="Peavey"/>
+			<effect sign="GV" name="Guv'nor Distortion" description="Marshall"/>
+			<effect sign="FF" name="Fuzz Face"/>
+			<effect sign="Ed" name="Extreme Distortion"/>
+			<effect sign="CA" name="Class A Clean"/>
+			<effect sign="MC" name="MS Crunch" description="Marshall"/>
+			<effect sign="bC" name="BG Crunch" description="Mesa Boogie"/>
+			<effect sign="bG" name="BG Drive" description="Mesa Boogie"/>
+			<effect sign="Od" name="Overdrive"/>
+			<effect sign="Hb" name="Hot Box" description="Hot Box tube amp"/>
+			<effect sign="Mt" name="Metal Zone"/>
+			<effect sign="dF" name="Digi Fuzz"/>
+			<param knob="1" name="Gain"/>
+			<param knob="2" name="Tone"/>
+			<param knob="3" name="Level"/>
+		</group>
+		<effect sign="AC" name="Acoustic">
+			<param knob="1" name="Top"/>
+			<param knob="2" name="Body"/>
+			<param knob="3" name="Level"/>
+		</effect>
+	</module>
+	<module name="EQ" description="Equalizer">
+			<param knob="1" name="Bass"/>
+			<param knob="2" name="Middle"/>
+			<param knob="3" name="Treble"/>
+	</module>
+	<module name="Extra EQ/Cabinet &amp; Mic">
+		<effect sign="Et" name="Extra EQ">
+			<param knob="1" name="LO Mid"/>
+			<param knob="2" name="Presence"/>
+			<param knob="3" name="Harmonics"/>
+		</effect>
+		<effect sign="Cb" name="Cabinet &amp; Mic">
+			<param knob="1" name="Mic Type"/>
+			<param knob="2" name="Mic Position"/>
+		</effect>
+	</module>
+	<module name="MOD/SFX" description="Modulation/SFX">
+		<effect sign="CH" name="Chorus">
+			<param knob="1" name="Depth"/>
+			<param knob="2" name="Rate"/>
+			<param knob="3" name="Mix"/>
+		</effect>
+		<effect sign="SC" name="Stereo Chorus">
+			<param knob="1" name="Depth"/>
+			<param knob="2" name="Rate"/>
+			<param knob="3" name="Mix"/>
+		</effect>
+		<effect sign="FL" name="Flanger">
+			<param knob="1" name="Depth"/>
+			<param knob="2" name="Rate"/>
+			<param knob="3" name="Resonance"/>
+		</effect>
+		<effect sign="Pt" name="Pitch Shifter">
+			<param knob="1" name="Shift"/>
+			<param knob="2" name="Tone"/>
+			<param knob="3" name="Mix"/>
+		</effect>
+		<effect sign="PP" name="Pedal Pitch">
+			<param knob="1" name="Color"/>
+			<param knob="2" name="Mode"/>
+			<param knob="3" name="Tone"/>
+		</effect>
+		<effect sign="Vb" name="Vibrato">
+			<param knob="1" name="Depth"/>
+			<param knob="2" name="Rate"/>
+			<param knob="3" name="Mix"/>
+		</effect>
+		<effect sign="St" name="Step">
+			<param knob="1" name="Depth"/>
+			<param knob="2" name="Rate"/>
+			<param knob="3" name="Resonance"/>
+		</effect>
+		<effect sign="dL" name="Delay">
+			<param knob="1" name="Time"/>
+			<param knob="2" name="Feedback"/>
+			<param knob="3" name="Mix"/>
+		</effect>
+		<effect sign="tE" name="Tape Echo">
+			<param knob="1" name="Time"/>
+			<param knob="2" name="Feedback"/>
+			<param knob="3" name="Mix"/>
+		</effect>
+		<effect sign="dd" name="Dynamic Delay">
+			<param knob="1" name="Time"/>
+			<param knob="2" name="Amount"/>
+			<param knob="3" name="Sense"/>
+		</effect>
+		<effect sign="dF" name="Dynamic Flanger">
+			<param knob="1" name="Depth"/>
+			<param knob="2" name="Rate"/>
+			<param knob="3" name="Sense"/>
+		</effect>
+		<effect sign="MP" name="Mono Pitch Shifter">
+			<param knob="1" name="Shift"/>
+			<param knob="2" name="Tone"/>
+			<param knob="3" name="Mix"/>
+		</effect>
+		<effect sign="HP" name="Harmonized Pitch Shifter">
+			<param knob="1" name="Scale"/>
+			<param knob="2" name="Key"/>
+			<param knob="3" name="Mix"/>
+		</effect>
+	</module>
+	<module name="Delay">
+		<group>
+			<effect sign="dL" name="Delay"/>
+			<effect sign="Pd" name="Pingpong Delay"/>
+			<effect sign="EC" name="Echo"/>
+			<param knob="1" name="Time"/>
+			<param knob="2" name="Feedback"/>
+			<param knob="3" name="Mix"/>
+		</group>
+	</module>
+	<module name="Reverb">
+		<group>
+			<effect sign="HL" name="Hall"/>
+			<effect sign="rM" name="Room"/>
+			<effect sign="SP" name="Spring"/>
+			<param knob="1" name="Decay"/>
+			<param knob="2" name="Tone"/>
+			<param knob="3" name="Mix"/>
+		</group>
+		<effect sign="Er" name="Early Reflection">
+			<param knob="1" name="Decay"/>
+			<param knob="2" name="Shape"/>
+			<param knob="3" name="Mix"/>
+		</effect>
+		<effect sign="Md" name="Multi Tap Delay">
+			<param knob="1" name="Time"/>
+			<param knob="2" name="Pattern"/>
+			<param knob="3" name="Mix"/>
+		</effect>
+	</module>
+	<module name="Control">
+		<param knob="1" name="RTM (Expression pedal) Destination"/>
+		<param knob="2" name="FS (Foot Switch)"/>
+		<param knob="3" name="Master Level"/>
+	</module>
+</SoundProcessor>

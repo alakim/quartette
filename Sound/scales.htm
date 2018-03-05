@@ -1,0 +1,264 @@
+﻿<html>
+<head>
+	<title>Музыкальный строй</title>
+	<style type="text/css">
+		body{
+			font-family:Verdana, Arial, Sans-Serif;
+		}
+		.chart{
+			cursor:default;
+		}
+	</style>
+	<script type="text/javascript">
+		function $(id){return document.getElementById(id);}
+		
+		var Html = {
+			version: "2.3.215",
+			xhtmlMode: true	
+		};
+
+		(function(){
+			function extend(o,s){for(var k in s){o[k] = s[k];}}
+			
+			function each(coll, F){
+				if(!coll) return;
+				if(coll.length)
+					for(var i=0; i<coll.length;i++) F(coll[i], i);
+				else
+					for(var k in coll) F(coll[k], k);
+			}
+			
+			function defineTags(tags, selfClosing, notEmpty){
+				each(tags, function(t){
+					Html[t] = new Function("content", "return Html.tag(\""+t+"\", arguments,"+(selfClosing?"true":"false")+","+(notEmpty?"true":"false")+");");
+				});
+			}
+			
+			function defineSelfClosingTags(tags){defineTags(tags, true, false);}
+			function defineNotEmptyTags(tags){defineTags(tags, false, true)}
+			
+			extend(Html, {
+				tag: function(name, content, selfClosing, notEmpty){
+					var h = [];
+					var a = [];
+					each(content, function(el){
+						if(typeof(el)!="object")
+							h.push(el);
+						else{
+							each(el, function(val, nm){
+								a.push(" "+nm+"=\""+val+"\"");
+							});
+						}
+					});
+					
+					h = h.join("");
+					if(h.match(/^\s+$/i))
+						h = "";
+					if(notEmpty && h.length==0)
+						h = "&nbsp;";
+					
+					if(selfClosing && h.length==0)
+						return "<"+name+a.join("")+(Html.xhtmlMode? "/>":">");
+					else
+						return "<"+name+a.join("")+">"+h+"</"+name+">";
+				},
+				
+				apply: function(coll, F){
+					var h = [];
+					each(coll, function(el, i){
+						h.push(F(el, i));
+					});
+					return h.join("");
+				},
+				
+				times: function(count, F){
+					var h = [];
+					for(var i=0; i<count; i++)
+						h.push(F(i+1));
+					return h.join("");
+				},
+				
+				tagCollection: function(){
+					var res = [];
+					each(arguments, function(tag){
+						res.push(tag);
+					});
+					return res.join("");
+				},
+				
+				json: function(o){
+					if(o==null) return 'null';
+					if(typeof(o)=="string") return "'"+o.replace(/\"/g, "\\\"")+"'";
+					if(typeof(o)=="boolean") return o.toString();
+					if(typeof(o)=="number") return o.toString();
+					if(typeof(o)=="function") return "";
+					if(o.constructor==Array){
+						var res = [];
+						for(var i=0; i<o.length; i++) res.push(Html.json(o[i]));
+						return "["+res.join(",")+"]";
+					}
+					if(typeof(o)=="object"){
+						var res = [];
+						for(var k in o) res.push(k+":"+Html.json(o[k]));
+						return "{"+res.join(",")+"}";
+					}
+					return "";
+				},
+				
+				format: function(str, v1, v2){
+					for(var i=0; i<arguments.length; i++){
+						str = str.replace(new RegExp("{\s*"+i+"\s*}", "ig"), arguments[i+1])
+					}
+					return str;
+				},
+				
+				callFunction: function(name, a1, a2){
+					var args = [];
+					for(var i=1; i<arguments.length; i++){
+						var arg = arguments[i];
+						arg = typeof(arg)=="string" && arg.match(/^@/)? arg.slice(1, arg.length)
+							:Html.json(arg);
+						args.push(arg);
+					}
+					return [name, "(", args.join(","), ")"].join("");
+				}
+			});
+			
+			defineTags(["div", "a", "p", "span", "ul", "ol", "li", "table", "tbody", "thead", "tr", "input", "label", "textarea", "pre", "select", "option", "h1", "h2", "h3", "h4", "h5", "h6", "button"]);
+			defineSelfClosingTags(["img", "hr", "br", "iframe"]);
+			defineNotEmptyTags(["th", "td"]);
+		})();
+	</script>
+	<script type="text/javascript">
+		function init(){
+			buildNatural();
+			buildPureMajor();
+			buildEqual();
+		}
+		
+		function buildNatural(){with(Html){
+			var f0 = 24;
+			var maxRate = 16;
+			function isOctave(rate){
+				for(var k=1; k<=16; k*=2) if(rate/k==2) return true;
+				return false;
+			}
+			//function isFifth(rate){
+			//	for(var k=1; k<=16; k*=3) if(rate/k==3) return true;
+			//}
+			$("natural").innerHTML = div(
+				table({border:1, cellpadding:3, cellspacing:0},
+					tr(
+						th("Коэффициент"),
+						times(maxRate, function(i){
+							return td("1/"+i);
+						})
+					),
+					tr(
+						th("Частота"),
+						times(maxRate, function(i){
+							var att = isOctave(i)?{style:"background-color:#aaa;", title:"октава"}
+								//:isFifth(i)?{style:"background-color:#afa;", title:"квинта"}
+								:null;
+							return td(att, f0*i);
+						})
+					)
+				)
+			);
+		}}
+		
+		function equal(f){
+			var rate = Math.exp(Math.log(2)/12)
+			var res = [];
+			var f1 = f;
+			for(var i=0; i<=12; i++){
+				res.push(Math.round(f1));
+				f1*=rate;
+			}
+			return res;
+		}
+		
+		function roma(i){
+			return ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"][i-1];
+		}
+		
+		function buildEqual(){with(Html){
+			$("equal").innerHTML = div(
+				table({border:1, cellpadding:3, cellspacing:0},
+					tr(
+						th("Ступень мажора"),
+						apply([1,null,2,null,3,4,null,5,null,6,null,7,8], function(i){
+							return td(roma(i));
+						})
+					),
+					tr(
+						th("Ступень минора"),
+						apply([1,null,2,3,null,4,null,5,6,null,7,null,8], function(i){
+							return td(roma(i));
+						})
+					),
+					tr(
+						th("Частота"),
+						apply(equal(192), function(f){
+							return td(f);
+						})
+					)
+				)
+			);
+		}}
+		
+		function buildPureMajor(){with(Html){
+			var f0 = 192;
+			var tones = [];
+			function buildTriad(f){
+				//console.log("build triad from ", f);
+				tones = tones.concat([
+					f,
+					f/4*5,
+					f/4*6
+				]);
+				//console.log(tones);
+			}
+			buildTriad(f0);
+			buildTriad(tones[1]);
+			buildTriad(tones[2]);
+			tones.sort();
+			//console.log(tones);
+			
+			var equalMaj = equal(f0);
+			
+			$("pureMaj").innerHTML = div(
+				table({border:1, cellpadding:3, cellspacing:0},
+					tr(
+						th("Темперированный мажор"),
+						apply([1,3,5,6,8,10,12], function(i){
+							return td(
+								equalMaj[i-1]
+							);
+						})
+					),
+					tr(
+						th("Чистый мажор"),
+						apply(tones, function(f,i){
+							return td(f)
+						})
+					)
+				)
+			);
+		}}
+	</script>
+</head>
+<body onload="init()">
+	<h1>Музыкальный строй</h1>
+	<h2>Натуральный звукоряд</h2>
+	<div id="natural" class="chart"></div>
+	<h2>Чистый мажор (4:5:6) (???)</h2>
+	<div id="pureMaj" class="chart"></div>
+	<h2>Темперированный строй</h2>
+	<div id="equal" class="chart"></div>
+	<div id="Books">
+		<h2>Список литературы</h2>
+		<p><a href="http://www.musikholl.ru/view_cat.php?cat=6">Арифметика музыки</a></p>
+	</div>
+</body>
+</html>

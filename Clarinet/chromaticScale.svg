@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="chromaticScale.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="243.79227"
+     inkscape:cy="748.72301"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="977"
+     inkscape:window-x="-4"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#999999;stroke-width:0.99999988;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3039"
+       width="386"
+       height="199"
+       x="15"
+       y="21.112183"
+       ry="0"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="113"
+       y="51.362183"
+       id="text3223"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"><tspan
+         sodipodi:role="line"
+         id="tspan3099">Chromatic Scale</tspan></text>
+    <rect
+       ry="6.0107641"
+       y="184.86998"
+       x="339.21188"
+       height="16.939428"
+       width="16.939428"
+       id="rect3130"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="rect3132"
+       width="16.939428"
+       height="16.939428"
+       x="367.97632"
+       y="184.86998"
+       ry="6.0107641"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="rect3134"
+       width="16.939428"
+       height="16.939428"
+       x="339.21188"
+       y="157.74483"
+       ry="6.0107641"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <rect
+       ry="6.0107641"
+       y="157.74483"
+       x="367.97632"
+       height="16.939428"
+       width="16.939428"
+       id="rect3136"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3166"
+       sodipodi:cx="188"
+       sodipodi:cy="363.36218"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       transform="matrix(0.2027027,0,0,0.2027027,278.39189,94.70769)"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3168"
+       sodipodi:cx="188"
+       sodipodi:cy="363.36218"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       transform="matrix(0.2027027,0,0,0.2027027,247.19189,94.70769)"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3170"
+       sodipodi:cx="188"
+       sodipodi:cy="363.36218"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       transform="matrix(0.2027027,0,0,0.2027027,215.99189,94.70769)"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3172"
+       sodipodi:cx="188"
+       sodipodi:cy="363.36218"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       transform="matrix(0.2027027,0,0,0.2027027,163.79189,94.70769)"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3174"
+       sodipodi:cx="188"
+       sodipodi:cy="363.36218"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       transform="matrix(0.2027027,0,0,0.2027027,132.59189,94.70769)"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 137.27271,155.07854 c -3.09952,0 -5.61218,2.51266 -5.61218,5.61218 0,2.36967 1.71319,3.36803 2.0633,5.19952 0.25569,1.33756 0.25388,2.74743 0,4.08534 -0.35001,1.84451 -2.0633,2.87111 -2.0633,5.24078 0,3.09952 2.51266,5.61218 5.61218,5.61218 3.09952,0 5.61218,-2.51266 5.61218,-5.61218 0,-2.36967 -1.98519,-3.36419 -2.39343,-5.24078 -0.28947,-1.33066 -0.29146,-2.75512 0,-4.08534 0.40837,-1.86377 2.39343,-2.82985 2.39343,-5.19952 0,-3.09952 -2.51266,-5.61218 -5.61218,-5.61218 z"
+       id="path3220"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssaasssaass"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:transform-center-x="0.057368355"
+       inkscape:transform-center-y="-14.400635"
+       d="m 339.69417,155.15582 c -8.87337,-7.6675 -21.41586,-2.65701 -35.76802,8.28655 3.2295,-6.54345 26.38043,-25.79513 49.79267,-7.58173 z"
+       id="path3180"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       transform="matrix(0.07848124,0,0,0.07848124,286.89629,139.49152)"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       sodipodi:ry="37"
+       sodipodi:rx="37"
+       sodipodi:cy="363.36218"
+       sodipodi:cx="188"
+       id="path3184"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:nodetypes="csccc"
+       inkscape:connector-curvature="0"
+       id="path3188"
+       d="m 296.53984,140.09517 c -1.41422,4.53381 -1.94441,13.14791 -3.77903,12.83672 -22.77448,-3.86303 -52.53368,3.78652 -60.606,12.27825 4.06632,-6.54345 29.16867,-21.69894 58.20228,-17.98123 z"
+       inkscape:transform-center-y="-14.400635"
+       inkscape:transform-center-x="0.072233528"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3190"
+       sodipodi:cx="188"
+       sodipodi:cy="363.36218"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       transform="matrix(0.07848124,0,0,0.07848124,215.83206,139.49152)"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       transform="matrix(0.07848124,0,0,0.07848124,172.69855,139.49152)"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       sodipodi:ry="37"
+       sodipodi:rx="37"
+       sodipodi:cy="363.36218"
+       sodipodi:cx="188"
+       id="path3192"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3194"
+       sodipodi:cx="188"
+       sodipodi:cy="363.36218"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       transform="matrix(0.07848124,0,0,0.07848124,139.11098,139.49152)"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path3235"
+       d="m 62.542091,142.95111 24.211646,-19.86076 -16.02369,20.34722 z"
+       inkscape:transform-center-y="-0.262081"
+       style="fill:#999999;fill-opacity:1;stroke:none"
+       inkscape:transform-center-x="-2.2612505"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:none"
+       d="m 102.74704,112.99763 20.47196,3.72629 -20.35207,3.44024 z"
+       id="path3204"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:transform-center-x="-2.6317633"
+       inkscape:transform-center-y="0.53306"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path3202"
+       d="m 370.08877,175.07369 -14.14193,10.34078 10.94729,-13.42866 z"
+       style="fill:#999999;fill-opacity:1;stroke:none"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:none"
+       inkscape:transform-center-x="-16.094179"
+       inkscape:transform-center-y="-0.011582"
+       d="m 374.13083,182.95726 2.69697,-6.06953 4.02283,5.90306 z"
+       id="path3200"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:none"
+       d="m 336.58191,187.24619 -12.40431,-12.3717 14.96073,8.73777 z"
+       id="path3206"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3210"
+       sodipodi:cx="188"
+       sodipodi:cy="363.36218"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       transform="matrix(0.07848124,0,0,0.07848124,107.14473,145.66614)"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       transform="matrix(0.07848124,0,0,0.07848124,98.427214,131.04177)"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       sodipodi:ry="37"
+       sodipodi:rx="37"
+       sodipodi:cy="363.36218"
+       sodipodi:cx="188"
+       id="path3208"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3212"
+       sodipodi:cx="188"
+       sodipodi:cy="363.36218"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       transform="matrix(0.2027027,0,0,0.2027027,52.99061,89.861496)"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3214"
+       sodipodi:cx="188"
+       sodipodi:cy="363.36218"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       transform="matrix(0.44594594,0,0,0.2027027,-21.54494,79.46252)"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:transform-center-x="0.038576533"
+       inkscape:transform-center-y="-14.400635"
+       d="m 222.28984,139.09517 c -0.75527,4.53381 -1.03842,13.14791 -2.0182,12.83672 -12.16279,-3.86303 -28.05578,3.78652 -32.36683,12.27825 2.17163,-6.54345 15.57762,-21.69894 31.08311,-17.98123 z"
+       id="path3216"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccc"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:nodetypes="csccc"
+       inkscape:connector-curvature="0"
+       id="path3218"
+       d="m 184.78984,139.59517 c -0.6729,4.53381 -0.92517,13.14791 -1.7981,12.83672 -10.83632,-3.86303 -24.99604,3.78652 -28.83693,12.27825 1.9348,-6.54345 13.87874,-21.69894 27.69322,-17.98123 z"
+       inkscape:transform-center-y="-14.400635"
+       inkscape:transform-center-x="0.034369408"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       transform="matrix(0.2027027,0,0,0.2027027,55.384783,43.257943)"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       sodipodi:ry="37"
+       sodipodi:rx="37"
+       sodipodi:cy="363.36218"
+       sodipodi:cx="188"
+       id="path3231"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="C:\Users\Alexandr.Akimov\Documents\SVN\Unfuddle\bourree\Clarinet\path3233.png"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3233"
+       sodipodi:cx="188"
+       sodipodi:cy="363.36218"
+       sodipodi:rx="37"
+       sodipodi:ry="37"
+       d="m 225,363.36218 a 37,37 0 1 1 -74,0 37,37 0 1 1 74,0 z"
+       transform="matrix(0,-0.44594594,-0.2027027,0,206.01858,207.98934)"
+       inkscape:export-xdpi="220"
+       inkscape:export-ydpi="220" />
+  </g>
+</svg>
