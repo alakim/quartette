@@ -34,7 +34,7 @@ PI = {
 		\relative c'{r2. r8 b8 | g'2. fis8 e |fis2 e | r8 b8 cis dis e fis g a |} \longBar
 		% t=0:45
 		\relative c''{g4 a2.~ | a2. \tuplet 3/2{ b8 d e} | b2 a | g'1 |}  \longBar
-		\relative c''{fis4 e a8 g fis e | fis4 e a8 g4. | b2. a8 g | a8 g fis e g fis e d| } \longBar
+		\relative c''{fis4 e a8. g16 fis8 e | fis4 e a8 g4. | b2. a8 g | a8 g fis8 e g8 fis e8 d| } \longBar
 		\relative c''{e1 | e2. r8 } \relative c'{e8 | fis8 e dis e g4 a | b2 e4 d } \bar "||"
 	}
 }
@@ -69,7 +69,11 @@ PVII = {
 	\tag #'Clarinet { 
 		\break
 		\mark "Rubato"
-		g'1^"clarinet only" b'1 s1 \relative c'{fis4. dis8 e16 cis bes g c a fis a |} \longBar
+		% g'1^"clarinet only" b'1 s1 \relative c'{fis4. dis8 e16 cis bes g c a fis a |} \longBar
+		g'2.^"clarinet only" \relative c'{r16 fis16 g a }| b'1 
+			%\relative c''{g8 e c a dis c a c |}
+			\relative c''{g8 e c dis c a4.  |}
+			\relative c'{r8 bes cis e g a c dis } \longBar
 		e''1^"with rhythm section..." s1 s1 s1 \longBar
 		s1 s1 s1 s1 \longBar
 		s1 s1 s1 s1 \longBar
