@@ -64,20 +64,34 @@ PVI = {
 	\tag #'Clarinet { \mark "Riffs" R1*6 \bar "||" }
 }
 
+% PVIIx = {
+% 	\tag #'Harmony { \HrmA \HrmA \HrmA \HrmA}
+% 	\tag #'Clarinet { 
+% 		\break
+% 		\mark "Rubato"
+% 		% g'1^"clarinet only" b'1 s1 \relative c'{fis4. dis8 e16 cis bes g c a fis a |} \longBar
+% 		g'2.^"clarinet only" \relative c'{r16 fis16 g a }| b'1 
+% 			%\relative c''{g8 e c a dis c a c |}
+% 			\relative c''{g8 e c dis c a4.  |}
+% 			\relative c'{r8 bes cis e g a c dis } \longBar
+% 		e''1^"with rhythm section..." s1 s1 s1 \longBar
+% 		s1 s1 s1 s1 \longBar
+% 		s1 s1 s1 s1 \longBar
+% 		r1 ^"rhythm section only"
+% 		r1 r1 r1 \bar "||"
+% 	}
+% }
+
 PVII = {
 	\tag #'Harmony { \HrmA \HrmA \HrmA \HrmA}
 	\tag #'Clarinet { 
 		\break
 		\mark "Rubato"
-		% g'1^"clarinet only" b'1 s1 \relative c'{fis4. dis8 e16 cis bes g c a fis a |} \longBar
-		g'2.^"clarinet only" \relative c'{r16 fis16 g a }| b'1 
-			%\relative c''{g8 e c a dis c a c |}
-			\relative c''{g8 e c dis c a4.  |}
-			\relative c'{r8 bes cis e g a c dis } \longBar
-		e''1^"with rhythm section..." s1 s1 s1 \longBar
-		s1 s1 s1 s1 \longBar
-		s1 s1 s1 s1 \longBar
-		r1 ^"rhythm section only"
+		g'2.^"clarinet only" \relative c'{fis8 a | b16 [a fis8] b8 a g a b4 | fis4 g2 a16 b c8 | dis2 b8 a fis4 \longBar }
+		\relative c''{g8^"with band" a e2. | r4 b8 d e g b4 | e1 | dis2. g,16 a b8  \longBar}
+		\relative c'''{g2. e8 b | e16 [d b8] e16 d b8~ b c d4 | e4 c2 b8 c | b2 a2 \longBar }
+		\relative c'{e2 b'~| b4 b, d e | g4 e2 c'8 a | b1 \longBar}
+		r1 ^"band only"
 		r1 r1 r1 \bar "||"
 	}
 }
