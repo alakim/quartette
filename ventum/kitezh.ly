@@ -66,7 +66,8 @@ PIII = {
 			fis4~fis16 d cis b     \tuplet 3/2 {fis'4 gis ais} |
 			% c4. e8 ~ e4 d8 b  | 
 			% e4. c'8 e4~e16 d b gis   fis'4~fis16 e d fis gis2 \fermata 
-			c8 e,4. e'8 b4. | fis'4~fis16 d e fis gis2 \fermata
+			% c8 e,4. e'8 b4. | fis'4~fis16 d e fis gis2 \fermata
+			c8 e,8. g16 a c e8 gis,8. b16 d e | fis4~fis16 d e fis gis2 \fermata
 		}
 		% \relative c''{ fis8 e d e gis2 \fermata |  }
 		\bar "||"
