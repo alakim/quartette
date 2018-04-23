@@ -7,7 +7,8 @@
 
 longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staff.BarLine.bar-extent = #'(-3 . 3) #})
 
-HrmA = \chordmode {b1:m %{g/d%} d/g a b:m}
+% HrmA = \chordmode {b1:m %{g/d%} d/g a b:m}
+HrmA = \chordmode {b1:m g:9 a b:m}
 HrmB = \chordmode {b2:m bes:m5+ | a:m as:m5+ | g:m ges:m5+ | c b:m |}
 
 
@@ -151,6 +152,16 @@ Music = {
 	\PIX
 }
 
+Coda = {
+	\tag #'Violin {
+		\mark "Coda"
+		\relative c''{d2 b~ | b2. d4 | cis2. r8 d16 e | fis1 | }
+	}
+	\tag #'Horn {
+		\relative c'{fis1 | g | fis4. e8~e2 | d4. cis16 d e8 d e d \bar "|."}
+	}
+}
+
 <<
 	\new ChordNames{\transpose bes c{
 		\keepWithTag #'Harmony \Music
@@ -163,6 +174,26 @@ Music = {
 		\compressFullBarRests
 		\keepWithTag #'Voice \Music
 	}
+>>
+
+<<
+	\new Staff{
+		\clef treble
+		\time 4/4
+		\key b \minor
+		\set Staff.instrumentName = "Violin"
+		\keepWithTag #'Violin \Coda
+	}
+	\new ChordNames{\transpose bes c{
+		\HrmA
+	}}
+	\new Staff{\transpose bes c' {
+		\clef treble
+		\time 4/4
+		\key b \minor
+		\set Staff.instrumentName = "Horn"
+		\keepWithTag #'Horn \Coda
+	}}
 >>
 
 
