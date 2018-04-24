@@ -37,6 +37,16 @@ Music = {
 	\PB \break
 }
 
+ViolinTheme = {
+	\tag #'Harmony { \HrmA }
+	\tag #'Violin {
+		\relative c'{e2 r8 fis g a | b2 r8 c d c | b4 e r8 fis e fis | r1 \bar "|." }
+	}
+	\tag #'Clarinet {
+		\relative c' {g2 b4. g8 | a4 d2 fis4 | e4~e8 b a4 g | b8 e b fis' b, g' b, fis' | }
+	}
+}
+
 <<
 	\new ChordNames{\transpose bes \outKey{
 		\keepWithTag #'Harmony \Music
@@ -50,6 +60,26 @@ Music = {
 
 		\keepWithTag #'Clarinet \Music
 		
+	}}
+>>
+
+<<
+	\new Staff{
+		\clef treble
+		\time 4/4
+		\key e \minor
+		\set Staff.instrumentName = "Violin"
+		\keepWithTag #'Violin \ViolinTheme
+	}
+	\new ChordNames{\transpose bes c {
+		\keepWithTag #'Harmony \ViolinTheme
+	}}
+	\new Staff{\transpose bes c'{
+		\clef treble
+		\time 4/4
+		\key e \minor
+		\set Staff.instrumentName = "Clarinet"
+		\keepWithTag #'Clarinet \ViolinTheme
 	}}
 >>
 
