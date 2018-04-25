@@ -25,7 +25,18 @@ PA = {
 
 PB = {
 	\tag #'Harmony {\HrmB}
-	\tag #'Clarinet { \mark \markup{\circle "2"}
+	\tag #'Clarinet { \mark \markup{\circle {"2"}} 
+		% s1 s1 s1 s1
+		\transpose c' bes{
+			\relative c''{a8^"over guitar tremolo" a cis a a a cis a | fis8 fis a fis fis fis a fis | gis8 gis b gis gis gis b gis | a8 a cis a a a cis a |}
+		}
+		\bar "||"
+	}
+}
+
+PClSolo = {
+	\tag #'Harmony {\HrmA}
+	\tag #'Clarinet { \mark \markup{"Clarinet solo" }
 		\relative c''{g2 \tuplet 3/2 {g8 fis e} \tuplet 3/2 {g8 fis g} | a4. b8 g2 | a4. g16 b c4. a8 | b2 a \bar "||" }
 	}
 }
@@ -35,6 +46,7 @@ Music = {
 	\PIntro \break
 	\PA \break
 	\PB \break
+	\PClSolo \break
 }
 
 ViolinTheme = {
