@@ -82,7 +82,7 @@ PVI = {
 % 	}
 % }
 
-PVII = {
+PVIIxx = {
 	\tag #'Harmony { \HrmA \HrmA \HrmA \HrmA}
 	\tag #'Clarinet { 
 		\break
@@ -91,6 +91,20 @@ PVII = {
 		\relative c''{g8^"with band" a e2. | r4 b8 d e g b4 | e1 | dis2. g,16 a b8  \longBar}
 		\relative c'''{g2. e8 b | e16 [d b8] e16 d b8~ b c d4 | e4 c2 b8 c | b2 a2 \longBar }
 		\relative c'{e2 b'~| b4 b, d e | g4 e2 c'8 a | b1 \longBar}
+		r1 ^"band only"
+		r1 r1 r1 \bar "||"
+	}
+}
+
+PVII = {
+	\tag #'Harmony { \HrmA \HrmA \HrmA \HrmA}
+	\tag #'Clarinet { 
+		\break
+		\mark "Rubato"
+		g'2.^"clarinet only" \relative c'{fis8 e | \tuplet 3/2 {g4 fis e g4 fis e} | g2 fis | r8 b, cis dis e fis g a \longBar }
+		\relative c''{b4^"with band" a2.~ | a2. \tuplet 3/2 {b8 d e} | b2 a | g'2. b,4 \longBar}
+		\relative c''{ fis4 e a8. g16 fis8 e | g4 e fis8. e16 dis8 e | g2 e | fis2 b, \longBar }
+		\relative c''{e1~ | e1 | g,4 fis2 g8 a | b1\longBar}
 		r1 ^"band only"
 		r1 r1 r1 \bar "||"
 	}
