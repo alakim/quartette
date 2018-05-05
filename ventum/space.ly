@@ -9,7 +9,7 @@ outKey = bes % c'
 
 longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staff.BarLine.bar-extent = #'(-3 . 3) #})
 
-HrmA = \chordmode{a1:m | d1 | e:m | a:m | }
+HrmA = \chordmode{a1:m | d1 | e:m | e:m | }
 
 phraseEnd = {\longBar }
 
