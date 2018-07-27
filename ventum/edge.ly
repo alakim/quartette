@@ -134,7 +134,7 @@ PartIV = {
   \mark \markup{\circle{4}}
   r1 r1 r1 r1   \bar "."
   \repeat unfold 2{
-    \relative c'{e4 g2 g8. e16 | fis1 | g2 a4 g  | fis8 e8~e2. | \bar "."}
+    \relative c'{e4 g2 g8. e16 | fis1 | g4. e8 c'4. g8  | fis8 e8~e2. | \bar "."}
   }
    
   % s1 s1 s1 s1  \bar "."
