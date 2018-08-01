@@ -26,11 +26,11 @@ Trpt = {
 }
 
 <<
-  \new ChordNames{\Hrm}
-  \new Staff{
+  \new ChordNames{\transpose bes c{\Hrm}}
+  \new Staff{\transpose bes c'{
     \clef treble 
     \time 4/4
     \set Staff.instrumentName = "Trumpet"
 	\Trpt
-  }
+  }}
 >>
