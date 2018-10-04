@@ -40,8 +40,18 @@ PI = {
 }
 
 PII = {
-	\tag #'Harmony { s1*8}
-	\tag #'Clarinet { \break \mark "Gtr, Vln" R1*8 \bar "||" }
+	\tag #'Harmony { \HrmA \HrmA \HrmA \HrmA }
+	\tag #'Clarinet { \break \mark "Gtr, Vln" 
+		% R1*8 
+		\transpose bes c'{ % instead of violin
+			% t=0:37.15
+			\relative c''{a1~ | a4. bes8 a2 | d2.~d8 e8 | f2 e | }
+			% t=0:53
+			\relative c''{a1~ | a4. bes8 a4 g | f2 e |  e1 | }
+		}
+		s1 s1 s1 s1
+		\bar "||" 
+	}
 }
 
 PIII = {
