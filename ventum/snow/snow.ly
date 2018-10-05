@@ -43,20 +43,25 @@ PII = {
 	\tag #'Harmony { \HrmA \HrmA \HrmA \HrmA }
 	\tag #'Clarinet { \break \mark "Gtr, Vln" 
 		% R1*8 
-		\transpose bes c'{ % instead of violin
+		{ % instead of violin
 			% t=0:37.15
-			\relative c''{a1~ | a4. bes8 a2 | d2.~d8 e8 | f2 e | }
+			\relative c''{b1~ | b4. c8 b2 | e2. ~e8 fis8 | g2 fis \longBar }
 			% t=0:53
-			\relative c''{a1~ | a4. bes8 a4 g | f2 e |  e1 | }
+			\relative c''{b1~ | b4. c8 b2 | a2 g | fis1 \longBar}
 		}
-		s1 s1 s1 s1
+		%s1 s1 s1 s1
 		\bar "||" 
 	}
 }
 
 PIII = {
 	\tag #'Harmony { s1*8}
-	\tag #'Clarinet { \mark "Vln" R1*8 \bar "||" }
+	\tag #'Clarinet { \mark "Vln" 
+		% R1*8 
+		\relative c''{g2 b,4 c | b4 a g2 | e'2. d4 | fis4 g fis dis \longBar }
+		\relative c''{ b1~ | b2. g4 | e'1 | fis1  \longBar}
+		\bar "||" 
+	}
 }
 
 PIV = {
