@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "Старый маяк (Китеж)"
+	title = "Старый маяк"
 	composer = "гр. Ventum"
 }
 
@@ -10,6 +10,7 @@ longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staf
 % HrmA = \chordmode {b1:m %{g/d%} d/g a b:m}
 HrmA = \chordmode {b1:m g:9 a b:m}
 HrmB = \chordmode {b2:m bes:m5+ | a:m as:m5+ | g:m ges:m5+ | c b:m |}
+HrmRiff = \chordmode{ b1:m  | b2.:m fis4 | }
 
 
 PIx = {
@@ -87,10 +88,24 @@ PIV = {
 }
 
 PV = {
-	\tag #'Harmony { R1*8 }
+	\tag #'Harmony { 
+		%R1*8
+		\chordmode{
+			% gutar riffs
+			\HrmRiff \HrmRiff
+			\HrmRiff \HrmRiff
+		}
+	}
 	\tag #'Voice {
 		\mark \markup{\circle 5}
-		R1*8^"Vln"
+		% t=01:48
+		% R1*8^"Vln"
+		% instead of violin
+		\relative c''{cis2.^"like violin"~cis8 dis8 | cis2 cis4 bis |}
+		\relative c''{cis2.~cis8 dis8 | cis2 cis4 bis8 dis |} \longBar
+		% t=02:05
+		\relative c''{e2.~e8 fis8 | e2 e4 dis8 fis | }
+		\relative c''{e2.~e8 fis8 | gis4. fis8 e4 dis | }
 		\bar "||"
 	}
 }
@@ -117,10 +132,11 @@ PVII = {
 }
 
 PVIII = {
-	\tag #'Harmony { R1*8 }
+	\tag #'Harmony { R1*4 R1*8 }
 	\tag #'Voice {
 		\mark \markup{\circle 8}
-		R1*8^"Vln"
+		R1*4^"Gtr"
+		R1*8^"like violin #5"
 		\bar "||"
 	}
 }
