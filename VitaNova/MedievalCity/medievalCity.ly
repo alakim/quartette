@@ -91,24 +91,25 @@ RefrainII = {
 
 Solo = { %t=03:03
 	\tag #'Harmony {\chordmode{
-		c1:m es1 g1
-		as:1 as:1 as:1 
-		d1:m7.5- g1:7 
+		c1:m c1:m c1:m
+		f1:m f1:m f1:m 
+		f1:m f1:m bes1 
+		\longBar
+		\break
 
 		%t=03:21
 		c1:m c1:m c1:m 
 		%t=03:28
-		d1:m7.5- d1:m7.5- g1
-		d1:m7.5-  g1 g1
+		as:1 as:1 
+		as:1 as:1
+		g:1 g:1
 		
-		%R1*5*2
+		\doubleBar
 	}}
 	\tag #'Flute {
 		\mark \markup Solo
-		R1*8
-		\longBar
 		R1*9
-		\doubleBar
+		R1*6
 	}
 }
 
