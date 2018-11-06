@@ -39,14 +39,14 @@ HVI = \chordmode{
 	f1:m g:m as g:m f c as es
 }
 VI = {
-	\improvisationOn
-	bes'1^"В истоптан-" | bes'1^"ных" | bes'1^"покой" | bes'1 |
-	bes'1^"Дождем" | bes'1 | bes'1 | bes'1^"зал" |
-	bes'1^"На карауле" | bes'1 | bes'1 | bes'1^"строй" |
-	bes'1^"Вершино..." | bes'1 | bes'1 | bes'1^"бал" |
+	r1^"В истоптан-" | r2.^"ных" a'4 | c''1^"покой" | e'1 |
+	f'1~^"Дождем" | f'4 e' d' a | c'2. e'4 | g'2^"зал" e' |
+	f'2.^"На карауле" a4 | a2 c' | c'1 | e4^"строй" f g a |
+	bes2^"Вершино..."d' | c'2 e' | f'1 | e'2^"бал" d'4 c' |
 	
-	bes'1^"В сосн." | bes'1^"снах" | bes'1 | bes'1^"снах" |
-	bes'1^"в сосн." | bes'1^"снах" | bes'1^"запечат-" | bes'1^"лен" |
+	bes1^"В сосн." | e'1^"снах" | d'1 | c'1^"снах" |
+	b2^"в сосн." b8 d' e'4 | fis'1^"снах" | r1^"запечат-" | r1^"лен" |
+	\improvisationOn
 	
 	\improvisationOff
 }
@@ -168,7 +168,7 @@ Coda = {
     \clef treble
     \set Staff.instrumentName = "Clarinet B"
     \key f \major
-    \time 4/4
+    \time 2/2
     \Intro \break
 	\VI
 	\SoloI
