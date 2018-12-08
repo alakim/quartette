@@ -71,9 +71,29 @@ Refrain = {
 	}
 }
 
+Solo = {
+	\tag #'Harmony {\chordmode{
+		g1 c1 g1 c1 
+		g1 c1 g1 c1 
+		g1
+	}}
+	\tag #'Voice {
+		r1 r1 r1 r1 \longBar
+		r1 r1 r1 r1 \longBar
+		s1
+	}
+	\tag #'Trumpet {
+		\mark \markup "Solo"
+		\relative c''{cis2~cis8 b a b | fis2. r8 fis8 | e8 fis^> r4. a4^> e8 | fis4. e16 fis a8 b^> r4 \longBar}
+		\relative c''{cis2~cis8 b a b | fis2. r8 fis8 | e8 fis^> r4. a4^> e8 | fis2 a4 b \longBar}
+		\parenthesize a'1^"verse..." \bar "||"
+	}
+}
+
 Music = {
 	\Verse \break
 	\Refrain
+	\Solo
 }
 
 <<
