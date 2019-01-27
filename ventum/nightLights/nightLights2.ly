@@ -25,7 +25,6 @@ SoloI = {
 		}
 	}
 }
-%}
 
 SoloII = {
 	\tag #'Harmony {
@@ -41,11 +40,29 @@ SoloII = {
 		}
 	}
 }
+%}
+
+SoloIII = {
+	\tag #'Harmony {
+		\HrmI \HrmI
+	}
+	\tag #'Clarinet {
+		\relative c'{
+			fis2~fis8 fis, d'16 cis b8 | e8 cis16 a~a2~a16 e fis a |
+			b2 g'4. d8 | cis1 \longBar
+		}
+		\relative c'{
+			fis2~fis8 fis, d'16 cis b8 | e8 cis16 a~a4 a'4. g16 fis |
+			b2 d4. cis16 d | fis1 \bar "||"
+		}
+	}
+}
 
 
 Music = {
 	% \SoloI
-	\SoloII
+	% \SoloII
+	\SoloIII
 }
 
 <<
