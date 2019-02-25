@@ -24,8 +24,26 @@ PI = {
 	}
 }
 
+PII = {
+	\tag #'Harmony { \HrmA \HrmA \HrmA \HrmA    }
+	\tag #'Horn {\transpose c' bes{
+		\mark "Flugelhorn solo" 
+		\relative c'{ fis2. e8 fis| gis1 | a2 fis | cis'2. a4 | \longBar}
+		\relative c'{ b'4 d2 a4 | b2. b8 gis | a1 |}
+			\relative c'{\tuplet 3/2 {fis8 e fis} \tuplet 3/2 {gis8 fis gis } \tuplet 3/2 {a8 gis a} \tuplet 3/2 {b8 a fis} } 
+			\longBar
+		\relative c'{ b'8 fis4 b2 a8 | gis2 \tuplet 3/2{d'4 b gis} | a1 | cis2. } 
+		\relative c'{fis4 \longBar d'2 b4 a | gis2.. fis16 e | fis1 ~ | fis1 }
+		\bar "||"
+	}}
+}
+
 Music = {
 	\PI
+}
+
+HornMusic = {
+	\PII
 }
 
 <<
@@ -40,6 +58,22 @@ Music = {
 		\key a \minor
 
 		\keepWithTag #'Clarinet \Music
+		
+	}}
+>>
+
+<<
+	\new ChordNames{\transpose \outKey c{
+		\keepWithTag #'Harmony \HornMusic
+	}}
+	\new Staff{ \transpose \outKey c'{
+		\clef treble 
+		\set Staff.instrumentName = "Flugelhorn"
+		\compressFullBarRests
+		\time 4/4
+		\key a \minor
+
+		\keepWithTag #'Horn \HornMusic
 		
 	}}
 >>
