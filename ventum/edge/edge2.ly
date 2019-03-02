@@ -27,18 +27,34 @@ PI = {
 		}
 	}
 }
-
+%{
 PII = {
 	\tag #'Harmony {
 		\HrmII 
 	}
 	\tag #'Winds {
-		\mark \markup "Horn" 
+		\mark \markup "Horn (old)" 
 		\transpose bes c'{
 			\repeat volta 2{
 				\relative c'{e4 g2 g8. e16 | fis1 | g4. e8 c'4. g8  | fis8 e8~e2. | }
 			}
 		}
+	}
+}
+%}
+
+PIIa = {
+	\tag #'Harmony {
+		\HrmII
+		\HrmII
+	}
+	\tag #'Winds {
+		\mark \markup "Horn"
+		\repeat volta 2{
+			\relative c''{a4 gis8 fis a gis fis a~ | a4 gis8 fis a gis fis4 | }
+			\relative c''{d4 cis8 b d cis b d~| d4 cis8 b d cis b4 |}
+		} \break
+		\relative c'{ fis2 a4. b8 | fis1 | r1 | r2. fis8 gis \longBar d'2. cis8 d~ | d4 cis b a | b4. a8~a2~ | a1 \bar "||" }
 	}
 }
 
@@ -80,7 +96,8 @@ PIV = {
 
 Music = {
 	\PI \break
-	\PII \break
+	% \PII \break
+	\PIIa \break
 	\PIII \break
 	\PIV \break
 }
