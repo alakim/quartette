@@ -7,14 +7,20 @@
 
 longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staff.BarLine.bar-extent = #'(-3 . 3) #})
 
-HRiff = \chordmode{
-  \transpose bes c {e1 | a | d | a |}
+HI = \chordmode{
+  \transpose bes c {e2:7 a:7 | d:7 a:7 |}
+}
+HII = \chordmode {d1:7 | a:7 | d:7 | b |}
+
+HRiff = {
+  \HI \HI 
+  \HII
 }
 
 
 
 HornRiff = {
-  \tag #'Harmony {\HRiff \HRiff}
+  \tag #'Harmony {\HRiff}
   \tag #'Horn {
     \mark "Riff 1"
     \relative c'' {

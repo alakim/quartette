@@ -16,6 +16,23 @@ HRiffII = \chordmode{
 }
 
 
+HornMainRiff = {
+  \tag #'Harmony {
+    \HRiffII   \HRiffII   \HRiffII   \HRiffII 
+  }
+  \tag #'Horn {
+    \mark "Main Riff"
+    \relative c'' {
+      gis4. fis8~fis2 | e4. fis8~fis2 |
+      gis4. fis8~fis2 | e4. fis8~fis2 |
+      gis4. fis8~fis2 | e4. fis8~fis2 |
+      gis2 r4 e8 ( fis) | \tuplet 3/2 {gis4 fis e}   fis2 |
+    }
+    
+    \bar "||"
+  }
+}
+
 HornRiff = {
   \tag #'Harmony {\HRiff \HRiff \chordmode {\parenthesize cis1:m}}
   \tag #'Horn {
@@ -70,10 +87,46 @@ HornRiffIII = {
   }
 }
 
+Backs = {
+  \tag #'Harmony {
+    s1 s1
+  }
+  \tag #'Horn {
+    \mark "Back phrases"
+    \relative c' {r2 r8 dis8 e fis | gis4 r2. \bar "||"}
+  }
+  
+}
+
+
+Refrain = {
+  \tag #'Harmony {
+    s1 \longBar
+    \HRiff \longBar
+    \HRiff
+    s1
+  }
+  \tag #'Horn {
+    \mark "Refrain"
+    r2. r8 fis' |
+    \relative c'' {gis1 | fis2. e4 | cis1 | }
+    \relative c' {e8 dis4 e fis4 r8 }
+    \relative c'' {gis1 | fis2. e4 | cis1 | }
+    \relative c'' {a1 } \longBar
+    \parenthesize  gis'4  r2. 
+    \bar "||"
+  }
+  
+}
+
 Music = {
-  \HornRiff \break
-  \HornRiffII \break
-  \HornRiffIII \break
+  \HornMainRiff \break
+  
+  \Backs \break
+  \Refrain
+  % \HornRiff \break
+  % \HornRiffII \break
+  % \HornRiffIII \break
 }
 
 <<
