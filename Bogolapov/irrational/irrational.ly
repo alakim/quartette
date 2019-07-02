@@ -10,7 +10,7 @@ longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staf
 HI = \chordmode{
   \transpose bes c {e2:7 a:7 | d:7 a:7 |}
 }
-HII = \chordmode {d1:7 | a:7 | d:7 | b |}
+HII = \chordmode { \transpose bes c {d1:7 | a:7 | d:7 | b |}}
 
 HRiff = {
   \HI \HI 
@@ -19,23 +19,36 @@ HRiff = {
 
 
 
-HornRiff = {
-  \tag #'Harmony {\HRiff}
+Intro = {
+  \tag #'Harmony {\HRiff }
   \tag #'Horn {
-    \mark "Riff 1"
+    \mark "Intro"
     \relative c'' {
-        s1 s1 s1 s1 
-        \longBar
-        s1 s1 s1 s1 
+        \relative c''{a4. fis8~fis2 | e8 fis4 a fis4. |}
+        \relative c''{a4. fis8~fis2 | e8 cis e fis~fis2 \longBar}
+        %\relative c''{a4. fis8~fis2 | e8 fis4 a b4. |}
+        \relative c''{\appoggiatura g8 gis4. e8~e2 | a8 fis a b4 d4. |}
+        \relative c''{d8 b d b d b4 a8~ | a8 fis e fis a b r4 \bar "||"}
+        
     }
-    
-    \bar "||"
+  }
+}
+
+Verse = {
+  \tag #'Harmony {\HRiff }
+  \tag #'Horn {
+    \mark "Verse"
+    \relative c'' {
+        r1 | r2 r8 \relative c'{fis8 e fis}  | r1 | r2  r8 \relative c'{fis8 a b} |
+        r1 | \relative c'{r2 r8 fis8 fis4 | r2 fis2\< | gis4^. r2.\! \bar "||"} 
+    }
   }
 }
 
 
 Music = {
-  \HornRiff \break
+  \Intro \break
+  \Verse \break
 }
 
 <<
