@@ -17,20 +17,26 @@ HRiff = {
   \HII
 }
 
+HIntro = {
+  \HI \HI
+  \HI 
+  \chordmode{\transpose bes c {e2:7 a:7 | d1:7 |}}
+}
+
 
 
 Intro = {
-  \tag #'Harmony {\HRiff }
+  \tag #'Harmony {\HIntro }
   \tag #'Horn {
     \mark "Intro"
     \relative c'' {
-        \relative c''{a4. fis8~fis2 | e8 fis4 a fis4. |}
-        \relative c''{a4. fis8~fis2 | e8 cis e fis~fis2 \longBar}
-        %\relative c''{a4. fis8~fis2 | e8 fis4 a b4. |}
-        \relative c''{\appoggiatura g8 gis4. e8~e2 | a8 fis a b4 d4. |}
-        \relative c''{d8 b d b d b4 a8~ | a8 fis e fis a b r4 \bar "||"}
+        \relative c''{ais4. fis8~fis2 | gis8 fis4 a4 b4. |}
+        \relative c''{ais4. fis8~fis2 | gis8 fis4 a8~a2 |}
+        \relative c''{ais4. fis8~fis2 | gis8 fis4 a4 b4. |}
+        \relative c''{ais4. fis8~fis2 | fis8 fis4 fis8~fis2 |}
         
     }
+    \bar "||"
   }
 }
 
@@ -63,3 +69,7 @@ Music = {
     \keepWithTag #'Horn \Music
   }
 >>
+
+\markup{
+  "Форма: Intro V1 intro  V2 solo V3 solo V4 solo V5 intro"
+}
