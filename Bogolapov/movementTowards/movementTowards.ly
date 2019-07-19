@@ -64,9 +64,9 @@ Refrain = {
   \tag #'Horn {
     \mark "Refrain"
     \relative c' {
-        b1 | b2 \BreakB |
-        b1 | b2 \BreakB | \longBar
-        b1 | b2 \BreakB 
+        gis'4. fis4 e4. | b2 \BreakB |
+        gis'4. fis4 e4. | b2 \BreakB | \longBar
+        gis'4. fis4 e4. | b2 \BreakB 
         \BreakDC
     }
     \bar "||"
