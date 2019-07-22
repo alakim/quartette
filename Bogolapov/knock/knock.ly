@@ -36,12 +36,18 @@ Solo = {
   \tag #'Harmony {
       \HVerse
       \HVerse
+      \HVerse
+      \HVerse
   }
   \tag #'Horn {
     \mark "Solo"
     % \relative c'{ r4. d8 fis8 a4 b8 | cis4. e,4. a4 | b4. e,8 fis g a b | cis2 fis4 e \longBar }
-    \relative c'{ r4. d8 fis8 a4 b8 | cis4. e,4. a4 | b4 fis8 g a b4 d8 | cis4 r fis4 e \longBar }
-    \relative c' {s1 | s1 | s1 | s1 \bar "||" }
+    
+    % \relative c'{ r4. d8 fis8 a4 b8 | cis4. e,4. a4 | b4 fis8 g a b4 d8 | cis4 r fis4 e \longBar }
+    \relative c'{ r4. d8 fis8 a4 b8 | b8 cis4. r2 | r4. d8 cis8 a4 fis8 | a2 r4 fis8 a | \longBar}
+    \relative c'' {cis8 d cis a4 fis4 r8 | b8 a4 r8 r2  | a8 fis r d' cis d4 e8  | cis2. d8 e \longBar }
+    \relative c''{ fis4. e4. cis8 d  | e4. cis4. r4 | r2 d8 b4 a8~ | a4 fis8 a b a4 b8 \longBar}
+    \relative c''{ b8 cis4 d8 d8 e4 fis8 | fis8 e cis a~a  e'8 cis a | d2 cis2 | b2 cis2 \bar "||"}
   }
 }
 
