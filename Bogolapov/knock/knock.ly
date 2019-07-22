@@ -32,10 +32,24 @@ Refrain = {
   }
 }
 
+Solo = {
+  \tag #'Harmony {
+      \HVerse
+      \HVerse
+  }
+  \tag #'Horn {
+    \mark "Solo"
+    % \relative c'{ r4. d8 fis8 a4 b8 | cis4. e,4. a4 | b4. e,8 fis g a b | cis2 fis4 e \longBar }
+    \relative c'{ r4. d8 fis8 a4 b8 | cis4. e,4. a4 | b4 fis8 g a b4 d8 | cis4 r fis4 e \longBar }
+    \relative c' {s1 | s1 | s1 | s1 \bar "||" }
+  }
+}
+
 
 Music = {
   \Verse \break
   \Refrain \break
+  \Solo \break
 }
 
 <<
