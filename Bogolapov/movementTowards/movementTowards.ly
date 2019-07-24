@@ -72,12 +72,26 @@ Refrain = {
     \bar "||"
   }
 }
+RefrainII = {
+  \tag #'Harmony {
+    \HRefrain  
+  }
+  \tag #'Horn {
+    \mark "Refrain 2"
+    \relative c''{gis4. gis8~gis2 | fis4. dis8~dis2 |}
+    \relative c'{gis4. b8~b2 | dis'4. fis8~fis2 |}
+    \relative c''{gis4. gis8~gis2 | fis4. dis8~dis2 |}
+        \BreakDC
+    \bar "||"
+  }
+}
 
 
 Music = {
   \Intro \break
   \Verse \break
   \Refrain \break
+  \RefrainII \break
 }
 
 <<

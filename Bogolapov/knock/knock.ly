@@ -70,3 +70,7 @@ Music = {
     \keepWithTag #'Horn \Music
   }
 >>
+
+\markup{
+  "Форма:  Intro V R  solo V R  solo V R solo отбивка \"тук-тук 4 раза\" solo"
+}
