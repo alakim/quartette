@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header{
-  title="Как Биче и Алигьери"
+  title="Метель"
   composer="А.Боголапов"
 }
 
@@ -9,42 +9,29 @@ longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staf
 
 HVerse = \chordmode{
   \transpose bes c { 
-      e1:m | b:7 | a:m | e:7 |
-      f1 | b:7 | f1 | b:7 |
+      a1:m c g f
+      c g f c
+      a:m c g f
+      c g f c
   }
 }
 
 HRefrain= \chordmode{
   \transpose bes c {
-      a1:m | b:7 | e:m | c |
-      a1:m | b:7 | e:m | c |
+    a1:m g f c
+    a:m c g f
+    a:m c g f
   }
 }
 
-Solo = {
-  \tag #'Harmony {\HVerse \HVerse}
-  \tag #'Horn {
-    \mark "Solo"
-    % t=02:32
-    \relative c''{cis2~cis8 d4 cis8 | b2. ~b8 cis16 b | a2~a8 b4 a8 | cis1 \longBar }
-    % t=09:40
-    \relative c''{cis8 d4 cis8 cis b4 cis8 | cis8 b4 a4. b8 a |}
-    % t=13:20
-    \relative c''{gis2~gis8 fis e fis | gis4. a8~a2 \longBar } 
-    
-    % t=16:39
-    \relative c''{cis2~cis8 d4 cis8 | b2. ~b8 cis16 b | a2~a8 b4 a8 | gis4. a4 gis4. \longBar }
-    % t=23:59
-    \relative c'{fis8 gis4 a8 fis8 a4 b8 | b8 a4 b8 cis b4 d8 |e4. d8~d2 |gis8 f d b gis fis e fis }
-    
-    \bar "||"
-  }
-}
+
 
 Verse = {
   \tag #'Harmony {\HVerse}
   \tag #'Horn {
     \mark "Verse"
+    s1 | s1 | s1 | s1 \longBar
+    s1 | s1 | s1 | s1 \longBar
     s1 | s1 | s1 | s1 \longBar
     s1 | s1 | s1 | s1 
     
@@ -57,6 +44,7 @@ Refrain = {
   \tag #'Horn {
     \mark "Refrain"
     s1 | s1 | s1 | s1 \longBar
+    s1 | s1 | s1 | s1 \longBar
     s1 | s1 | s1 | s1 
     
     \bar "||"
@@ -65,7 +53,6 @@ Refrain = {
 
 
 Music = {
-  \Solo \break
   \Verse \break
   \Refrain \break
 }
