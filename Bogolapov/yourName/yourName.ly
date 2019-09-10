@@ -23,12 +23,21 @@ HRefrain = \chordmode{
 }
 
 Intro = {
-  \tag #'Harmony {\HVerse \HVerse}
+  \tag #'Harmony {
+    \HVerse \HVerse
+    \HVerse \HVerse
+  }
   \tag #'Horn {
     \mark "Intro"
-    s1 | s1 | s1 | s1 \longBar
-    s1 | s1 | s1 | s1 
-    
+    \relative c''{cis2. d8 cis | b8 a4 gis8 a gis4 fis8 |
+        gis2~gis8 fis8 gis a | a2 gis } \longBar
+    \relative c''{cis2. d8 cis | b8 a4 gis8 a gis4 fis8 |
+        gis2~gis8 fis8 gis a | a2 gis } \longBar
+    \relative c'{fis8 gis4 a8 gis a4 b8 | b4. cis8~cis2 |
+        fis,8 gis4 a8 gis fis4 e8 | fis4. f8~f2 |
+    }\longBar
+    \relative c''{cis2. d8 cis | b8 a4 gis8 a gis4 fis8 |
+        gis2~gis8 fis8 gis a | a2 gis } 
     \bar "||"
   }
 }
