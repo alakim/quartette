@@ -93,7 +93,8 @@ Backs = {
   }
   \tag #'Horn {
     \mark "Back phrases"
-    \relative c' {r2 r8 dis8 e fis | gis4 r2. \bar "||"}
+    r1 | r1 \bar "||"
+    %\relative c' {r2 r8 dis8 e fis | gis4 r2. \bar "||"}
   }
   
 }
@@ -141,3 +142,7 @@ Music = {
     \keepWithTag #'Horn \Music
   }
 >>
+
+\markup{
+  Форма: Riff V R Riff V R Solo V R Solo Riff
+}

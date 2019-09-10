@@ -30,10 +30,10 @@ Solo = {
     % t=09:40
     \relative c''{cis8 d4 cis8 cis b4 cis8 | cis8 b4 a4. b8 a |}
     % t=13:20
-    \relative c''{gis2~gis8 fis e fis | gis4. a8~a2 \longBar } 
+    \relative c''{a2~a8 fis e fis | gis4. a8~a2 \longBar } 
     
     % t=16:39
-    \relative c''{cis2~cis8 d4 cis8 | b2. ~b8 cis16 b | a2~a8 b4 a8 | gis4. a4 gis4. \longBar }
+    \relative c''{cis2~cis8 d4 cis8 | b2. ~b8 cis16 b | a2~a8 b4 a8 | a4. gis4 a4. \longBar }
     % t=23:59
     \relative c'{fis8 gis4 a8 fis8 a4 b8 | b8 a4 b8 cis b4 d8 |e4. d8~d2 |gis8 f d b gis fis e fis }
     
@@ -45,8 +45,9 @@ Verse = {
   \tag #'Harmony {\HVerse}
   \tag #'Horn {
     \mark "Verse"
-    s1 | s1 | s1 | s1 \longBar
-    s1 | s1 | s1 | s1 
+    r1 | r1 | r1 | r1 \longBar
+    \relative c''{g1 | gis | b | cis |}
+    
     
     \bar "||"
   }
@@ -56,8 +57,8 @@ Refrain = {
   \tag #'Harmony {\HRefrain}
   \tag #'Horn {
     \mark "Refrain"
-    s1 | s1 | s1 | s1 \longBar
-    s1 | s1 | s1 | s1 
+    \relative c'{fis1 | gis | a | fis \longBar}
+    \relative c'{fis1 | eis | fis | a |}
     
     \bar "||"
   }
@@ -83,3 +84,6 @@ Music = {
   }
 >>
 
+\markup {
+  Форма: Solo V V V R Solo V R Solo
+}
