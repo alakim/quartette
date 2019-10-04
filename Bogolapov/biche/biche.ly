@@ -9,7 +9,7 @@ longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staf
 
 HVerse = \chordmode{
   \transpose bes c { 
-      e1:m | b:7 | a:m | e:7 |
+      e1:m | b:7 | a:m | b:7 |
       f1 | b:7 | f1 | b:7 |
   }
 }
