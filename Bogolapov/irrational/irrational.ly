@@ -62,10 +62,25 @@ Verse = {
   }
 }
 
+Solo = {
+  \tag #'Harmony {\HIntro }
+  \tag #'Horn {
+    \mark "Solo"
+    \relative c' {
+        fis4. fis4 fis8 a fis8 | gis8 fis4 a4. fis4  | cis'4. b4 a fis8~ | fis1 |
+    }
+    \relative c' {
+        dis8 fis4 gis8 a fis4. |b8 gis4 cis4 dis4. | e4. cis4. a4 | b8 gis b d8~d2 |
+        \bar "||"
+    }
+  }
+}
+
 
 Music = {
   \Intro \break
   \Verse \break
+  \Solo \break
 }
 
 <<
