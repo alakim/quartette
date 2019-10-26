@@ -15,7 +15,7 @@ Hrm = \chordmode { c2:maj a:7 | d:m7 g:7 }
     \time 4/4
     \key c \major
     \mark "Bass line 1"
-    <c e>2 <a g,> | <d f> <g, f> \bar "||"
+    <c e>2 <g a,> | <d f> <g, f> \bar "||"
   }
 >>
 <<
