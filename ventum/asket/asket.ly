@@ -36,6 +36,23 @@ PA = {
 	}
 }
 
+PAI = {
+	\tag #'Harmony {
+		\HrmA  
+		\HrmA  
+	}
+	\tag #'Clarinet {
+		\mark \markup{ \circle "A1" }
+		\relative c'{ cis8 b16 a fis4 a8 fis4 cis'16 e | 
+		              %a8 fis4 b16 fis \tuplet 3/2 { a8 fis e} \tuplet 3/2 {fis8 e fis} |
+		              a8 fis4 b16 fis \tuplet 3/2 { f8 e d} \tuplet 3/2 {g8 fis8 a} |
+		              b8 a4 cis16 b e8 cis4 fis16 e | cis'4^> cis^> cis^> r16 cis,16 b a \longBar }
+		\relative c'{fis4 a8 fis4. r8 fis16 a | b4. cis8 a fis4.  |}
+		 \relative c''{ r4 \tuplet 3/2{e8 d b} e8 d4  fis16 e |} 
+		cis'''1 \bar "||"
+	}
+}
+
 PB = {
 	\tag #'Harmony {
 		\HrmB
@@ -76,6 +93,7 @@ PD = {
 
 Music = {
 	\PA \break
+	\PAI \break
 	\PB \break
 	\PC \break
 }
