@@ -42,6 +42,21 @@ Intro = {
   }
 }
 
+Verse = {
+  \tag #'Harmony {
+    s1 | s1 | s1 | s1 | 
+    s1 | s1 | s1 | s1 | 
+  }
+  \tag #'Horn {
+    \mark "Verse"
+    \relative c'{cis4 b a gis | fis4~fis16 f16 fis gis a4 b |}
+    \relative c'{cis4 b a gis | fis4. gis8 a gis4. \longBar}
+    \relative c'{e2. \tuplet 3/2{a,8 cis e} | dis2 r2 |}
+    \relative c'{cis4 b a gis | fis4~fis16 f16 fis gis a4 b |}
+    \bar "||"
+  }
+}
+
 Refrain = {
   \tag #'Harmony {\HRefrain}
   \tag #'Horn {
@@ -57,6 +72,7 @@ Refrain = {
 
 Music = {
   \Intro \break
+  \Verse \break
   \Refrain \break
 }
 
