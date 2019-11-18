@@ -25,8 +25,8 @@ Intro = {
     \mark "Intro"
     
     \repeat volta 2{
-      \relative c''{a2 r8 a g4 | a1 |
-         r4 a4 a8 g4 a8~ |a8 a4. r2 |
+      \relative c''{a2 r4 fis8 a~ | a1 |
+         r4 a4 a8 fis4 a8~ |a8 a4. r2 |
       }
        \longBar
       % \relative c''{g4 g8 fis4 g4 g8 | fis1 |

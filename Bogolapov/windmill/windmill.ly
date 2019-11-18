@@ -71,7 +71,8 @@ Solo  = {
   }
   \tag #'Horn {
     \mark "Solo"
-    s1 |s1 |s1 |s1 \longBar
+    \relative c''{b8 ais4 gis8 e'4 dis4 | }
+    |s1 |s1 |s1 \longBar
     s1 |s1 |s1 |s1 \longBar
     s1 |s1 |s1 |s1 \longBar
     s1 |s1 |s1 |s1 |
@@ -98,4 +99,9 @@ Music = {
     \keepWithTag #'Horn \Music
   }
 >>
+
+
+\markup{
+  Intro V C s V C s V C s  
+}
 
