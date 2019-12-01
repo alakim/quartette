@@ -23,10 +23,10 @@ Solo = {
     \mark "Solo"
     \relative c'' {
       cis2. b8 a | gis1 | a1 | b2. a8 fis8 ~ \longBar
-      fis1~ | fis2. f8 fis | b4. cis8~cis2~ | cis1 \longBar 
+      fis1~ | fis2. f8 gis | b4. cis8~cis2~ | cis1 \longBar 
     }
     \relative c' {
-      fis4. a4. b8 fis~ | fis1 | fis2 r8 fis f fis | b4. cis2 b16 a \longBar 
+      fis4. a4. b8 fis~ | fis1 | fis2 r8 fis f gis | b4. cis2 b16 a \longBar 
       fis1 | s1 | s1 | s1  
       \bar "||"
     }
