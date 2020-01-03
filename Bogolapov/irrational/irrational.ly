@@ -76,11 +76,24 @@ Solo = {
   }
 }
 
+Bridge = {
+  \tag #'Harmony {\chordmode{\transpose bes c{
+    a1:7 d:7 a1:7 d:7
+    a1:7 d:7 g2:7 f:7 d1:7
+  }}}
+  \tag #'Horn {
+    \mark "Bridge"
+    s1 | s1 | s1 | s1 \longBar
+    s1 | s1 | \relative c''{a4. g8~g2 | gis1 }  \bar "||"
+  }
+}
+
 
 Music = {
   \Intro \break
   \Verse \break
   \Solo \break
+  \Bridge \break
 }
 
 <<
@@ -113,5 +126,5 @@ Music = {
 >>
 
 \markup{
-  "Форма: Intro V1 intro  V2 solo V3 solo V4 solo V5 intro"
+  "Форма: Intro V1 intro  V2 solo V3 Br solo V4 solo V5 Br intro"
 }

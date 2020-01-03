@@ -40,7 +40,7 @@ Verse = {
 Solo = {
   \tag #'Harmony {\HSolo}
   \tag #'Horn {
-    \mark "Verse"
+    \mark "Solo"
     s1 | s1 | s1 | s1 \longBar
     s1 | s1 | s1 | s1 
     \bar "||"
