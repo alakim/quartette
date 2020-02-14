@@ -41,6 +41,19 @@ Solo = {
   }
 }
 
+SoloII = {
+  \tag #'Harmony {\HVerse \HVerse}
+  \tag #'Horn {
+    \mark "Solo 2"
+    \relative c'''{a4. gis16 fis eis8 fis gis a | gis8 fis eis fis gis fis eis gis | }
+    \relative c''{fis4. e16 d cis8 b a b | cis4~cis16 gis a b cis2 \longBar}
+    \relative c''{d2 cis16 b a8 b cis | b4. gis16 a b8 cis d cis | d8 cis d cis b a b cis | gis4 b d f |} \longBar
+    \relative c'''{ a2 cis, | gis'4. b,8~b2 | fis'4. cis8 d cis b a  |  gis4. b8 d4 cis \longBar }
+    \relative c''{b2 d, | cis'2 eis, | b'8 a d cis e d fis eis | gis8 eis d b gis fis e fis  \longBar }
+    \bar "||"
+  }
+}
+
 Verse = {
   \tag #'Harmony {\HVerse}
   \tag #'Horn {
@@ -67,6 +80,7 @@ Refrain = {
 
 Music = {
   \Solo \break
+  \SoloII \break
   \Verse \break
   \Refrain \break
 }
@@ -85,5 +99,5 @@ Music = {
 >>
 
 \markup {
-  Форма: Solo V V V R Solo V R Solo
+  Форма: Solo V V V R Solo2 V R Solo
 }
