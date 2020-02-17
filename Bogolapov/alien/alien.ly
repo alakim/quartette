@@ -25,6 +25,19 @@ HSolo = \chordmode{
 
 
 
+Intro = {
+  \tag #'Harmony {s1 \HVerse}
+  \tag #'Horn {
+    \mark "Intro"
+    \relative c'{s8 b cis d e d e fis |}
+    \relative c'{fis1~ | fis4 fis g4. fis8 | fis4. e8~e2 | r8 d cis d e d e fis  \longBar}
+    \relative c'{fis1~ | fis4 g4 a4. g8  | fis1~ | fis4 fis g a  \longBar}
+    \relative c'' {a4. g16 fis g2~ | g8 a4 <g gis>8 <fis a>4 <e b'> | <g d'>4. <fis cis'>8 <fis cis'>2~ | <fis cis'>4 <fis b>4 <e a> <d fis> \longBar}
+    \relative c''{ g8 fis4 e8 d4 cis | fis8 e4 d8 e4 fis | fis1 | r8 b, cis d e d e fis }
+    \bar "||"
+  }
+}
+
 Verse = {
   \tag #'Harmony {\HVerse}
   \tag #'Horn {
@@ -50,6 +63,7 @@ Solo = {
 
 
 Music = {
+  \Intro \break
   \Verse \break
   \Solo \break
 }
