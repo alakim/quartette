@@ -12,8 +12,8 @@ Verse = {
     e1:m c1 g1 d1
     e1:m c1 g1 d1
     b1:m e:m b1:m e:m  
-    c1 g1 a1:m e1:m
-    c1 g1 a1:m e:m 
+    c1 g1 d1 e1:m
+    c1 g1 d1 c1 
   }}
   \tag #'Voice {
     \relative c''{r4 g8 g g g g4 | e'8 e~e2. |
@@ -33,11 +33,11 @@ Verse = {
   }
   \tag #'Flute {
     \mark "Verse"
-    s1 | s1 | s1 | s1 \longBar
-    s1 | s1 | s1 | s1 \longBar
-    s1 | s1 | s1 | s1 \longBar
-    s1 | s1 | s1 | s1 \longBar
-    s1 | s1 | s1 | s1 |
+    <cis' fis'>1 | <a' d'>1 | <cis' a'>1 | <e' gis'>1 \longBar
+    <cis' fis'>1 | <a' d'>1 | <cis' a'>1 | <e' gis'>1 \longBar
+    e'1 | cis'1 | e'1 | cis'1 \longBar
+    <d' a'>1 | a'1 | <e' gis'>1 | fis'1 \longBar
+    d'1 | a1 | <e' gis'>1 | <d' a'>1 |
     \bar "||"
   }
 }
@@ -88,38 +88,44 @@ Music = {
 }
 
 <<
-  \new ChordNames{
+  \new ChordNames{\transpose bes c{
     \keepWithTag #'Harmony \Intro
-  }
+  }}
   \new Staff{
     \set Staff.instrumentName="Guitar"
     \time 4/4
     \clef treble
-    \key g \major
-    \keepWithTag #'Guitar \Intro
+    \transpose bes c{
+        \key g \major
+        \keepWithTag #'Guitar \Intro
+    }
   }
   \new Staff{
-    \set Staff.instrumentName="Flute"
+    \set Staff.instrumentName="Clarinet"
     \time 4/4
     \clef treble
-    \key g \major
-    \keepWithTag #'Flute \Intro
+    \transpose bes c{
+        \key g \major
+        \keepWithTag #'Flute \Intro
+    }
   }
 >>
 
 <<
-  \new ChordNames{
+  \new ChordNames{\transpose bes c{
     \keepWithTag #'Harmony \Music
-  }
+  }}
   \new Staff{
     \set Staff.instrumentName="Voice"
     \time 4/4
     \clef treble
-    \key g \major
-    \keepWithTag #'Voice \Music
+    \transpose bes c{
+        \key g \major
+        \keepWithTag #'Voice \Music
+    }
   }
   \new Staff{
-    \set Staff.instrumentName="Flute"
+    \set Staff.instrumentName="Clarinet"
     \time 4/4
     \clef treble
     \key g \major
