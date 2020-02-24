@@ -45,6 +45,18 @@ SoloII = {
   \tag #'Harmony {\HVerse \HVerse}
   \tag #'Horn {
     \mark "Solo 2"
+    \relative c''{ cis2~cis8 fis, a cis | b2~b8 eis, gis b | a2~a8 d, fis a | gis4. eis4 cis8 eis gis \longBar}
+    \relative c''{b2~b8 d, fis a | gis4. fisis4. gis4 | g?4. d'8~d2 | cis4. gis4. eis4 \longBar}
+    \relative c''{a4. gis8 fis a gis fis  | gis1 | fis4. e8 d cis d fis | eis2~eis8 fis8 gis a \longBar}
+    \relative c''{b2 d, | cis'2 eis, | b'8 a d cis e d fis eis | gis8 eis d b gis fis e fis }
+    \bar "||"
+  }
+}
+
+SoloIII = {
+  \tag #'Harmony {\HVerse \HVerse}
+  \tag #'Horn {
+    \mark "Solo 2"
     \relative c'''{a4. gis16 fis eis8 fis gis a | gis8 fis eis fis gis fis eis gis | }
     \relative c''{fis4. e16 d cis8 b a b | cis4~cis16 gis a b cis2 \longBar}
     \relative c''{d2 cis16 b a8 b cis | b4. gis16 a b8 cis d cis | d8 cis d cis b a b cis | gis4 b d f |} \longBar
@@ -81,6 +93,7 @@ Refrain = {
 Music = {
   \Solo \break
   \SoloII \break
+  \SoloIII \break
   \Verse \break
   \Refrain \break
 }
