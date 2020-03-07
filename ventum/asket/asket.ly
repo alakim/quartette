@@ -80,13 +80,26 @@ PC = {
 
 PD = {
 	\tag #'Harmony {
-		\HrmD
-		\HrmD
+		\HrmD \HrmD
+		\HrmD \HrmD
+		\HrmD \HrmD
+		\HrmD \HrmD
+		\chordmode{fis1:m}
 	}
-	\tag #'Clarinet {
+	\tag #'Guitar {
+	  \relative c''{a8 gis e d2 b8 | cis1 | gis8 a b fis'4 eis cis8~ | cis1 \longBar}
+	  \relative c''{a8 gis e d2 b8 | cis1 | gis8 a b fis'4 eis cis8~ | cis1 \longBar}
+	  \relative c''{ eis8 cis eis cis eis cis eis cis |d8 b d b d b d b | cis8 a cis a cis8 a cis a |a4 cis d4 cis \longBar}
+	  \relative c''{ eis8 cis eis cis eis cis eis cis |d8 b d b d b d b | cis8 a cis a cis8 a cis a |a4 cis d4 cis \longBar}
+	  s1 \bar "||"
+	}
+	\tag #'Horn {
 		\mark \markup{ \circle D }
-		\relative c{ fis'1^"guitar solo" ~ fis1_"ad lib." ~ fis1 ~ fis1}
-		\bar "||"
+		\relative c''{r1 | r4. fis,4. a4 | cis4. d4 a4. | fis1 \longBar }
+		\relative c''{cis2 a | fis1 | cis'4. d4 a4. | fis1 \longBar }
+	        \relative c''{a2 b4 cis | d4. fis,8 fis4. r16 e'32 e |e4. fis8 cis4 a | fis4 a b a \longBar}
+	        \relative c''{a2 b4 cis | d1 |e2 fis4 e | d8 cis b a b2  \longBar}
+	        <\parenthesize fis' a'>1 \bar "||"
 	}
 }
 
@@ -125,8 +138,16 @@ HornMusic = {
 		\clef treble 
 		\time 4/4
 		\key fis \minor
+		\set Staff.instrumentName = "Guitar"
+		\compressFullBarRests
+		\keepWithTag #'Guitar \HornMusic
+	}
+	\new Staff{
+		\clef treble 
+		\time 4/4
+		\key fis \minor
 		\set Staff.instrumentName = "Flugelhorn"
 		\compressFullBarRests
-		\keepWithTag #'Clarinet \HornMusic
+		\keepWithTag #'Horn \HornMusic
 	}
 >>
