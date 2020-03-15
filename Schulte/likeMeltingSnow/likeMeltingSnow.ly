@@ -38,9 +38,9 @@ Verse = {
   }}
   \tag #'Flute {
     \mark "Verse"
-    s1 | s1 \longBar s1 | s1 \longBar
-    s1 | s1 \longBar s1 | s1 \longBar 
-    s1 | s1 \longBar s1 | s1 	  
+    \relative c''{ r1 | r2 g'16 fis e d e d b a \longBar bes4. a8 g2 | f2 a16 g a d c a c d \longBar}
+    \relative c''{ e2 d4. c8 | f2 r \longBar r4. g16 f g4 c, | b2 a4 g \longBar }
+    \relative c'{ e4. g8 bes2 | a2 r \longBar g1 | a2 r16 g16 a c d c d e }
     \bar "||"
   }
   \tag #'Voice {
