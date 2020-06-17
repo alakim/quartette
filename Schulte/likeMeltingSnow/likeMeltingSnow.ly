@@ -12,16 +12,21 @@ HIntro = \chordmode { d2:m d:m/c d:m/b d:m/a }
 Intro = {
   \tag #'Harmony {\chordmode{
     \HIntro \HIntro
+    \HIntro \HIntro
   }}
   \tag #'Flute {
     \mark "Intro"
+    s1 | s1 \longBar
+    s1 | s1 \longBar
     s1 | s1 \longBar
     s1 | s1 | 
     \bar "||"
   }
   \tag #'Voice {
-    s1 | s1 \longBar
-    s1 | s1 | 
+    \relative c'{r4 f e8. f4 e16 | d1 }  \longBar
+    \relative c''{a4. g4 f e8 | f16 e d8~d2 r8 d16 e } \longBar 
+    \relative c'{f2 e8 f4 e8 | d8. c16 b8 a16 g16~g2 } \longBar
+    \relative c''{a2 g8 f4 e8 | f1 |}
   }
 }
 
@@ -50,6 +55,22 @@ Verse = {
   }
 }
 
+FluteSolo = {
+  \tag #'Harmony {\chordmode{
+    \HIntro \HIntro
+    \HIntro \HIntro
+  }}
+  \tag #'Flute {
+    \relative c''{r16 gis16 b d f d c a}
+    \relative c''{r8 f16 e f8 a,} 
+    \relative c''{r8 d16 f b,4 }
+    \relative c''{f16 d b ais cis e d8}
+    s1 s1 \longBar
+    s1 s1 s1 s1 
+    \bar "||"
+  }
+}
+
 
 Music = {
   \Intro \break
@@ -73,6 +94,20 @@ Music = {
     \clef treble
     \key d \minor
     \keepWithTag #'Flute \Music
+  }
+>>
+
+
+<<
+  \new ChordNames{
+    \keepWithTag #'Harmony \FluteSolo
+  }
+  \new Staff{
+    \set Staff.instrumentName="Flute"
+    \time 4/4
+    \clef treble
+    \key d \minor
+    \keepWithTag #'Flute \FluteSolo
   }
 >>
 
