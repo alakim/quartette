@@ -47,8 +47,7 @@ PC = {
 	}
 	\tag #'Clarinet {
 		\mark \markup{ \circle C }
-		
-		s1 | s1 |  s1 | s1 \bar "||"
+		cis'1 %{gis'1%} | c'4 e' c'2 |  cis'1 | e'1 \bar "||"
 	}
 }
 
@@ -63,10 +62,10 @@ Music = {
 
 
 <<
-	\new ChordNames{
+	\new ChordNames{ \transpose bes c' {
 		\keepWithTag #'Harmony \Music
-	}
-	\new Staff{
+	}}
+	\new Staff{ 
 		\clef treble 
 		\time 4/4
 		\key b \minor
@@ -75,4 +74,23 @@ Music = {
 		\keepWithTag #'Clarinet \Music
 	}
 >>
+
+
+\new PianoStaff <<
+  \new ChordNames{
+     \HrmB 
+  }
+  \new Staff = "up" {
+    \key b \minor
+    \clef treble
+    <d'' fis' e' >1 | <d'' as' f'> | <d'' g' f'> | <d'' fis' e'> |
+  }
+  \new Staff = "down" {
+    \key b \minor
+    \clef bass
+    <b, b>1 | <bes, bes> | <g, g> | <d, d> |
+  }
+>>
+
+
 
