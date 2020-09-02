@@ -11,14 +11,18 @@ longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staf
 
 <<
   \new ChordNames{
-    \keepWithTag #'Harmony \Music
+    \transpose c bes{
+      \keepWithTag #'Harmony \Music
+    }
   }
   \new Staff{
-    \set Staff.instrumentName="Clarinet"
+    \set Staff.instrumentName="Violin"
     \time 4/4
     \clef treble
-    \key d \major
-    \keepWithTag #'Horn \Music
+    \key c \major
+    \transpose c bes,{
+      \keepWithTag #'Horn \Music
+    }
   }
 >>
 
