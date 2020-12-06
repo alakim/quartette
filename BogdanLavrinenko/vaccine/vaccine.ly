@@ -62,7 +62,7 @@ PChorus = {
 	}
 	\tag #'Trumpet {
 	      \relative c' {r4 e r fis | r4 g r8 b a g | <d fis>2 r8 e fis a~ | a2 r } \longBar
-	      \relative c' {r4 e r fis | r4 g r8 b a g | e2 r8 e fis a~ | a2 r | g1 } 
+	      \relative c' {r4 e r fis | r4 g r8 b a g | e2 r8 e g a~ | a2 r | g1 } 
 	      
 		\bar "||"
 	}
