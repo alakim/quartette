@@ -9,7 +9,8 @@
 
 Intro = {
 	\tag #'Harmony {\chordmode{ s4 
-	bes2.:7+ es1:7+ bes1:7+ }}
+	g2.:m7 % or bes2.:7+ 
+	es2.:7+ c4:m7 d 1:7.9- }}
 	\tag #'Trumpet {\relative c''{
 		\mark \markup Intro
 		\partial 4 {bes8 c }
@@ -22,9 +23,9 @@ Intro = {
 SoloI = {
 	% t=01:47
 	\tag #'Harmony {\chordmode{
-		s1 bes1:7+ es1:7+ bes2.:7+ d4:m7 c1:m
-		g1:m c1:m g\breve:m  
-		c1:m d1:7 g1:m 
+		s1 g1:m7+ es1:7+ bes2.:7+ g4:m7 c1:m
+		g1:m a1:m7 g\breve:m   
+		a1:m d1:7 g1:m 
 	}}
 	\tag #'Trumpet {\relative c'{
 		\mark \markup "Solo 1"
