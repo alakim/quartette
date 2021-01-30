@@ -51,11 +51,14 @@ Bridge = {
 Solo = {
   \tag #'Harmony {
       \HII \HII 
+      \HII \HII 
   }
   \tag #'Trumpet {
     \mark "Соло"
-    s1 | s1 | s1 | s1 | 
-    s1 | s1 | s1 | s1 | 
+    \relative c''{e2. d8 c | d8 c4 b8 c d4 e8 | e2. d8 e | gis4. f16 e d8 c4 b8 | }
+    \relative c''{ c4. b4 a b8 | b4. a4 g f8 | e2~e8 g4 f8 | e1 | }
+    \relative c''{ s1 | s1 | s1 | s1 | }
+    \relative c''{ s1 | s1 | s1 | s1 | }
     \bar "||"
   }
 }
