@@ -45,6 +45,17 @@ Verse = {
   }
 }
 
+HI = \chordmode{g1 d/fis e:m b:7/dis}
+Solo = {
+  \tag #'Harmony { \HI \HI  \HI \HI }
+  \tag #'Trumpet {
+    \relative c''{ b2. a8 g | e4. d4. fis8 a | b2. d8 e | dis2. a4 | }
+    \relative c''{ b2. d8 a~ | a1 | g2. e4 | fis2. g4 | }
+    \relative c''{ e4. d b4 | cis4. d a4 | b1 | dis1 | }
+    \relative c''{ e4. fis g4 | e4. d b4 | b1 | a1 | }
+    \bar "||" 
+  }
+}
 
 
 Music = {
@@ -74,6 +85,23 @@ Music = {
     \transpose bes c' {
       \key g \major
       \keepWithTag #'Trumpet \Music
+    }
+  }
+>>
+
+
+<<
+  \new ChordNames{\transpose bes c {
+    \keepWithTag #'Harmony \Solo
+  }}
+  \new Staff{
+    \set Staff.instrumentName="Trumpet"
+    \time 4/4
+    \clef treble
+    
+    \transpose bes c' {
+      \key g \major
+      \keepWithTag #'Trumpet \Solo
     }
   }
 >>
