@@ -46,9 +46,11 @@ Verse = {
 }
 
 HI = \chordmode{g1 d/fis e:m b:7/dis}
-Solo = {
+
+SoloI = {
   \tag #'Harmony { \HI \HI  \HI \HI }
   \tag #'Trumpet {
+    \mark "Solo 1"
     \relative c''{ b2. a8 g | e4. d4. fis8 a | b2. d8 e | dis2. a4 | }
     \relative c''{ b2. d8 a~ | a1 | g2. e4 | fis2. g4 | }
     \relative c''{ e4. d b4 | cis4. d a4 | b1 | dis1 | }
@@ -57,10 +59,25 @@ Solo = {
   }
 }
 
+SoloII = {
+  \tag #'Harmony { \HI \HI }
+  \tag #'Trumpet {
+    \mark "Solo 2"
+    \relative c''{ r4. b16 b b8 a4 d8 | e4. d4. r4 | r2 b8 g4 cis8 | dis2. cis8 b |  }
+    \relative c''{ a8 g4 b8 d2~ | d2 b8 a4. | g4. e'4. b4 | cis4. dis~dis4 |  }
+    \bar "||" 
+  }
+}
+
 
 Music = {
   \Chorus \break
   \Verse \break
+}
+
+Solo = {
+  \SoloI \break
+  \SoloII \break
 }
 
 <<
