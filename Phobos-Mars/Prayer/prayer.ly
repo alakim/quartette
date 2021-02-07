@@ -14,7 +14,7 @@ MainTheme = {
     d1:m f bes a:7
   }}
   \tag #'Trumpet {
-    \relative c'{ d2. e8 f | g8 f4 d8~d2 | f8 e4 d4. f8 e~ | e1 \bar "||" }
+    \relative c'{ d2. e8 f | g8 f4 c8~c2 | f8 e4 d4. f8 e~ | e1 \bar "||" }
   }
 }
 
