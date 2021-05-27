@@ -32,18 +32,47 @@ Intro = {
   }
 }
 
+Verse = {
+  \tag #'Harmony {\chordmode{
+    es2 d | g2:m d | es1 | d1 
+  }}
+  \tag #'Voice {
+    \mark "Verse x4"
+    \relative c'' {bes4 bes a a | g8. g16 g8 g g4 d | es8 es es es es es f es | d1  \bar ":|."}
+    
+  }
+  \tag #'Violin {
+    \relative c'{r1 | r1 | r1 | r8 <<{es8 f es}\\{a, bes c}>> d2 |}
+  }
+}
+
+Refrain = {
+  \tag #'Harmony {\chordmode{
+    es1 d1 g1:m s1 
+  }}
+  \tag #'Voice {
+    \mark "Refrain"
+    \relative c'' {bes1^"гори, гори" | r4. a8 a4 a | g2 r | r1 | }
+    
+  }
+  \tag #'Violin {
+    \relative c''{bes1 | a1 | g1~ | g1 |}
+  }
+}
+
 
 
 
 
 Music = {
-    \Intro \break
+    \Verse \break
+    \Refrain \break
     
 }
 
 <<
   \new ChordNames{
-      \keepWithTag #'Harmony  \Music
+      \keepWithTag #'Harmony  \Intro
   }
 
   \new Staff{
@@ -51,7 +80,7 @@ Music = {
     \time 4/4
     \clef treble
     \key g \minor
-    \keepWithTag #'Violin \Music 
+    \keepWithTag #'Violin \Intro 
   }
   \new ChordNames{
       \keepWithTag #'Harmony  \transpose bes c{\Music}
@@ -62,8 +91,29 @@ Music = {
     \clef treble
     \transpose bes c'{
       \key g \minor
-      \keepWithTag #'Trumpet \Music 
+      \keepWithTag #'Trumpet \Intro 
     }
+  }
+>>
+
+
+<<
+  \new ChordNames{
+      \keepWithTag #'Harmony  \Music
+  }
+  \new Staff{
+    \set Staff.instrumentName="Voice"
+    \time 4/4
+    \clef treble
+    \key g \minor
+    \keepWithTag #'Voice \Music 
+  }
+  \new Staff{
+    \set Staff.instrumentName="Violin"
+    \time 4/4
+    \clef treble
+    \key g \minor
+    \keepWithTag #'Violin \Music 
   }
 >>
 
