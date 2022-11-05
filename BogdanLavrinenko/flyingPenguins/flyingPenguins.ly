@@ -70,11 +70,29 @@ SoloB = {
 	}
 }
 
+SoloC = {
+	\tag #'Harmony {
+		s2.
+		\HrmSoloB \break
+		\HrmSoloB
+	}
+	\tag #'Trumpet {
+		s4. b |
+		\mark "Соло C"
+		\relative c''{ g4.~g8 fis e | fis2. | g4 fis16 g a8 g a | b8 a b d b d | }
+		\relative c''{e4.~e8 d c | d4.~d8 c d | e4. d | <e g>4. <d fis> | }
+		\relative c''{c4.~c8 a g | fis2. | g8 fis g a g a | b4 b,16 b b4 a8 | }
+		\relative c'{ c4.~c8 b c | d4. b | e2. | e'2. }
+		\bar "||"
+	}
+}
+
 
 Music = {
 	\Chorus \break
 	\SoloA \break
 	\SoloB \break
+	\SoloC \break
 }
 
 <<
