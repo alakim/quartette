@@ -8,7 +8,7 @@
 longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staff.BarLine.bar-extent = #'(-3 . 3) #})
 
 HI = \chordmode{
-	c1 f c g
+	a1:m f c g
 }
 
 TrptSolo = {
@@ -19,7 +19,7 @@ TrptSolo = {
 			r2 d8 e d c | e1 | f1 | e1 | r1 |
 			r4 c4 c8 d4 g,8~ | g4. f'2 e8~| e1 | 
 			r2 d8 e d c | e1 | f1 | e1 | r1 |
-			r2 e8 e e e | e8 f g,4. a4 e'8~ | e1 | s1 |
+			r2 e8 e e e | e8 f a,4. g4 e'8~ | e1 | s1 |
 		}
 		\bar "||"
 	}
