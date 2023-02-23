@@ -8,19 +8,26 @@
 
 longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staff.BarLine.bar-extent = #'(-3 . 3) #})
 
+HrmChorus = \transpose bes c{
+	\chordmode{d4.:m a:m d:m a:m}
+	\chordmode{f2. c  }
+	\chordmode{d2.:m e a:m a:m }
+}
 
 Chorus = {
-	\tag #'Harmony {\transpose bes c{
-		\chordmode{d4.:m a:m d:m a:m}
-		\chordmode{f2. c  }
-		\chordmode{d2.:m e a:m a:m }
-	}}
+	\tag #'Harmony {
+		\HrmChorus
+	}
 	\tag #'Trumpet {
 		\mark "Припев"
-		\relative c' {b2.~b d a}
-		\relative c' {b2. cis d~d4. cis}
+		\relative c' {b2.~b | d~d4. a |}
+		\relative c' {b4.~b8 a8 b | cis4.~cis8 b cis | d4. e4. | fis2. |}
 		\bar "||"
 	}
+	\tag #'Trombone' {\transpose c bes {
+		\relative c, {e4 b16 b b8 c d | e4 b16 b b8 c d | b4. g' | fis2. |}
+		\relative c, {e2. | fis4. ais, | b2. | d2. |} 
+	}}
 }
 
 HrmSoloA = \transpose bes c{\chordmode{
@@ -70,7 +77,7 @@ SoloB = {
 	}
 }
 
-SoloC = {
+xSoloC = {
 	\tag #'Harmony {
 		s2.
 		\HrmSoloB \break
@@ -87,13 +94,54 @@ SoloC = {
 	}
 }
 
+SoloC = {
+	\tag #'Harmony {
+		s2.
+		\HrmChorus
+		\HrmChorus
+	}
+	\tag #'Trumpet {
+		s4. b |
+		\mark "Соло C"
+		\relative c''{g4.~g8 fis e | fis8 g a b4. |}
+		\relative c''{d8 b d e d b | d8 b a b4. |}
+		\relative c''{b8 a g fis g a | e4. cis | g' fis | r4. r4 fis8 \glissando |}
+		\relative c'''{g4.~g4 g16 g16 | fis4 e8~e8 b c | d4 d,16 d d8 e fis | fis4 a fis| }
+		\relative c'{e4 d8~d4. | r4 fis16 fis fis8 e fis | b2. | r2. }
+		\bar "||"
+	}
+}
+MusicA = {
+	\Chorus \break
+}
 
 Music = {
-	\Chorus \break
 	\SoloA \break
 	\SoloB \break
 	\SoloC \break
 }
+
+<<
+	\new ChordNames{
+			\keepWithTag #'Harmony	\MusicA
+	}
+
+	\new Staff{
+		\set Staff.instrumentName="Trumpet"
+		\time 6/8
+		\clef treble
+		\key e \minor
+		\keepWithTag #'Trumpet \MusicA
+	}
+
+	\new Staff{
+		\set Staff.instrumentName="Trombone"
+		\time 6/8
+		\clef bass
+		\key d \minor
+		\keepWithTag #'Trombone' \MusicA
+	}
+>>
 
 <<
 	\new ChordNames{
