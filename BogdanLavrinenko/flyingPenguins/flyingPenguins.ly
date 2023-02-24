@@ -1,9 +1,9 @@
 \version "2.18.2"
 
 \header{
-	title="Пингвины летят"
+	title="Пингвины летятъ"
 	composer="гр. День Радости"
-	subtitle="Партия трубы"
+	subtitle="Партіи мѣдныхъ духовыхъ"
 }
 
 longBar = #(define-music-function (parser location ) ( ) #{ \once \override Staff.BarLine.bar-extent = #'(-3 . 3) #})
@@ -19,14 +19,14 @@ Chorus = {
 		\HrmChorus
 	}
 	\tag #'Trumpet {
-		\mark "Припев"
+		\mark "Припѣвъ"
 		\relative c' {b2.~b | d~d4. a |}
 		\relative c' {b4.~b8 a8 b | cis4.~cis8 b cis | d4. e4. | fis2. |}
 		\bar "||"
 	}
 	\tag #'Trombone' {\transpose c bes {
 		\relative c, {e4 b16 b b8 c d | e4 b16 b b8 c d | b4. g' | fis2. |}
-		\relative c, {e2. | fis4. ais, | b2. | d2. |} 
+		\relative c, {e2. | fis4. ais, | b2.~ | b2. |} 
 	}}
 }
 
@@ -68,28 +68,15 @@ SoloB = {
 	}
 	\tag #'Trumpet {
 		\mark "Соло B"
-		\relative c'''{g4.~g8 fis g | fis8 e4~e8 d e | b4.~b8 g a | b a g b a g |}
-		\relative c''{c4 b16 a c8 b a | fis4.~fis8 g a | b4. a | b4. a |}
-		\relative c''{b4 a16 g a4. | r8 fis g a4 r8 | b4 a16 g b4. | r8 d b a g fis |}
-		\relative c''{g4 fis8~fis4. | r4. fis4 g8 | fis4 e8~e4. | s2. |}
+		% \relative c'''{g4.~g8 fis g | fis8 e4~e8 d e | b4.~b8 g a | b a g b a g |}
+		\relative c'''{g4.~g8 fis g | fis8 e4~e8 d e | b4.~b8 g a | b4 g16 a b8 a b |}
+		% \relative c''{c4 b16 a c8 b a | fis4.~fis8 g a | b4. a | b4. a |}
+		\relative c''{c4.~c8 b a| fis4.~fis8 g a | b2.~ | b4. r |}
+		% \relative c''{b4 a16 g a4. | r8 fis g a4 r8 | b4 a16 g b4. | r8 d b a g fis |}
+		\relative c''{ c4 b16 a b4. | r8 b,8 d fis4. | e8 d e fis e fis | g8 fis g a g a |}
+		% \relative c''{g4 fis8~fis4. | r4. fis4 g8 | fis4 e8~e4. | s2. |}
+		\relative c''{ c4 b16 a g8 fis e | b'4. b, | e2. | r2. | }
 
-		\bar "||"
-	}
-}
-
-xSoloC = {
-	\tag #'Harmony {
-		s2.
-		\HrmSoloB \break
-		\HrmSoloB
-	}
-	\tag #'Trumpet {
-		s4. b |
-		\mark "Соло C"
-		\relative c''{ g4.~g8 fis e | fis2. | g4 fis16 g a8 g a | b8 a b d b d | }
-		\relative c''{e4.~e8 d c | d4.~d8 c d | e4. d | <e g>4. <d fis> | }
-		\relative c''{c4.~c8 a g | fis2. | g8 fis g a g a | b4 b,16 b b4 a8 | }
-		\relative c'{ c4.~c8 b c | d4. b | e2. | e'2. }
 		\bar "||"
 	}
 }
@@ -104,9 +91,9 @@ SoloC = {
 		s4. b |
 		\mark "Соло C"
 		\relative c''{g4.~g8 fis e | fis8 g a b4. |}
-		\relative c''{d8 b d e d b | d8 b a b4. |}
+		\relative c''{d8 b d e4 b8 | d8 b a b4. |}
 		\relative c''{b8 a g fis g a | e4. cis | g' fis | r4. r4 fis8 \glissando |}
-		\relative c'''{g4.~g4 g16 g16 | fis4 e8~e8 b c | d4 d,16 d d8 e fis | fis4 a fis| }
+		\relative c'''{g4.~g4 g16 g16 | fis4 e8~e8 b c | d4 d,16 d d8 e fis | a4 fis8~fis4 fis8| }
 		\relative c'{e4 d8~d4. | r4 fis16 fis fis8 e fis | b2. | r2. }
 		\bar "||"
 	}
