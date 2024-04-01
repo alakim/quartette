@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.22.1"
 
 \header{
 	title="Догоню на перекладных"
@@ -76,9 +76,26 @@ Chorus = {
 	}
 }
 
+GuitarSolo = {
+	\tag #'Harmony {\chordmode{
+		\transpose bes c {
+			b1:m | d2 a | g1 | g1
+		}
+	}}
+	\tag #'Trumpet {
+		\mark "Guitar solo"
+		r1 | r1 | s1 | s1 |
+		\bar "||"
+	}
+	\tag #'Trombone {
+		r1 | r1 | s1 | s1 |
+		\bar "||"
+	}
+}
 Music = {
 	\Verse \break
-	\Chorus
+	\Chorus \break
+	\GuitarSolo
 }
 
 <<
