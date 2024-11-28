@@ -1,6 +1,7 @@
 *.pdf
 *.log
 *.png
+*.svg
 .gitignore
 *.swp
 
